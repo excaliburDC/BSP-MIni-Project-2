@@ -2,15 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class Menus : MonoBehaviour
 {
-    
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Animator Anim;
 
     public void LevelSelect()
     {
@@ -33,10 +29,18 @@ public class Menus : MonoBehaviour
     public void SettingMenu()
     {
         Debug.Log("setting");
+        Anim.CrossFade("Setting", 0.5f);
+
     }
     public void CreditsMenu()
     {
         Debug.Log("Credits");
+        Anim.CrossFade("Credits", 0.5f);
     }
-    
+    public void BackButton(string TriggerVal)
+    {
+            Anim.CrossFade(TriggerVal, 0.5f);
+    }
+   
+
 }
