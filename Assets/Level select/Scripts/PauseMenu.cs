@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject ui;
+    public GameObject pauseMenuUI;
 
   
     void Update()
@@ -18,8 +18,8 @@ public class PauseMenu : MonoBehaviour
 
     public void Toggle()
     {
-        ui.SetActive(!ui.activeSelf);
-        if(ui.activeSelf)
+        pauseMenuUI.SetActive(!pauseMenuUI.activeSelf);
+        if(pauseMenuUI.activeSelf)
         {
             Time.timeScale = 0f;
         }
