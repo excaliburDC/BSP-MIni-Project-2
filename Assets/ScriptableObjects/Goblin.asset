@@ -20,3 +20,4 @@ MonoBehaviour:
   attackRange: 3
   selfDamagePower: 15
   enemyAnim: {fileID: 0}
+  enemyType: 1
