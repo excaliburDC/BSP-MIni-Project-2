@@ -668,11 +668,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameOver
       objectReference: {fileID: 0}
-    - target: {fileID: 8687697554379998275, guid: d4cfb9303bc1a634cb17f35686bddd81,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8687697554379998279, guid: d4cfb9303bc1a634cb17f35686bddd81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1309,11 +1304,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level Complete
-      objectReference: {fileID: 0}
-    - target: {fileID: 5452106426218513477, guid: 633e35d9ddaa08c44b06317751967e75,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452106426218513486, guid: 633e35d9ddaa08c44b06317751967e75,
         type: 3}
