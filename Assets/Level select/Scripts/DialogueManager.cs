@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class DialogueManager : MonoBehaviour
 {
+    public GameObject DialogueButtons;
     public Text speakerText;
     public Text dialogueText;
     public Animator Anim;
@@ -12,10 +14,12 @@ public class DialogueManager : MonoBehaviour
      void Start()
     {
         sentences = new Queue<string>();
+        DialogueButtons.SetActive(true);
     }
    
     public void StartDialogue(Dialogue dialogue)
     {
+        DialogueButtons.SetActive(false);
         // Debug.Log("Start converstion with " + dialogue.name);
         Anim.SetBool("IsOpen", true);
         speakerText.text = dialogue.name;
@@ -53,5 +57,11 @@ public class DialogueManager : MonoBehaviour
     {
         Anim.SetBool("IsOpen", false);
         Debug.Log("End of dialogue");
+        SceneManager.LoadScene("MainMenu");
+        
+    }
+    public void skipStory()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

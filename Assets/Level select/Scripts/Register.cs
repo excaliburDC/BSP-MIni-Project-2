@@ -7,7 +7,9 @@ using UnityEngine.UI;
 
 public class Register : MonoBehaviour
 {
-
+    public GameObject LoginPanel;
+    public GameObject RegisterPanel;
+    
     public GameObject userName;
     public GameObject email;
     public GameObject password;
@@ -21,104 +23,115 @@ public class Register : MonoBehaviour
 
     private bool EmailValid = false;
 
-   
+    private string[] Characters = 
+        {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",
+         "A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z",
+         "1","2","3","4","5","6","7","8","9","_","-"};
 
-    
 
-    // Start is called before the first frame update
+
+
     void Start()
     {
-        
+        RegisterPanel.SetActive(true);
+        LoginPanel.SetActive(true);
     }
-    public void RegisterDialogue()
+    public void RegisterButton()
     {
         bool UN = false;
         bool EM = false;
         bool PW = false;
         bool CPW = false;
 
-        if (UserName != "" &&  Email != "" && Password != "" && ConfirmPassword != "")
+        if (Password != "" && Email != "" && Password != "" && ConfirmPassword != "")
         {
-            Debug.Log("Registeration success");
+            //Debug.Log("Registeration success");
             if (UserName != "")
             {
-                if (System.IO.File.Exists(@"E:\TestFiles/" + UserName + ".txt"))
+                if (!System.IO.File.Exists(@"E:\TestFiles/" + UserName + ".txt"))
                 {
                     UN = true;
                 }
                 else
                 {
-                    Debug.LogWarning("Username Taken");
+                    Debug.Log("Username Taken");
                 }
 
-            }else
-            {
-                Debug.LogWarning("Username field empty");
             }
-            if(Email != "")
+            else
+            {
+                Debug.Log("Username field empty");
+            }
+            if (Email != "")
             {
                 EmailValidation();
                 if (EmailValid)
                 {
-                    if(Email.Contains("@"))
+                    if (Email.Contains("@"))
                     {
-                        if(Email.Contains("."))
+                        if (Email.Contains("."))
                         {
                             EM = true;
-                        }else
+                        }
+                        else
                         {
-                            Debug.LogWarning("Email is incorrect");
+                            Debug.Log("Email is incorrect");
                         }
                     }
                     else
                     {
-                        Debug.LogWarning("Email is incorrect");
+                        Debug.Log("Email is incorrect");
                     }
                 }
                 else
                 {
-                    Debug.LogWarning("Email is incorrect");
+                    Debug.Log("Email is incorrect");
                 }
             }
             else
             {
-                Debug.LogWarning("Email field Empty");
-            }
-            if(Password != "")
-            {
-                if(Password.Length >5)
-                {
-                    PW = true;
-                }else
-                {
-                    Debug.LogWarning("Password must be atleast 6 character long");
-                }
-            }
-            else
-            {
-                Debug.LogWarning("Password Field is Empty");
-            }
-            if(ConfirmPassword != "")
-            {
-                if(ConfirmPassword == Password)
-                {
-                    CPW = true;
-                }else
-                {
-                    Debug.LogWarning("Password Dont match");
-                }
-            }else
-            {
-                Debug.LogWarning("Confirm Password Field is Empty");
+                Debug.Log("Email field Empty");
             }
 
-            if(UN == true && EM == true && PW ==true && CPW == true)
+            if (Password != "")
+            {
+                if (Password.Length > 5)
+                {
+                    PW = true;
+                }
+                else
+                {
+                    Debug.Log("Password must be atleast 6 character long");
+                }
+            }
+            else
+            {
+                Debug.Log("Password Field is Empty");
+            }
+
+            if (ConfirmPassword != "")
+            {
+                if (ConfirmPassword == Password)
+                {
+                    CPW = true;
+                }
+                else
+                {
+                    Debug.Log("Password Dont match");
+                }
+            }
+            else
+            {
+                Debug.Log("Confirm Password Field is Empty");
+            }
+
+            if (UN == true && EM == true && PW == true && CPW == true)
             {
                 bool Clear = true;
                 int i = 1;
-                foreach(Char c in Password)
+                foreach (Char c in Password)
                 {
-                    if(Clear)
+                    if (Clear)
                     {
                         Password = "";
                         Clear = false;
@@ -127,20 +140,46 @@ public class Register : MonoBehaviour
                     Char Encrypted = (char)(c * i);
                     Password += Encrypted.ToString();
                 }
-                form = (UserName + "\n" + Email + "\n" + Password);
-                System.IO.File.WriteAllText(@"E:\TestFiles/" + UserName + ".txt",form);
+                form = (UserName + Environment.NewLine + Email + Environment.NewLine + Password);
+                System.IO.File.WriteAllText(@"E:\TestFiles/" + UserName + ".txt", form);
                 userName.GetComponent<InputField>().text = "";
                 email.GetComponent<InputField>().text = "";
-                password.GetComponent<InputField>().text= "";
-                confirmPassword.GetComponent<InputField>().text= "";
+                password.GetComponent<InputField>().text = "";
+                confirmPassword.GetComponent<InputField>().text = "";
                 Debug.Log("Registeration completed");
+                RegisterPanel.SetActive(false);
+                LoginPanel.SetActive(true);
             }
         }
     }
 
     void EmailValidation()
     {
+        bool SW = false;
+        bool EW = false;
 
+        for (int i = 0; i < Characters.Length; i++)
+        {
+            if (Email.StartsWith(Characters[i]))
+            {
+                SW = true;
+            }
+        }
+        for (int i = 0; i < Characters.Length; i++)
+        {
+            if (Email.EndsWith(Characters[i]))
+            {
+                EW = true;
+            }
+        }
+        if (SW == true && EW == true)
+        {
+            EmailValid = true;
+        }
+        else
+        {
+            EmailValid = false;
+        }
     }
     // Update is called once per frame
     void Update()
@@ -161,7 +200,13 @@ public class Register : MonoBehaviour
                 confirmPassword.GetComponent<InputField>().Select();
             }
         }
-
+        //if(Input.GetKeyDown(KeyCode.Return))
+        //{
+        //    if (Password != "" && Email != "" && Password != "" && ConfirmPassword != "")
+        //    {
+        //        RegisterButton();
+        //    }
+        //}
        
         UserName = userName.GetComponent<InputField>().text;
         Email = email.GetComponent<InputField>().text;
