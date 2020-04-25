@@ -7,6 +7,7 @@ public class Menus : MonoBehaviour
 {
 
     public Animator Anim;
+    private string form;
 
     public void LevelSelect()
     {
@@ -19,6 +20,8 @@ public class Menus : MonoBehaviour
     public void Quit()
     {
         Debug.Log("Quit");
+
+        
         Application.Quit();
     }
     public void Inventory()

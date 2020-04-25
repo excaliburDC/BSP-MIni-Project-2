@@ -19,6 +19,8 @@ public class Register : MonoBehaviour
     private string Email;
     private string Password;
     private string ConfirmPassword;
+    //private string Coins ="0";
+    //private string[] Levels = { "0", "0", "0", "0", "0", "0", "0", "0" };
     private string form;
 
     private bool EmailValid = false;
@@ -140,13 +142,15 @@ public class Register : MonoBehaviour
                     Char Encrypted = (char)(c * i);
                     Password += Encrypted.ToString();
                 }
-                form = (UserName + Environment.NewLine + Email + Environment.NewLine + Password);
+
+                form = (UserName + Environment.NewLine + Email + Environment.NewLine + Password);/* Environment.NewLine + Coins + Environment.NewLine + "0"+ Environment.NewLine + "0" + Environment.NewLine + "0" + Environment.NewLine + "0" + Environment.NewLine + "0" + Environment.NewLine + "0" + Environment.NewLine + "0" + Environment.NewLine + "0"*/
                 System.IO.File.WriteAllText(@"E:\TestFiles/" + UserName + ".txt", form);
                 userName.GetComponent<InputField>().text = "";
                 email.GetComponent<InputField>().text = "";
                 password.GetComponent<InputField>().text = "";
                 confirmPassword.GetComponent<InputField>().text = "";
                 Debug.Log("Registeration completed");
+
                 RegisterPanel.SetActive(false);
                 LoginPanel.SetActive(true);
             }
