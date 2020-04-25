@@ -32,7 +32,24 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        EnemyComesFromLeft();
+        if (gameObject.activeInHierarchy)
+            EnemyAttackDirection();
+
+        else
+            return;
+
+    }
+
+    void EnemyAttackDirection()
+    {
+        if (WaveSpawner.Instance.spawnPointIndex == 0)
+            EnemyComesFromLeft();
+        else if (WaveSpawner.Instance.spawnPointIndex == 1)
+            EnemyComesFromFront();
+        else if (WaveSpawner.Instance.spawnPointIndex == 2)
+            EnemyComesFromRight();
+        else
+            return;
     }
 
     void EnemyComesFromLeft()
@@ -57,7 +74,7 @@ public class EnemyMovement : MonoBehaviour
 
         if (agent.remainingDistance <= agent.stoppingDistance && !agent.pathPending)
         {
-            nextRightWayPoint = (nextRightWayPoint + 1) % EnemyController.Instance.rightWayPointsList.Count;
+            nextRightWayPoint = (nextRightWayPoint + 1);
         }
     }
 
@@ -70,7 +87,7 @@ public class EnemyMovement : MonoBehaviour
 
         if (agent.remainingDistance <= agent.stoppingDistance && !agent.pathPending)
         {
-            nextFrontWayPoint = (nextFrontWayPoint + 1) % EnemyController.Instance.frontWayPointsList.Count;
+            nextFrontWayPoint = (nextFrontWayPoint + 1);
         }
     }
 

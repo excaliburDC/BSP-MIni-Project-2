@@ -13,9 +13,11 @@ public class EnemyController : SingletonManager<EnemyController>
     public List<Transform> spawnPoints;
 
     [HideInInspector] public int randomSpawnPos;
+    public float spawnRate = 2f;
 
     private bool enemyActive;
     private bool isEnemyDead = false;
+    private float timeSinceLastSpawned;
     
 
 
@@ -34,6 +36,12 @@ public class EnemyController : SingletonManager<EnemyController>
 
     private void Update()
     {
+        //timeSinceLastSpawned += Time.deltaTime;
+        //if(timeSinceLastSpawned>=spawnRate)
+        //{
+        //    EnemySpawn();
+        //    timeSinceLastSpawned = 0f;
+        //}
         //if (!enemyActive)
         // return;
         //EnemyAttackDirection();
@@ -41,13 +49,7 @@ public class EnemyController : SingletonManager<EnemyController>
 
  
 
-    void EnemySpawn()
-    {
-        randomSpawnPos = Random.Range(0, spawnPoints.Count);
-        //PoolManager.Instance.SpawnInWorld("Spider", spawnPoints[randomSpawnPos].position, spawnPoints[randomSpawnPos].rotation);
-        //PoolManager.Instance.SpawnInWorld("StoneMonster", spawnPoints[randomSpawnPos].position, spawnPoints[randomSpawnPos].rotation);
-        
-    }
+ 
 
 
 

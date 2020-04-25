@@ -14,7 +14,7 @@ public class PoolManager : SingletonManager<PoolManager>
 {
     public List<PoolObj> pools;
     public Dictionary<string, Queue<GameObject>> poolDictionary;
-    public IPooledObject pooledObject;
+    //public IPooledObject pooledObject;
 
 
 
@@ -58,10 +58,10 @@ public class PoolManager : SingletonManager<PoolManager>
 
         
 
-        if (pooledObject != null)
-        {
-            pooledObject.OnObjectSpawner();
-        }
+        //if (pooledObject != null)
+        //{
+        //    pooledObject.OnObjectSpawner();
+        //}
 
 
         poolDictionary[tag].Enqueue(objectToSpawn);
