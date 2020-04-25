@@ -306,18 +306,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 372225684}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c9a7e16dc6b32e45a006d81274e7e9e, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c60c3ff305a6644d912319dea035d20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pools:
-  - poolName: Spider
-    poolPrefab: {fileID: 7978624207812556279, guid: 7a1e02b4e3e3cde4da6a58f6c596f9b7,
-      type: 3}
-    size: 20
-  - poolName: StoneMonster
-    poolPrefab: {fileID: 1713781036754730, guid: 0f8a471e5537f864ebdb454fe82308eb,
-      type: 3}
-    size: 20
+  leftWayPointsList:
+  - {fileID: 968576687}
+  - {fileID: 1976177292}
+  - {fileID: 1188100574}
+  - {fileID: 633792149}
+  - {fileID: 890590740}
+  - {fileID: 450468455}
+  - {fileID: 223443306}
+  rightWayPointsList:
+  - {fileID: 252288118}
+  - {fileID: 944619177}
+  - {fileID: 1343871359}
+  - {fileID: 1105792927}
+  - {fileID: 1713945403}
+  - {fileID: 1580420692}
+  - {fileID: 2103710224}
+  frontWayPointsList:
+  - {fileID: 1243076919}
+  - {fileID: 783952209}
+  - {fileID: 590559489}
+  - {fileID: 484688066}
+  spawnPoints: []
+  randomSpawnPos: 0
 --- !u!4 &372225686
 Transform:
   m_ObjectHideFlags: 0
@@ -541,7 +555,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 85.606, y: -74.503006, z: 476.09702}
 --- !u!1 &781970334
 GameObject:
@@ -581,7 +595,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781970334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 8.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -599,27 +613,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 145924029d6ad3342a86809ca3029cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftWayPoints:
-  - {fileID: 968576687}
-  - {fileID: 1976177292}
-  - {fileID: 1188100574}
-  - {fileID: 633792149}
-  - {fileID: 890590740}
-  - {fileID: 450468455}
-  - {fileID: 223443306}
-  rightWayPoints:
-  - {fileID: 252288118}
-  - {fileID: 944619177}
-  - {fileID: 1343871359}
-  - {fileID: 1105792927}
-  - {fileID: 1713945403}
-  - {fileID: 1580420692}
-  - {fileID: 2103710224}
-  frontWayPoints:
-  - {fileID: 1243076919}
-  - {fileID: 783952209}
-  - {fileID: 590559489}
-  - {fileID: 484688066}
 --- !u!1 &783952208
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,7 +1270,7 @@ PrefabInstance:
     - target: {fileID: 5453070369586006010, guid: f97120b027d296c42bfa417e9eac2405,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5453070369586006010, guid: f97120b027d296c42bfa417e9eac2405,
         type: 3}
@@ -1351,7 +1344,7 @@ PrefabInstance:
     - target: {fileID: 9014448897206735858, guid: be666733419cb9847a02418996a23f05,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9014448897206735858, guid: be666733419cb9847a02418996a23f05,
         type: 3}

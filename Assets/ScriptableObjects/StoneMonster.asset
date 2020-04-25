@@ -12,14 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85745b9046dabb34f8162f5f6173448d, type: 3}
   m_Name: StoneMonster
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1713781036754730, guid: 0f8a471e5537f864ebdb454fe82308eb,
-    type: 3}
-  moveSpeed: 3
+  enemyName: StoneMonster
+  moveSpeed: 100
   health: 20
   attackPower: 5
   attackRate: 1
   attackRange: 0
   selfDamagePower: 10
-  enemyAnim: {fileID: 5600249815534453998, guid: 0f8a471e5537f864ebdb454fe82308eb,
-    type: 3}
   enemyType: 0

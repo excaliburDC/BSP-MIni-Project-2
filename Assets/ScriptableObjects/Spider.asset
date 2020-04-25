@@ -12,14 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85745b9046dabb34f8162f5f6173448d, type: 3}
   m_Name: Spider
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 7978624207812556279, guid: 7a1e02b4e3e3cde4da6a58f6c596f9b7,
-    type: 3}
-  moveSpeed: 3
+  enemyName: Spider
+  moveSpeed: 100
   health: 20
   attackPower: 5
   attackRate: 1
   attackRange: 0
   selfDamagePower: 10
-  enemyAnim: {fileID: 7978624207803025015, guid: 7a1e02b4e3e3cde4da6a58f6c596f9b7,
-    type: 3}
   enemyType: 0

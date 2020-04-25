@@ -11,7 +11,7 @@ public class Enemy : ScriptableObject
         MEDIUM,
         BIG
     }
-
+    public string enemyName;
     public float moveSpeed;
     public float health;
     public float attackPower;

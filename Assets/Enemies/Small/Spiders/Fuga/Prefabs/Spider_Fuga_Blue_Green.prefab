@@ -1001,6 +1001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7978624207812061649}
   - component: {fileID: 7978624207798892725}
+  - component: {fileID: 1030194374898821995}
   m_Layer: 0
   m_Name: Spider_Fuga_Blue_Green
   m_TagString: Untagged
@@ -1104,6 +1105,19 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0023155212, y: -0.50467485, z: 0.9505632}
     m_Extent: {x: 2.62731, y: 1.6139781, z: 1.7910836}
   m_DirtyAABB: 0
+--- !u!65 &1030194374898821995
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7978624207812556273}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3637981, y: 0.7772174, z: 2.7989178}
+  m_Center: {x: -0.19667386, y: 1.1645377, z: -0.012000784}
 --- !u!1 &7978624207812556277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,7 +1161,7 @@ GameObject:
   - component: {fileID: 7978624207803025015}
   - component: {fileID: 52657568567217627}
   - component: {fileID: -1837001031009280508}
-  - component: {fileID: -2202781358447304014}
+  - component: {fileID: 5350236594888341781}
   m_Layer: 0
   m_Name: Spider_Fuga_Blue_Green
   m_TagString: Enemy
@@ -1164,7 +1178,7 @@ Transform:
   m_GameObject: {fileID: 7978624207812556279}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children:
   - {fileID: 7978624207812061653}
   - {fileID: 7978624207812061649}
@@ -1226,7 +1240,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &-2202781358447304014
+--- !u!114 &5350236594888341781
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1235,8 +1249,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7978624207812556279}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c60c3ff305a6644d912319dea035d20, type: 3}
+  m_Script: {fileID: 11500000, guid: aca018caa41fbd04f8b5cc738e8cbbce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoints: []
   enemy: {fileID: 11400000, guid: 110d642b228e5494a8642db4893e5f70, type: 2}
+  nextLeftWayPoint: 0
+  nextRightWayPoint: 0
+  nextFrontWayPoint: 0
