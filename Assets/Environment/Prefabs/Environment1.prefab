@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5465703707728465515}
   - component: {fileID: 5476227217593560493}
   - component: {fileID: 5424610890366580877}
-  - component: {fileID: 8513879677352575853}
   m_Layer: 0
   m_Name: pineTree (27)
   m_TagString: Untagged
@@ -92,25 +91,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &8513879677352575853
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453571900651}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453597102728
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,7 +106,6 @@ GameObject:
   - component: {fileID: 5465703707737274376}
   - component: {fileID: 5476227217568209870}
   - component: {fileID: 5424610890358197998}
-  - component: {fileID: 1919813302789762004}
   m_Layer: 0
   m_Name: pineTree (29)
   m_TagString: Untagged
@@ -203,25 +185,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &1919813302789762004
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453597102728}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453662780414
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,7 +200,6 @@ GameObject:
   - component: {fileID: 5465703707814203774}
   - component: {fileID: 5476227217501500088}
   - component: {fileID: 5424610890290702232}
-  - component: {fileID: 9018820345227118300}
   m_Layer: 0
   m_Name: pineTree (16)
   m_TagString: Untagged
@@ -314,25 +279,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &9018820345227118300
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453662780414}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453678688724
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +294,6 @@ GameObject:
   - component: {fileID: 5465703707764216660}
   - component: {fileID: 5476227217553879186}
   - component: {fileID: 5424610890339149234}
-  - component: {fileID: 5704593512687062791}
   m_Layer: 0
   m_Name: pineTree (33)
   m_TagString: Untagged
@@ -425,25 +373,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &5704593512687062791
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453678688724}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453697929743
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,7 +388,6 @@ GameObject:
   - component: {fileID: 5465703707770730639}
   - component: {fileID: 5476227217534491465}
   - component: {fileID: 5424610890324807273}
-  - component: {fileID: 811196771841569277}
   m_Layer: 0
   m_Name: pineTree (22)
   m_TagString: Untagged
@@ -536,25 +467,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &811196771841569277
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453697929743}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453734685107
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,7 +482,6 @@ GameObject:
   - component: {fileID: 5465703707599758131}
   - component: {fileID: 5476227217430757621}
   - component: {fileID: 5424610890227373525}
-  - component: {fileID: 6577506606560020177}
   m_Layer: 0
   m_Name: pineTree (40)
   m_TagString: Untagged
@@ -647,25 +561,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &6577506606560020177
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453734685107}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453738286569
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,7 +576,6 @@ GameObject:
   - component: {fileID: 5465703707604547433}
   - component: {fileID: 5476227217425978543}
   - component: {fileID: 5424610890232021391}
-  - component: {fileID: 1801979853893397146}
   m_Layer: 0
   m_Name: pineTree (49)
   m_TagString: Untagged
@@ -758,25 +655,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &1801979853893397146
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453738286569}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453742580974
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,7 +670,6 @@ GameObject:
   - component: {fileID: 5465703707557719662}
   - component: {fileID: 5476227217489841576}
   - component: {fileID: 5424610890268825736}
-  - component: {fileID: 4363051574327937445}
   m_Layer: 0
   m_Name: pineTree (17)
   m_TagString: Untagged
@@ -869,25 +749,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &4363051574327937445
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453742580974}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453753218034
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,7 +764,6 @@ GameObject:
   - component: {fileID: 5465703707555469682}
   - component: {fileID: 5476227217479219892}
   - component: {fileID: 5424610890279432084}
-  - component: {fileID: 6877153630489401351}
   m_Layer: 0
   m_Name: pineTree (44)
   m_TagString: Untagged
@@ -980,25 +843,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &6877153630489401351
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453753218034}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453781732764
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,7 +858,6 @@ GameObject:
   - component: {fileID: 5465703707653310236}
   - component: {fileID: 5476227217383728346}
   - component: {fileID: 5424610890173723130}
-  - component: {fileID: 2751897911426676001}
   m_Layer: 0
   m_Name: pineTree (25)
   m_TagString: Untagged
@@ -1091,25 +937,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &2751897911426676001
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453781732764}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453791027300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,7 +952,6 @@ GameObject:
   - component: {fileID: 5465703707677043428}
   - component: {fileID: 5476227217374415138}
   - component: {fileID: 5424610890149469186}
-  - component: {fileID: 6705529533558067347}
   m_Layer: 0
   m_Name: pineTree (47)
   m_TagString: Untagged
@@ -1202,25 +1031,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &6705529533558067347
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453791027300}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453805379286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1233,7 +1046,6 @@ GameObject:
   - component: {fileID: 5465703707671606358}
   - component: {fileID: 5476227217358886800}
   - component: {fileID: 5424610890164863664}
-  - component: {fileID: 2054998879823260663}
   m_Layer: 0
   m_Name: pineTree (35)
   m_TagString: Untagged
@@ -1313,25 +1125,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &2054998879823260663
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453805379286}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453811962216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,7 +1140,6 @@ GameObject:
   - component: {fileID: 5465703707631008744}
   - component: {fileID: 5476227217420458030}
   - component: {fileID: 5424610890203958542}
-  - component: {fileID: 1259006260127523755}
   m_Layer: 0
   m_Name: pineTree (54)
   m_TagString: Untagged
@@ -1424,25 +1219,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &1259006260127523755
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453811962216}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453880176578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,7 +1234,6 @@ GameObject:
   - component: {fileID: 5465703707965449538}
   - component: {fileID: 5476227217352377988}
   - component: {fileID: 5424610890674852772}
-  - component: {fileID: 2387507695823440111}
   m_Layer: 0
   m_Name: pineTree (53)
   m_TagString: Untagged
@@ -1535,25 +1313,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &2387507695823440111
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453880176578}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804453900634064
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,7 +1328,6 @@ GameObject:
   - component: {fileID: 5465703707970157904}
   - component: {fileID: 5476227217330871958}
   - component: {fileID: 5424610890662775734}
-  - component: {fileID: 5199517627751061404}
   m_Layer: 0
   m_Name: pineTree (11)
   m_TagString: Untagged
@@ -1646,25 +1407,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &5199517627751061404
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804453900634064}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454001759506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,7 +1422,6 @@ GameObject:
   - component: {fileID: 5465703707869032338}
   - component: {fileID: 5476227217163553876}
   - component: {fileID: 5424610890494417268}
-  - component: {fileID: 7963792918342261810}
   m_Layer: 0
   m_Name: pineTree (15)
   m_TagString: Untagged
@@ -1757,25 +1501,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &7963792918342261810
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454001759506}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454200623605
 GameObject:
   m_ObjectHideFlags: 0
@@ -1788,7 +1516,6 @@ GameObject:
   - component: {fileID: 5465703708341713781}
   - component: {fileID: 5476227218037512371}
   - component: {fileID: 5424610889754807699}
-  - component: {fileID: 2217358700611579928}
   m_Layer: 0
   m_Name: pineTree (7)
   m_TagString: Untagged
@@ -1868,25 +1595,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &2217358700611579928
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454200623605}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454256444095
 GameObject:
   m_ObjectHideFlags: 0
@@ -1899,7 +1610,6 @@ GameObject:
   - component: {fileID: 5465703708125984831}
   - component: {fileID: 5476227217982741497}
   - component: {fileID: 5424610889708949209}
-  - component: {fileID: 8021509232629823989}
   m_Layer: 0
   m_Name: pineTree (18)
   m_TagString: Untagged
@@ -1979,25 +1689,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &8021509232629823989
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454256444095}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454281729967
 GameObject:
   m_ObjectHideFlags: 0
@@ -2010,7 +1704,6 @@ GameObject:
   - component: {fileID: 5465703708100767023}
   - component: {fileID: 5476227218024435433}
   - component: {fileID: 5424610889734200265}
-  - component: {fileID: 1513981501832511900}
   m_Layer: 0
   m_Name: pineTree (5)
   m_TagString: Untagged
@@ -2090,25 +1783,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &1513981501832511900
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454281729967}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454286069524
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,7 +1798,6 @@ GameObject:
   - component: {fileID: 5465703708088497556}
   - component: {fileID: 5476227218020226642}
   - component: {fileID: 5424610889738568562}
-  - component: {fileID: 7507006394298012824}
   m_Layer: 0
   m_Name: pineTree (48)
   m_TagString: Untagged
@@ -2201,25 +1877,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &7507006394298012824
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454286069524}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454455387630
 GameObject:
   m_ObjectHideFlags: 0
@@ -2232,7 +1892,6 @@ GameObject:
   - component: {fileID: 5465703708590333806}
   - component: {fileID: 5476227217782635688}
   - component: {fileID: 5424610890043156872}
-  - component: {fileID: 6727122067860002805}
   m_Layer: 0
   m_Name: pineTree (3)
   m_TagString: Untagged
@@ -2312,25 +1971,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &6727122067860002805
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454455387630}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454470736576
 GameObject:
   m_ObjectHideFlags: 0
@@ -2343,7 +1986,6 @@ GameObject:
   - component: {fileID: 5465703708608536640}
   - component: {fileID: 5476227217768317830}
   - component: {fileID: 5424610890023868070}
-  - component: {fileID: 275235619888564177}
   m_Layer: 0
   m_Name: pineTree (39)
   m_TagString: Untagged
@@ -2423,25 +2065,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &275235619888564177
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454470736576}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454487606857
 GameObject:
   m_ObjectHideFlags: 0
@@ -2454,7 +2080,6 @@ GameObject:
   - component: {fileID: 5465703708557524169}
   - component: {fileID: 5476227217817509647}
   - component: {fileID: 5424610890075343407}
-  - component: {fileID: 1308310207574855785}
   m_Layer: 0
   m_Name: pineTree (31)
   m_TagString: Untagged
@@ -2534,25 +2159,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &1308310207574855785
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454487606857}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454495644369
 GameObject:
   m_ObjectHideFlags: 0
@@ -2565,7 +2174,6 @@ GameObject:
   - component: {fileID: 5465703708583104593}
   - component: {fileID: 5476227217810535319}
   - component: {fileID: 5424610890048775863}
-  - component: {fileID: 2509825175696514690}
   m_Layer: 0
   m_Name: pineTree (32)
   m_TagString: Untagged
@@ -2645,25 +2253,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &2509825175696514690
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454495644369}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454500258932
 GameObject:
   m_ObjectHideFlags: 0
@@ -2676,7 +2268,6 @@ GameObject:
   - component: {fileID: 5465703708586815220}
   - component: {fileID: 5476227217804987698}
   - component: {fileID: 5424610890054440978}
-  - component: {fileID: 6196669336364514013}
   m_Layer: 0
   m_Name: pineTree
   m_TagString: Untagged
@@ -2756,25 +2347,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &6196669336364514013
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454500258932}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454501593114
 GameObject:
   m_ObjectHideFlags: 0
@@ -2787,7 +2362,6 @@ GameObject:
   - component: {fileID: 5465703708586068634}
   - component: {fileID: 5476227217803667804}
   - component: {fileID: 5424610890055810172}
-  - component: {fileID: 4756310219029037054}
   m_Layer: 0
   m_Name: pineTree (51)
   m_TagString: Untagged
@@ -2867,25 +2441,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &4756310219029037054
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454501593114}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454510013790
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,7 +2456,6 @@ GameObject:
   - component: {fileID: 5465703708577585118}
   - component: {fileID: 5476227217795118104}
   - component: {fileID: 5424610890064224568}
-  - component: {fileID: 3924252025818215284}
   m_Layer: 0
   m_Name: pineTree (45)
   m_TagString: Untagged
@@ -2978,25 +2535,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &3924252025818215284
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454510013790}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454533088258
 GameObject:
   m_ObjectHideFlags: 0
@@ -3009,7 +2550,6 @@ GameObject:
   - component: {fileID: 5465703708420292226}
   - component: {fileID: 5476227217704918340}
   - component: {fileID: 5424610889953052772}
-  - component: {fileID: 5069404783551708065}
   m_Layer: 0
   m_Name: pineTree (52)
   m_TagString: Untagged
@@ -3089,25 +2629,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &5069404783551708065
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454533088258}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454662528161
 GameObject:
   m_ObjectHideFlags: 0
@@ -3120,7 +2644,6 @@ GameObject:
   - component: {fileID: 5465703706671851041}
   - component: {fileID: 5476227216502916583}
   - component: {fileID: 5424610891423617223}
-  - component: {fileID: 4022350150490532017}
   m_Layer: 0
   m_Name: pineTree (10)
   m_TagString: Untagged
@@ -3200,25 +2723,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &4022350150490532017
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454662528161}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454737973238
 GameObject:
   m_ObjectHideFlags: 0
@@ -3231,7 +2738,6 @@ GameObject:
   - component: {fileID: 5465703706730689910}
   - component: {fileID: 5476227216427341488}
   - component: {fileID: 5424610891364877200}
-  - component: {fileID: 2350173276470855861}
   m_Layer: 0
   m_Name: pineTree (24)
   m_TagString: Untagged
@@ -3311,25 +2817,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &2350173276470855861
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454737973238}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454744014835
 GameObject:
   m_ObjectHideFlags: 0
@@ -3342,7 +2832,6 @@ GameObject:
   - component: {fileID: 5465703706732512627}
   - component: {fileID: 5476227216421316277}
   - component: {fileID: 5424610891370918805}
-  - component: {fileID: 5940815536521870823}
   m_Layer: 0
   m_Name: pineTree (9)
   m_TagString: Untagged
@@ -3422,25 +2911,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &5940815536521870823
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454744014835}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454744744058
 GameObject:
   m_ObjectHideFlags: 0
@@ -3453,7 +2926,6 @@ GameObject:
   - component: {fileID: 5465703706731780858}
   - component: {fileID: 5476227216419666236}
   - component: {fileID: 5424610891372669980}
-  - component: {fileID: 296652333898365506}
   m_Layer: 0
   m_Name: pineTree (28)
   m_TagString: Untagged
@@ -3533,25 +3005,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &296652333898365506
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454744744058}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454886835260
 GameObject:
   m_ObjectHideFlags: 0
@@ -3564,7 +3020,6 @@ GameObject:
   - component: {fileID: 5465703706556595900}
   - component: {fileID: 5476227216345587066}
   - component: {fileID: 5424610891278862426}
-  - component: {fileID: 1220782491138420739}
   m_Layer: 0
   m_Name: pineTree (30)
   m_TagString: Untagged
@@ -3644,25 +3099,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &1220782491138420739
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454886835260}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804454888715290
 GameObject:
   m_ObjectHideFlags: 0
@@ -3675,7 +3114,6 @@ GameObject:
   - component: {fileID: 5465703706545868442}
   - component: {fileID: 5476227216343723356}
   - component: {fileID: 5424610891280742524}
-  - component: {fileID: 7689662878698273331}
   m_Layer: 0
   m_Name: pineTree (38)
   m_TagString: Untagged
@@ -3755,25 +3193,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &7689662878698273331
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804454888715290}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455011274149
 GameObject:
   m_ObjectHideFlags: 0
@@ -3786,7 +3208,6 @@ GameObject:
   - component: {fileID: 5465703707002648357}
   - component: {fileID: 5476227216152990947}
   - component: {fileID: 5424610891639194051}
-  - component: {fileID: 6988964359813186102}
   m_Layer: 0
   m_Name: pineTree (1)
   m_TagString: Untagged
@@ -3866,25 +3287,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &6988964359813186102
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455011274149}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455028576916
 GameObject:
   m_ObjectHideFlags: 0
@@ -3897,7 +3302,6 @@ GameObject:
   - component: {fileID: 5465703706951788564}
   - component: {fileID: 5476227216203844562}
   - component: {fileID: 5424610891689008882}
-  - component: {fileID: 8852206042448577930}
   m_Layer: 0
   m_Name: pineTree (6)
   m_TagString: Untagged
@@ -3977,25 +3381,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &8852206042448577930
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455028576916}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455037315658
 GameObject:
   m_ObjectHideFlags: 0
@@ -4008,7 +3396,6 @@ GameObject:
   - component: {fileID: 5465703706976538826}
   - component: {fileID: 5476227216194073356}
   - component: {fileID: 5424610891665270316}
-  - component: {fileID: 2953547476205043463}
   m_Layer: 0
   m_Name: pineTree (36)
   m_TagString: Untagged
@@ -4088,25 +3475,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &2953547476205043463
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455037315658}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455038259282
 GameObject:
   m_ObjectHideFlags: 0
@@ -4119,7 +3490,6 @@ GameObject:
   - component: {fileID: 5465703706975136466}
   - component: {fileID: 5476227216193112340}
   - component: {fileID: 5424610891666218036}
-  - component: {fileID: 153552089595778656}
   m_Layer: 0
   m_Name: pineTree (23)
   m_TagString: Untagged
@@ -4199,25 +3569,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &153552089595778656
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455038259282}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455071779510
 GameObject:
   m_ObjectHideFlags: 0
@@ -4230,7 +3584,6 @@ GameObject:
   - component: {fileID: 5465703706807332918}
   - component: {fileID: 5476227216092484592}
   - component: {fileID: 5424610891565516496}
-  - component: {fileID: 5828709508439602682}
   m_Layer: 0
   m_Name: pineTree (34)
   m_TagString: Untagged
@@ -4310,25 +3663,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &5828709508439602682
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455071779510}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455082600347
 GameObject:
   m_ObjectHideFlags: 0
@@ -4341,7 +3678,6 @@ GameObject:
   - component: {fileID: 5465703706755095835}
   - component: {fileID: 5476227216148922077}
   - component: {fileID: 5424610891609893885}
-  - component: {fileID: 2520424840156185882}
   m_Layer: 0
   m_Name: pineTree (50)
   m_TagString: Untagged
@@ -4421,25 +3757,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &2520424840156185882
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455082600347}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455123209284
 GameObject:
   m_ObjectHideFlags: 0
@@ -4452,7 +3772,6 @@ GameObject:
   - component: {fileID: 5465703706848245444}
   - component: {fileID: 5476227216041055490}
   - component: {fileID: 5424610891516248098}
-  - component: {fileID: 5213369243920514587}
   m_Layer: 0
   m_Name: pineTree (37)
   m_TagString: Untagged
@@ -4532,25 +3851,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &5213369243920514587
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455123209284}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455137300818
 GameObject:
   m_ObjectHideFlags: 0
@@ -4563,7 +3866,6 @@ GameObject:
   - component: {fileID: 5465703706876095442}
   - component: {fileID: 5476227216028141588}
   - component: {fileID: 5424610891495742772}
-  - component: {fileID: 1206683110648461826}
   m_Layer: 0
   m_Name: pineTree (14)
   m_TagString: Untagged
@@ -4643,25 +3945,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &1206683110648461826
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455137300818}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455148232632
 GameObject:
   m_ObjectHideFlags: 0
@@ -4674,7 +3960,6 @@ GameObject:
   - component: {fileID: 5465703706823222584}
   - component: {fileID: 5476227216083142398}
   - component: {fileID: 5424610891541304286}
-  - component: {fileID: 2243310056141405771}
   m_Layer: 0
   m_Name: pineTree (21)
   m_TagString: Untagged
@@ -4754,25 +4039,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &2243310056141405771
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455148232632}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455243106964
 GameObject:
   m_ObjectHideFlags: 0
@@ -4785,7 +4054,6 @@ GameObject:
   - component: {fileID: 5465703707164487700}
   - component: {fileID: 5476227217063056338}
   - component: {fileID: 5424610890930456306}
-  - component: {fileID: 714294596111254225}
   m_Layer: 0
   m_Name: pineTree (4)
   m_TagString: Untagged
@@ -4865,25 +4133,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &714294596111254225
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455243106964}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455260166327
 GameObject:
   m_ObjectHideFlags: 0
@@ -4896,7 +4148,6 @@ GameObject:
   - component: {fileID: 5465703707248681527}
   - component: {fileID: 5476227216978887153}
   - component: {fileID: 5424610890846885073}
-  - component: {fileID: 9103887365739522685}
   m_Layer: 0
   m_Name: pineTree (20)
   m_TagString: Untagged
@@ -4976,25 +4227,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &9103887365739522685
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455260166327}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455269056501
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,7 +4242,6 @@ GameObject:
   - component: {fileID: 5465703707273282933}
   - component: {fileID: 5476227216968967859}
   - component: {fileID: 5424610890823267219}
-  - component: {fileID: 5070421535906019985}
   m_Layer: 0
   m_Name: pineTree (42)
   m_TagString: Untagged
@@ -5087,25 +4321,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &5070421535906019985
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455269056501}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455274525171
 GameObject:
   m_ObjectHideFlags: 0
@@ -5118,7 +4336,6 @@ GameObject:
   - component: {fileID: 5465703707267877747}
   - component: {fileID: 5476227216963627189}
   - component: {fileID: 5424610890828742037}
-  - component: {fileID: 7844634958004669041}
   m_Layer: 0
   m_Name: pineTree (19)
   m_TagString: Untagged
@@ -5198,25 +4415,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &7844634958004669041
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455274525171}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455300548190
 GameObject:
   m_ObjectHideFlags: 0
@@ -5229,7 +4430,6 @@ GameObject:
   - component: {fileID: 5465703707241856222}
   - component: {fileID: 5476227217004568344}
   - component: {fileID: 5424610890854730296}
-  - component: {fileID: 8912857263547955287}
   m_Layer: 0
   m_Name: pineTree (43)
   m_TagString: Untagged
@@ -5309,25 +4509,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &8912857263547955287
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455300548190}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455367044116
 GameObject:
   m_ObjectHideFlags: 0
@@ -5340,7 +4524,6 @@ GameObject:
   - component: {fileID: 5465703707040552596}
   - component: {fileID: 5476227216939267410}
   - component: {fileID: 5424610890785955954}
-  - component: {fileID: 5271920755869452740}
   m_Layer: 0
   m_Name: pineTree (8)
   m_TagString: Untagged
@@ -5420,25 +4603,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &5271920755869452740
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455367044116}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455401250923
 GameObject:
   m_ObjectHideFlags: 0
@@ -5451,7 +4618,6 @@ GameObject:
   - component: {fileID: 5465703707141085931}
   - component: {fileID: 5476227216836901165}
   - component: {fileID: 5424610890686999565}
-  - component: {fileID: 6007144810598865900}
   m_Layer: 0
   m_Name: pineTree (46)
   m_TagString: Untagged
@@ -5531,25 +4697,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &6007144810598865900
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455401250923}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455491480178
 GameObject:
   m_ObjectHideFlags: 0
@@ -5562,7 +4712,6 @@ GameObject:
   - component: {fileID: 5465703707428344050}
   - component: {fileID: 5476227216813650740}
   - component: {fileID: 5424610891213465108}
-  - component: {fileID: 5005219183600922814}
   m_Layer: 0
   m_Name: pineTree (2)
   m_TagString: Untagged
@@ -5642,25 +4791,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &5005219183600922814
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455491480178}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455513783399
 GameObject:
   m_ObjectHideFlags: 0
@@ -5673,7 +4806,6 @@ GameObject:
   - component: {fileID: 5465703707439072999}
   - component: {fileID: 5476227216792397089}
   - component: {fileID: 5424610891201130497}
-  - component: {fileID: 5808931480498978149}
   m_Layer: 0
   m_Name: pineTree (12)
   m_TagString: Untagged
@@ -5753,25 +4885,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &5808931480498978149
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455513783399}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455519269946
 GameObject:
   m_ObjectHideFlags: 0
@@ -5784,7 +4900,6 @@ GameObject:
   - component: {fileID: 5465703707526385338}
   - component: {fileID: 5476227216719801724}
   - component: {fileID: 5424610891105990748}
-  - component: {fileID: 6538525289205847570}
   m_Layer: 0
   m_Name: pineTree (41)
   m_TagString: Untagged
@@ -5864,25 +4979,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &6538525289205847570
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455519269946}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455529374435
 GameObject:
   m_ObjectHideFlags: 0
@@ -5895,7 +4994,6 @@ GameObject:
   - component: {fileID: 5465703707515754595}
   - component: {fileID: 5476227216709696421}
   - component: {fileID: 5424610891116064389}
-  - component: {fileID: 4044598453365790143}
   m_Layer: 0
   m_Name: pineTree (55)
   m_TagString: Untagged
@@ -5975,25 +5073,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &4044598453365790143
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455529374435}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455567079574
 GameObject:
   m_ObjectHideFlags: 0
@@ -6006,7 +5088,6 @@ GameObject:
   - component: {fileID: 5465703707487027734}
   - component: {fileID: 5476227216738181584}
   - component: {fileID: 5424610891154846960}
-  - component: {fileID: 3971850295646933626}
   m_Layer: 0
   m_Name: pineTree (26)
   m_TagString: Untagged
@@ -6086,25 +5167,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &3971850295646933626
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455567079574}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451804455675618488
 GameObject:
   m_ObjectHideFlags: 0
@@ -6117,7 +5182,6 @@ GameObject:
   - component: {fileID: 5465703707412045368}
   - component: {fileID: 5476227216563584510}
   - component: {fileID: 5424610890960316638}
-  - component: {fileID: 15503200586818745}
   m_Layer: 0
   m_Name: pineTree (13)
   m_TagString: Untagged
@@ -6197,25 +5261,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 67590bf36d0abac419beccf3fcb0e5f8, type: 3}
---- !u!208 &15503200586818745
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451804455675618488}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.367, y: 4.0600004, z: 2.367}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.044000003, y: 4.0600004, z: -0.105000004}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836906399192598
 GameObject:
   m_ObjectHideFlags: 0
@@ -6228,7 +5276,6 @@ GameObject:
   - component: {fileID: 5465893839860593152}
   - component: {fileID: 5474429015855767076}
   - component: {fileID: 5425088405326336700}
-  - component: {fileID: 9088427793390038540}
   m_Layer: 0
   m_Name: pineTree03 (9)
   m_TagString: Untagged
@@ -6308,25 +5355,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &9088427793390038540
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836906399192598}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836906726142837
 GameObject:
   m_ObjectHideFlags: 0
@@ -6339,7 +5370,6 @@ GameObject:
   - component: {fileID: 5465893840205223779}
   - component: {fileID: 5474429016081693511}
   - component: {fileID: 5425088405671147487}
-  - component: {fileID: 1868586819576564210}
   m_Layer: 0
   m_Name: pineTree03 (8)
   m_TagString: Untagged
@@ -6419,25 +5449,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &1868586819576564210
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836906726142837}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836906774984108
 GameObject:
   m_ObjectHideFlags: 0
@@ -6450,7 +5464,6 @@ GameObject:
   - component: {fileID: 5465893840282243514}
   - component: {fileID: 5474429016235228574}
   - component: {fileID: 5425088405425303814}
-  - component: {fileID: 4096579510967122868}
   m_Layer: 0
   m_Name: pineTree03 (5)
   m_TagString: Untagged
@@ -6530,25 +5543,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &4096579510967122868
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836906774984108}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836906950991036
 GameObject:
   m_ObjectHideFlags: 0
@@ -6561,7 +5558,6 @@ GameObject:
   - component: {fileID: 5465893839435118762}
   - component: {fileID: 5474429015236859022}
   - component: {fileID: 5425088405920110614}
-  - component: {fileID: 4854625317951849417}
   m_Layer: 0
   m_Name: pineTree03 (15)
   m_TagString: Untagged
@@ -6641,25 +5637,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &4854625317951849417
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836906950991036}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836907182107517
 GameObject:
   m_ObjectHideFlags: 0
@@ -6672,7 +5652,6 @@ GameObject:
   - component: {fileID: 5465893839617068907}
   - component: {fileID: 5474429015560381263}
   - component: {fileID: 5425088406091526103}
-  - component: {fileID: 4659934627679607038}
   m_Layer: 0
   m_Name: pineTree03 (10)
   m_TagString: Untagged
@@ -6752,25 +5731,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &4659934627679607038
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836907182107517}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836907254837111
 GameObject:
   m_ObjectHideFlags: 0
@@ -6783,7 +5746,6 @@ GameObject:
   - component: {fileID: 5465893839676033889}
   - component: {fileID: 5474429015537002309}
   - component: {fileID: 5425088406215535581}
-  - component: {fileID: 2861163126115183501}
   m_Layer: 0
   m_Name: pineTree03 (1)
   m_TagString: Untagged
@@ -6863,25 +5825,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &2861163126115183501
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836907254837111}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836907313867118
 GameObject:
   m_ObjectHideFlags: 0
@@ -6894,7 +5840,6 @@ GameObject:
   - component: {fileID: 5465893839751712120}
   - component: {fileID: 5474429015696335196}
   - component: {fileID: 5425088405955833284}
-  - component: {fileID: 1115846395726413650}
   m_Layer: 0
   m_Name: pineTree03 (11)
   m_TagString: Untagged
@@ -6974,25 +5919,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &1115846395726413650
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836907313867118}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836907352078538
 GameObject:
   m_ObjectHideFlags: 0
@@ -7005,7 +5934,6 @@ GameObject:
   - component: {fileID: 5465893839841434844}
   - component: {fileID: 5474429015642140920}
   - component: {fileID: 5425088406051716192}
-  - component: {fileID: 4463975313002328558}
   m_Layer: 0
   m_Name: pineTree03 (14)
   m_TagString: Untagged
@@ -7085,25 +6013,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &4463975313002328558
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836907352078538}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836907480097567
 GameObject:
   m_ObjectHideFlags: 0
@@ -7116,7 +6028,6 @@ GameObject:
   - component: {fileID: 5465893838773815049}
   - component: {fileID: 5474429014792891181}
   - component: {fileID: 5425088404250421173}
-  - component: {fileID: 7747155441995372390}
   m_Layer: 0
   m_Name: pineTree03 (17)
   m_TagString: Untagged
@@ -7196,25 +6107,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &7747155441995372390
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836907480097567}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836907561286725
 GameObject:
   m_ObjectHideFlags: 0
@@ -7227,7 +6122,6 @@ GameObject:
   - component: {fileID: 5465893838959073363}
   - component: {fileID: 5474429014911792247}
   - component: {fileID: 5425088404097677551}
-  - component: {fileID: 2810704389181233837}
   m_Layer: 0
   m_Name: pineTree03
   m_TagString: Untagged
@@ -7307,25 +6201,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &2810704389181233837
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836907561286725}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836907561837780
 GameObject:
   m_ObjectHideFlags: 0
@@ -7338,7 +6216,6 @@ GameObject:
   - component: {fileID: 5465893838960541890}
   - component: {fileID: 5474429014912478438}
   - component: {fileID: 5425088404097245310}
-  - component: {fileID: 6815665970298032778}
   m_Layer: 0
   m_Name: pineTree03 (2)
   m_TagString: Untagged
@@ -7418,25 +6295,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &6815665970298032778
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836907561837780}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836907624155476
 GameObject:
   m_ObjectHideFlags: 0
@@ -7449,7 +6310,6 @@ GameObject:
   - component: {fileID: 5465893839038737730}
   - component: {fileID: 5474429014832054630}
   - component: {fileID: 5425088404169002494}
-  - component: {fileID: 8438596851778462544}
   m_Layer: 0
   m_Name: pineTree03 (4)
   m_TagString: Untagged
@@ -7529,25 +6389,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &8438596851778462544
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836907624155476}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836908037838940
 GameObject:
   m_ObjectHideFlags: 0
@@ -7560,7 +6404,6 @@ GameObject:
   - component: {fileID: 5465893838358756426}
   - component: {fileID: 5474429014167834734}
   - component: {fileID: 5425088404833262838}
-  - component: {fileID: 3298856356567087292}
   m_Layer: 0
   m_Name: pineTree03 (7)
   m_TagString: Untagged
@@ -7640,25 +6483,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &3298856356567087292
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836908037838940}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836908041009161
 GameObject:
   m_ObjectHideFlags: 0
@@ -7671,7 +6498,6 @@ GameObject:
   - component: {fileID: 5465893838345133087}
   - component: {fileID: 5474429014145806395}
   - component: {fileID: 5425088404830108835}
-  - component: {fileID: 6093033680936156853}
   m_Layer: 0
   m_Name: pineTree03 (13)
   m_TagString: Untagged
@@ -7751,25 +6577,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &6093033680936156853
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836908041009161}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836908044785002
 GameObject:
   m_ObjectHideFlags: 0
@@ -7782,7 +6592,6 @@ GameObject:
   - component: {fileID: 5465893838351806844}
   - component: {fileID: 5474429014145424728}
   - component: {fileID: 5425088404822380992}
-  - component: {fileID: 5447155100608537615}
   m_Layer: 0
   m_Name: pineTree03 (3)
   m_TagString: Untagged
@@ -7862,25 +6671,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &5447155100608537615
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836908044785002}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836908146601900
 GameObject:
   m_ObjectHideFlags: 0
@@ -7893,7 +6686,6 @@ GameObject:
   - component: {fileID: 5465893838383614906}
   - component: {fileID: 5474429014377785246}
   - component: {fileID: 5425088404656876294}
-  - component: {fileID: 1039152620057249440}
   m_Layer: 0
   m_Name: pineTree03 (18)
   m_TagString: Untagged
@@ -7973,25 +6765,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &1039152620057249440
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836908146601900}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836908344446322
 GameObject:
   m_ObjectHideFlags: 0
@@ -8004,7 +6780,6 @@ GameObject:
   - component: {fileID: 5465893838580558180}
   - component: {fileID: 5474429014449407296}
   - component: {fileID: 5425088405130496472}
-  - component: {fileID: 6790128039010761169}
   m_Layer: 0
   m_Name: pineTree03 (16)
   m_TagString: Untagged
@@ -8084,25 +6859,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &6790128039010761169
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836908344446322}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836908428880550
 GameObject:
   m_ObjectHideFlags: 0
@@ -8115,7 +6874,6 @@ GameObject:
   - component: {fileID: 5465893838770884272}
   - component: {fileID: 5474429014563168916}
   - component: {fileID: 5425088404974775820}
-  - component: {fileID: 1356271868987616728}
   m_Layer: 0
   m_Name: pineTree03 (12)
   m_TagString: Untagged
@@ -8195,25 +6953,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &1356271868987616728
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836908428880550}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451836908447417147
 GameObject:
   m_ObjectHideFlags: 0
@@ -8226,7 +6968,6 @@ GameObject:
   - component: {fileID: 5465893838754441005}
   - component: {fileID: 5474429014548024073}
   - component: {fileID: 5425088404956612497}
-  - component: {fileID: 1516519855889291978}
   m_Layer: 0
   m_Name: pineTree03 (6)
   m_TagString: Untagged
@@ -8306,25 +7047,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0c6c37ce748b92a4dadb2b5e33ed6449, type: 3}
---- !u!208 &1516519855889291978
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451836908447417147}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.437, y: 3.233, z: 1.437}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 3.233, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963464144165521
 GameObject:
   m_ObjectHideFlags: 0
@@ -8337,7 +7062,6 @@ GameObject:
   - component: {fileID: 5466028495099315473}
   - component: {fileID: 5475852768148558237}
   - component: {fileID: 5424662435114703819}
-  - component: {fileID: 7563260132876344408}
   m_Layer: 0
   m_Name: birchTree (1)
   m_TagString: Untagged
@@ -8417,25 +7141,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &7563260132876344408
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963464144165521}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963464197328929
 GameObject:
   m_ObjectHideFlags: 0
@@ -8448,7 +7156,6 @@ GameObject:
   - component: {fileID: 5466028495087177633}
   - component: {fileID: 5475852768093592365}
   - component: {fileID: 5424662435060617595}
-  - component: {fileID: 2394010733114163594}
   m_Layer: 0
   m_Name: birchTree (15)
   m_TagString: Untagged
@@ -8528,25 +7235,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &2394010733114163594
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963464197328929}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963464265206833
 GameObject:
   m_ObjectHideFlags: 0
@@ -8559,7 +7250,6 @@ GameObject:
   - component: {fileID: 5466028495020348337}
   - component: {fileID: 5475852768025675581}
   - component: {fileID: 5424662434994310507}
-  - component: {fileID: 6607949227183169122}
   m_Layer: 0
   m_Name: birchTree (16)
   m_TagString: Untagged
@@ -8639,25 +7329,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &6607949227183169122
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963464265206833}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963464549133210
 GameObject:
   m_ObjectHideFlags: 0
@@ -8670,7 +7344,6 @@ GameObject:
   - component: {fileID: 5466028494434448410}
   - component: {fileID: 5475852768549200022}
   - component: {fileID: 5424662435510987456}
-  - component: {fileID: 1287251201977419469}
   m_Layer: 0
   m_Name: birchTree (22)
   m_TagString: Untagged
@@ -8750,25 +7423,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &1287251201977419469
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963464549133210}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963464788458828
 GameObject:
   m_ObjectHideFlags: 0
@@ -8781,7 +7438,6 @@ GameObject:
   - component: {fileID: 5466028494471946956}
   - component: {fileID: 5475852768561509952}
   - component: {fileID: 5424662435540630550}
-  - component: {fileID: 869129010721278150}
   m_Layer: 0
   m_Name: birchTree (10)
   m_TagString: Untagged
@@ -8861,25 +7517,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &869129010721278150
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963464788458828}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963464801794850
 GameObject:
   m_ObjectHideFlags: 0
@@ -8892,7 +7532,6 @@ GameObject:
   - component: {fileID: 5466028494483711138}
   - component: {fileID: 5475852768562786350}
   - component: {fileID: 5424662435530898040}
-  - component: {fileID: 5258471269019770120}
   m_Layer: 0
   m_Name: birchTree (12)
   m_TagString: Untagged
@@ -8972,25 +7611,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &5258471269019770120
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963464801794850}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963464862199476
 GameObject:
   m_ObjectHideFlags: 0
@@ -9003,7 +7626,6 @@ GameObject:
   - component: {fileID: 5466028494145368372}
   - component: {fileID: 5475852768770647480}
   - component: {fileID: 5424662435197267950}
-  - component: {fileID: 1410984890528478455}
   m_Layer: 0
   m_Name: birchTree (7)
   m_TagString: Untagged
@@ -9083,25 +7705,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &1410984890528478455
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963464862199476}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963464875669396
 GameObject:
   m_ObjectHideFlags: 0
@@ -9114,7 +7720,6 @@ GameObject:
   - component: {fileID: 5466028494089889812}
   - component: {fileID: 5475852768742702232}
   - component: {fileID: 5424662435183212238}
-  - component: {fileID: 2980512481224212936}
   m_Layer: 0
   m_Name: birchTree (9)
   m_TagString: Untagged
@@ -9194,25 +7799,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &2980512481224212936
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963464875669396}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963464916373699
 GameObject:
   m_ObjectHideFlags: 0
@@ -9225,7 +7814,6 @@ GameObject:
   - component: {fileID: 5466028494058803011}
   - component: {fileID: 5475852768718789583}
   - component: {fileID: 5424662435148452249}
-  - component: {fileID: 4826123780785903998}
   m_Layer: 0
   m_Name: birchTree (21)
   m_TagString: Untagged
@@ -9305,25 +7893,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &4826123780785903998
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963464916373699}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963464953646184
 GameObject:
   m_ObjectHideFlags: 0
@@ -9336,7 +7908,6 @@ GameObject:
   - component: {fileID: 5466028494298158056}
   - component: {fileID: 5475852768949651300}
   - component: {fileID: 5424662435378892082}
-  - component: {fileID: 2425591042050801723}
   m_Layer: 0
   m_Name: birchTree (19)
   m_TagString: Untagged
@@ -9416,25 +7987,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &2425591042050801723
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963464953646184}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465037942954
 GameObject:
   m_ObjectHideFlags: 0
@@ -9447,7 +8002,6 @@ GameObject:
   - component: {fileID: 5466028494247481130}
   - component: {fileID: 5475852768865655718}
   - component: {fileID: 5424662435295187440}
-  - component: {fileID: 8157336123779302169}
   m_Layer: 0
   m_Name: birchTree (25)
   m_TagString: Untagged
@@ -9527,25 +8081,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &8157336123779302169
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465037942954}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465039058628
 GameObject:
   m_ObjectHideFlags: 0
@@ -9558,7 +8096,6 @@ GameObject:
   - component: {fileID: 5466028494187776324}
   - component: {fileID: 5475852768845667784}
   - component: {fileID: 5424662435290011550}
-  - component: {fileID: 5893338440244565388}
   m_Layer: 0
   m_Name: birchTree (24)
   m_TagString: Untagged
@@ -9638,25 +8175,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &5893338440244565388
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465039058628}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465046975379
 GameObject:
   m_ObjectHideFlags: 0
@@ -9669,7 +8190,6 @@ GameObject:
   - component: {fileID: 5466028494196456467}
   - component: {fileID: 5475852768854239391}
   - component: {fileID: 5424662435281380041}
-  - component: {fileID: 7037069620813085067}
   m_Layer: 0
   m_Name: birchTree (2)
   m_TagString: Untagged
@@ -9749,25 +8269,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &7037069620813085067
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465046975379}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465300085931
 GameObject:
   m_ObjectHideFlags: 0
@@ -9780,7 +8284,6 @@ GameObject:
   - component: {fileID: 5466028496124433195}
   - component: {fileID: 5475852769140377511}
   - component: {fileID: 5424662433955106289}
-  - component: {fileID: 1776589509439761646}
   m_Layer: 0
   m_Name: birchTree (3)
   m_TagString: Untagged
@@ -9860,25 +8363,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &1776589509439761646
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465300085931}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465364873656
 GameObject:
   m_ObjectHideFlags: 0
@@ -9891,7 +8378,6 @@ GameObject:
   - component: {fileID: 5466028495782903352}
   - component: {fileID: 5475852769327196852}
   - component: {fileID: 5424662433625628898}
-  - component: {fileID: 3575962619767436552}
   m_Layer: 0
   m_Name: birchTree (6)
   m_TagString: Untagged
@@ -9971,25 +8457,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &3575962619767436552
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465364873656}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465425649656
 GameObject:
   m_ObjectHideFlags: 0
@@ -10002,7 +8472,6 @@ GameObject:
   - component: {fileID: 5466028495713607800}
   - component: {fileID: 5475852769266463988}
   - component: {fileID: 5424662433560542882}
-  - component: {fileID: 7751978217510150554}
   m_Layer: 0
   m_Name: birchTree (17)
   m_TagString: Untagged
@@ -10082,25 +8551,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &7751978217510150554
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465425649656}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465433920768
 GameObject:
   m_ObjectHideFlags: 0
@@ -10113,7 +8566,6 @@ GameObject:
   - component: {fileID: 5466028495722179200}
   - component: {fileID: 5475852769274740236}
   - component: {fileID: 5424662433552331866}
-  - component: {fileID: 7695127671106004246}
   m_Layer: 0
   m_Name: birchTree (23)
   m_TagString: Untagged
@@ -10193,25 +8645,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &7695127671106004246
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465433920768}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465453281049
 GameObject:
   m_ObjectHideFlags: 0
@@ -10224,7 +8660,6 @@ GameObject:
   - component: {fileID: 5466028495676522649}
   - component: {fileID: 5475852769253200917}
   - component: {fileID: 5424662433531846211}
-  - component: {fileID: 2936668622509606636}
   m_Layer: 0
   m_Name: birchTree (27)
   m_TagString: Untagged
@@ -10304,25 +8739,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &2936668622509606636
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465453281049}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465467629323
 GameObject:
   m_ObjectHideFlags: 0
@@ -10335,7 +8754,6 @@ GameObject:
   - component: {fileID: 5466028495688519819}
   - component: {fileID: 5475852769241203719}
   - component: {fileID: 5424662433518669393}
-  - component: {fileID: 2583742639626545026}
   m_Layer: 0
   m_Name: birchTree (13)
   m_TagString: Untagged
@@ -10415,25 +8833,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &2583742639626545026
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465467629323}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465656914537
 GameObject:
   m_ObjectHideFlags: 0
@@ -10446,7 +8848,6 @@ GameObject:
   - component: {fileID: 5466028495473020393}
   - component: {fileID: 5475852769586731365}
   - component: {fileID: 5424662434406273843}
-  - component: {fileID: 5390887804238839466}
   m_Layer: 0
   m_Name: birchTree (8)
   m_TagString: Untagged
@@ -10526,25 +8927,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &5390887804238839466
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465656914537}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465718172305
 GameObject:
   m_ObjectHideFlags: 0
@@ -10557,7 +8942,6 @@ GameObject:
   - component: {fileID: 5466028495404291345}
   - component: {fileID: 5475852769525432733}
   - component: {fileID: 5424662434341735371}
-  - component: {fileID: 4642466537893789150}
   m_Layer: 0
   m_Name: birchTree (20)
   m_TagString: Untagged
@@ -10637,25 +9021,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &4642466537893789150
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465718172305}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465807030689
 GameObject:
   m_ObjectHideFlags: 0
@@ -10668,7 +9036,6 @@ GameObject:
   - component: {fileID: 5466028495624975905}
   - component: {fileID: 5475852769706959533}
   - component: {fileID: 5424662434521000187}
-  - component: {fileID: 2245312018931745742}
   m_Layer: 0
   m_Name: birchTree (14)
   m_TagString: Untagged
@@ -10748,25 +9115,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &2245312018931745742
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465807030689}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963465823965104
 GameObject:
   m_ObjectHideFlags: 0
@@ -10779,7 +9130,6 @@ GameObject:
   - component: {fileID: 5466028495575322672}
   - component: {fileID: 5475852769689945276}
   - component: {fileID: 5424662434504380138}
-  - component: {fileID: 6473764092750797172}
   m_Layer: 0
   m_Name: birchTree (5)
   m_TagString: Untagged
@@ -10859,25 +9209,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &6473764092750797172
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963465823965104}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5451963466046343935
 GameObject:
   m_ObjectHideFlags: 0
@@ -10890,7 +9224,6 @@ GameObject:
   - component: {fileID: 5466028495327974783}
   - component: {fileID: 5475852769987690995}
   - component: {fileID: 5424662434282195877}
-  - component: {fileID: 5313344437448150097}
   m_Layer: 0
   m_Name: birchTree (11)
   m_TagString: Untagged
@@ -10970,25 +9303,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &5313344437448150097
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5451963466046343935}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124329885511354
 GameObject:
   m_ObjectHideFlags: 0
@@ -11001,7 +9318,6 @@ GameObject:
   - component: {fileID: 5464541688547136778}
   - component: {fileID: 5474637885537212008}
   - component: {fileID: 5426363686844921052}
-  - component: {fileID: 4014185819234218044}
   m_Layer: 0
   m_Name: oakTree (22)
   m_TagString: Untagged
@@ -11081,25 +9397,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &4014185819234218044
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124329885511354}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124329886945587
 GameObject:
   m_ObjectHideFlags: 0
@@ -11112,7 +9412,6 @@ GameObject:
   - component: {fileID: 5464541688545438339}
   - component: {fileID: 5474637885538658785}
   - component: {fileID: 5426363686841371477}
-  - component: {fileID: 7426551560730269898}
   m_Layer: 0
   m_Name: oakTree (38)
   m_TagString: Untagged
@@ -11192,25 +9491,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &7426551560730269898
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124329886945587}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124329943630868
 GameObject:
   m_ObjectHideFlags: 0
@@ -11223,7 +9506,6 @@ GameObject:
   - component: {fileID: 5464541688472240036}
   - component: {fileID: 5474637885628906694}
   - component: {fileID: 5426363686969237106}
-  - component: {fileID: 2019658277026640146}
   m_Layer: 0
   m_Name: oakTree (2)
   m_TagString: Untagged
@@ -11303,25 +9585,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &2019658277026640146
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124329943630868}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330200329511
 GameObject:
   m_ObjectHideFlags: 0
@@ -11334,7 +9600,6 @@ GameObject:
   - component: {fileID: 5464541688190441111}
   - component: {fileID: 5474637885910717941}
   - component: {fileID: 5426363687218034497}
-  - component: {fileID: 4248672291221206533}
   m_Layer: 0
   m_Name: oakTree (12)
   m_TagString: Untagged
@@ -11414,25 +9679,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &4248672291221206533
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330200329511}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330261542685
 GameObject:
   m_ObjectHideFlags: 0
@@ -11445,7 +9694,6 @@ GameObject:
   - component: {fileID: 5464541688120577197}
   - component: {fileID: 5474637885711880143}
   - component: {fileID: 5426363687020506491}
-  - component: {fileID: 5410369364804046381}
   m_Layer: 0
   m_Name: oakTree (37)
   m_TagString: Untagged
@@ -11525,25 +9773,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &5410369364804046381
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330261542685}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330266936017
 GameObject:
   m_ObjectHideFlags: 0
@@ -11556,7 +9788,6 @@ GameObject:
   - component: {fileID: 5464541688123767137}
   - component: {fileID: 5474637885708909059}
   - component: {fileID: 5426363687017126071}
-  - component: {fileID: 8131559419266059123}
   m_Layer: 0
   m_Name: oakTree (11)
   m_TagString: Untagged
@@ -11636,25 +9867,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &8131559419266059123
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330266936017}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330304816039
 GameObject:
   m_ObjectHideFlags: 0
@@ -11667,7 +9882,6 @@ GameObject:
   - component: {fileID: 5464541688161122327}
   - component: {fileID: 5474637885654514549}
   - component: {fileID: 5426363686996023745}
-  - component: {fileID: 568173842133885987}
   m_Layer: 0
   m_Name: oakTree (19)
   m_TagString: Untagged
@@ -11747,25 +9961,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &568173842133885987
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330304816039}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330410182458
 GameObject:
   m_ObjectHideFlags: 0
@@ -11778,7 +9976,6 @@ GameObject:
   - component: {fileID: 5464541689070779530}
   - component: {fileID: 5474637885013327848}
   - component: {fileID: 5426363686353788252}
-  - component: {fileID: 7680137147645332178}
   m_Layer: 0
   m_Name: oakTree (23)
   m_TagString: Untagged
@@ -11858,25 +10055,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &7680137147645332178
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330410182458}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330553742971
 GameObject:
   m_ObjectHideFlags: 0
@@ -11889,7 +10070,6 @@ GameObject:
   - component: {fileID: 5464541688944324043}
   - component: {fileID: 5474637884888444585}
   - component: {fileID: 5426363686224972829}
-  - component: {fileID: 7771891879366605368}
   m_Layer: 0
   m_Name: oakTree (33)
   m_TagString: Untagged
@@ -11969,25 +10149,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &7771891879366605368
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330553742971}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330581652467
 GameObject:
   m_ObjectHideFlags: 0
@@ -12000,7 +10164,6 @@ GameObject:
   - component: {fileID: 5464541688974805059}
   - component: {fileID: 5474637884857584417}
   - component: {fileID: 5426363686199110037}
-  - component: {fileID: 8215576427441657111}
   m_Layer: 0
   m_Name: oakTree (24)
   m_TagString: Untagged
@@ -12080,25 +10243,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &8215576427441657111
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330581652467}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330592679688
 GameObject:
   m_ObjectHideFlags: 0
@@ -12111,7 +10258,6 @@ GameObject:
   - component: {fileID: 5464541688846404792}
   - component: {fileID: 5474637884969308122}
   - component: {fileID: 5426363686272036206}
-  - component: {fileID: 5554517388398277907}
   m_Layer: 0
   m_Name: oakTree (8)
   m_TagString: Untagged
@@ -12191,25 +10337,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &5554517388398277907
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330592679688}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330600622098
 GameObject:
   m_ObjectHideFlags: 0
@@ -12222,7 +10352,6 @@ GameObject:
   - component: {fileID: 5464541688855499682}
   - component: {fileID: 5474637884977221824}
   - component: {fileID: 5426363686280868468}
-  - component: {fileID: 3648582741043673191}
   m_Layer: 0
   m_Name: oakTree
   m_TagString: Untagged
@@ -12302,25 +10431,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &3648582741043673191
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330600622098}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330607058406
 GameObject:
   m_ObjectHideFlags: 0
@@ -12333,7 +10446,6 @@ GameObject:
   - component: {fileID: 5464541688865515094}
   - component: {fileID: 5474637884950144308}
   - component: {fileID: 5426363686291130240}
-  - component: {fileID: 7009004062229307959}
   m_Layer: 0
   m_Name: oakTree (1)
   m_TagString: Untagged
@@ -12413,25 +10525,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &7009004062229307959
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330607058406}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330749114876
 GameObject:
   m_ObjectHideFlags: 0
@@ -12444,7 +10540,6 @@ GameObject:
   - component: {fileID: 5464541688740299340}
   - component: {fileID: 5474637885360619822}
   - component: {fileID: 5426363686702801818}
-  - component: {fileID: 6066958494365945891}
   m_Layer: 0
   m_Name: oakTree (10)
   m_TagString: Untagged
@@ -12524,25 +10619,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &6066958494365945891
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330749114876}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330767410669
 GameObject:
   m_ObjectHideFlags: 0
@@ -12555,7 +10634,6 @@ GameObject:
   - component: {fileID: 5464541688755822173}
   - component: {fileID: 5474637885345340735}
   - component: {fileID: 5426363686648856459}
-  - component: {fileID: 1168641588477898199}
   m_Layer: 0
   m_Name: oakTree (30)
   m_TagString: Untagged
@@ -12635,25 +10713,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &1168641588477898199
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330767410669}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330779718968
 GameObject:
   m_ObjectHideFlags: 0
@@ -12666,7 +10728,6 @@ GameObject:
   - component: {fileID: 5464541688768679560}
   - component: {fileID: 5474637885315730922}
   - component: {fileID: 5426363686653325150}
-  - component: {fileID: 8771454212888368642}
   m_Layer: 0
   m_Name: oakTree (28)
   m_TagString: Untagged
@@ -12746,25 +10807,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &8771454212888368642
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330779718968}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330841404602
 GameObject:
   m_ObjectHideFlags: 0
@@ -12777,7 +10822,6 @@ GameObject:
   - component: {fileID: 5464541688698343178}
   - component: {fileID: 5474637885117336680}
   - component: {fileID: 5426363686459518684}
-  - component: {fileID: 2556261212314701906}
   m_Layer: 0
   m_Name: oakTree (25)
   m_TagString: Untagged
@@ -12857,25 +10901,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &2556261212314701906
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330841404602}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330900942625
 GameObject:
   m_ObjectHideFlags: 0
@@ -12888,7 +10916,6 @@ GameObject:
   - component: {fileID: 5464541688621962385}
   - component: {fileID: 5474637885210433523}
   - component: {fileID: 5426363686517355847}
-  - component: {fileID: 5385077237907707840}
   m_Layer: 0
   m_Name: oakTree (26)
   m_TagString: Untagged
@@ -12968,25 +10995,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &5385077237907707840
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330900942625}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330918284820
 GameObject:
   m_ObjectHideFlags: 0
@@ -12999,7 +11010,6 @@ GameObject:
   - component: {fileID: 5464541688638436772}
   - component: {fileID: 5474637885194270406}
   - component: {fileID: 5426363686531454066}
-  - component: {fileID: 5979781458894611322}
   m_Layer: 0
   m_Name: oakTree (18)
   m_TagString: Untagged
@@ -13079,25 +11089,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &5979781458894611322
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330918284820}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124330922364470
 GameObject:
   m_ObjectHideFlags: 0
@@ -13110,7 +11104,6 @@ GameObject:
   - component: {fileID: 5464541688642483590}
   - component: {fileID: 5474637885189928676}
   - component: {fileID: 5426363686527374416}
-  - component: {fileID: 3248177464268506257}
   m_Layer: 0
   m_Name: oakTree (9)
   m_TagString: Untagged
@@ -13190,25 +11183,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &3248177464268506257
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124330922364470}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331019444026
 GameObject:
   m_ObjectHideFlags: 0
@@ -13221,7 +11198,6 @@ GameObject:
   - component: {fileID: 5464541689543713930}
   - component: {fileID: 5474637886704707560}
   - component: {fileID: 5426363685893490012}
-  - component: {fileID: 8227148186532547895}
   m_Layer: 0
   m_Name: oakTree (7)
   m_TagString: Untagged
@@ -13301,25 +11277,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &8227148186532547895
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331019444026}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331026921210
 GameObject:
   m_ObjectHideFlags: 0
@@ -13332,7 +11292,6 @@ GameObject:
   - component: {fileID: 5464541689553276234}
   - component: {fileID: 5474637886678617640}
   - component: {fileID: 5426363685837794460}
-  - component: {fileID: 2655739030721252936}
   m_Layer: 0
   m_Name: oakTree (17)
   m_TagString: Untagged
@@ -13412,25 +11371,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &2655739030721252936
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331026921210}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331043264012
 GameObject:
   m_ObjectHideFlags: 0
@@ -13443,7 +11386,6 @@ GameObject:
   - component: {fileID: 5464541689570160060}
   - component: {fileID: 5474637886661422814}
   - component: {fileID: 5426363685854923882}
-  - component: {fileID: 6219117898656208582}
   m_Layer: 0
   m_Name: oakTree (15)
   m_TagString: Untagged
@@ -13523,25 +11465,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &6219117898656208582
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331043264012}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331117571173
 GameObject:
   m_ObjectHideFlags: 0
@@ -13554,7 +11480,6 @@ GameObject:
   - component: {fileID: 5464541689512957909}
   - component: {fileID: 5474637886467249335}
   - component: {fileID: 5426363685661160963}
-  - component: {fileID: 6448155469523391739}
   m_Layer: 0
   m_Name: oakTree (34)
   m_TagString: Untagged
@@ -13634,25 +11559,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &6448155469523391739
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331117571173}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331150963691
 GameObject:
   m_ObjectHideFlags: 0
@@ -13665,7 +11574,6 @@ GameObject:
   - component: {fileID: 5464541689412126811}
   - component: {fileID: 5474637886567746361}
   - component: {fileID: 5426363685761919373}
-  - component: {fileID: 5167742216114920142}
   m_Layer: 0
   m_Name: oakTree (35)
   m_TagString: Untagged
@@ -13745,25 +11653,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &5167742216114920142
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331150963691}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331193134732
 GameObject:
   m_ObjectHideFlags: 0
@@ -13776,7 +11668,6 @@ GameObject:
   - component: {fileID: 5464541689319953724}
   - component: {fileID: 5474637886911911518}
   - component: {fileID: 5426363686072136938}
-  - component: {fileID: 7502908784857861163}
   m_Layer: 0
   m_Name: oakTree (31)
   m_TagString: Untagged
@@ -13856,25 +11747,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &7502908784857861163
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331193134732}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331258918248
 GameObject:
   m_ObjectHideFlags: 0
@@ -13887,7 +11762,6 @@ GameObject:
   - component: {fileID: 5464541689379999448}
   - component: {fileID: 5474637886868671930}
   - component: {fileID: 5426363686058782478}
-  - component: {fileID: 1535390695661313874}
   m_Layer: 0
   m_Name: oakTree (5)
   m_TagString: Untagged
@@ -13967,25 +11841,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &1535390695661313874
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331258918248}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331289642776
 GameObject:
   m_ObjectHideFlags: 0
@@ -13998,7 +11856,6 @@ GameObject:
   - component: {fileID: 5464541689281903784}
   - component: {fileID: 5474637886966529994}
   - component: {fileID: 5426363686160162174}
-  - component: {fileID: 670989050415400855}
   m_Layer: 0
   m_Name: oakTree (32)
   m_TagString: Untagged
@@ -14078,25 +11935,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &670989050415400855
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331289642776}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331408586464
 GameObject:
   m_ObjectHideFlags: 0
@@ -14109,7 +11950,6 @@ GameObject:
   - component: {fileID: 5464541689129602384}
   - component: {fileID: 5474637886850534962}
   - component: {fileID: 5426363686009711750}
-  - component: {fileID: 7042141780913200646}
   m_Layer: 0
   m_Name: oakTree (16)
   m_TagString: Untagged
@@ -14189,25 +12029,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &7042141780913200646
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331408586464}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 7.484, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331436665818
 GameObject:
   m_ObjectHideFlags: 0
@@ -14220,7 +12044,6 @@ GameObject:
   - component: {fileID: 5464541689160306794}
   - component: {fileID: 5474637886819898120}
   - component: {fileID: 5426363685979599292}
-  - component: {fileID: 1773352429424531300}
   m_Layer: 0
   m_Name: oakTree (6)
   m_TagString: Untagged
@@ -14300,25 +12123,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &1773352429424531300
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331436665818}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331502332619
 GameObject:
   m_ObjectHideFlags: 0
@@ -14331,7 +12138,6 @@ GameObject:
   - component: {fileID: 5464541690159731067}
   - component: {fileID: 5474637886071869977}
   - component: {fileID: 5426363685228163245}
-  - component: {fileID: 4784664694925550415}
   m_Layer: 0
   m_Name: oakTree (4)
   m_TagString: Untagged
@@ -14411,25 +12217,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &4784664694925550415
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331502332619}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331502924370
 GameObject:
   m_ObjectHideFlags: 0
@@ -14442,7 +12232,6 @@ GameObject:
   - component: {fileID: 5464541690159401442}
   - component: {fileID: 5474637886072457856}
   - component: {fileID: 5426363685227571252}
-  - component: {fileID: 394147619018315428}
   m_Layer: 0
   m_Name: oakTree (13)
   m_TagString: Untagged
@@ -14522,25 +12311,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &394147619018315428
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331502924370}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331589943246
 GameObject:
   m_ObjectHideFlags: 0
@@ -14553,7 +12326,6 @@ GameObject:
   - component: {fileID: 5464541690114327678}
   - component: {fileID: 5474637886134339356}
   - component: {fileID: 5426363685323007400}
-  - component: {fileID: 8323353807747472770}
   m_Layer: 0
   m_Name: oakTree (40)
   m_TagString: Untagged
@@ -14633,25 +12405,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &8323353807747472770
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331589943246}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331602997226
 GameObject:
   m_ObjectHideFlags: 0
@@ -14664,7 +12420,6 @@ GameObject:
   - component: {fileID: 5464541689991959642}
   - component: {fileID: 5474637885971207992}
   - component: {fileID: 5426363685127501196}
-  - component: {fileID: 999199620034059622}
   m_Layer: 0
   m_Name: oakTree (21)
   m_TagString: Untagged
@@ -14744,25 +12499,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &999199620034059622
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331602997226}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331671426322
 GameObject:
   m_ObjectHideFlags: 0
@@ -14775,7 +12514,6 @@ GameObject:
   - component: {fileID: 5464541689932115618}
   - component: {fileID: 5474637886048071104}
   - component: {fileID: 5426363685207887732}
-  - component: {fileID: 7988915509273034822}
   m_Layer: 0
   m_Name: oakTree (20)
   m_TagString: Untagged
@@ -14855,25 +12593,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &7988915509273034822
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331671426322}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331672912410
 GameObject:
   m_ObjectHideFlags: 0
@@ -14886,7 +12608,6 @@ GameObject:
   - component: {fileID: 5464541689930430890}
   - component: {fileID: 5474637886049532616}
   - component: {fileID: 5426363685206464636}
-  - component: {fileID: 234294820801074143}
   m_Layer: 0
   m_Name: oakTree (27)
   m_TagString: Untagged
@@ -14966,25 +12687,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &234294820801074143
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331672912410}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331701373187
 GameObject:
   m_ObjectHideFlags: 0
@@ -14997,7 +12702,6 @@ GameObject:
   - component: {fileID: 5464541689960886963}
   - component: {fileID: 5474637886002524625}
   - component: {fileID: 5426363685163258725}
-  - component: {fileID: 7202638678806249346}
   m_Layer: 0
   m_Name: oakTree (39)
   m_TagString: Untagged
@@ -15077,25 +12781,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &7202638678806249346
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331701373187}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331733703985
 GameObject:
   m_ObjectHideFlags: 0
@@ -15108,7 +12796,6 @@ GameObject:
   - component: {fileID: 5464541689861187201}
   - component: {fileID: 5474637886370358755}
   - component: {fileID: 5426363685531486039}
-  - component: {fileID: 6898250890376114296}
   m_Layer: 0
   m_Name: oakTree (3)
   m_TagString: Untagged
@@ -15188,25 +12875,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &6898250890376114296
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331733703985}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331827875289
 GameObject:
   m_ObjectHideFlags: 0
@@ -15219,7 +12890,6 @@ GameObject:
   - component: {fileID: 5464541689817347689}
   - component: {fileID: 5474637886430983435}
   - component: {fileID: 5426363685623961535}
-  - component: {fileID: 6691976383341301840}
   m_Layer: 0
   m_Name: oakTree (14)
   m_TagString: Untagged
@@ -15299,25 +12969,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &6691976383341301840
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331827875289}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5452124331874918067
 GameObject:
   m_ObjectHideFlags: 0
@@ -15330,7 +12984,6 @@ GameObject:
   - component: {fileID: 5464541689728623875}
   - component: {fileID: 5474637886251558497}
   - component: {fileID: 5426363685407048917}
-  - component: {fileID: 3035309550059043395}
   m_Layer: 0
   m_Name: oakTree (29)
   m_TagString: Untagged
@@ -15410,25 +13063,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &3035309550059043395
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452124331874918067}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070369479211289
 GameObject:
   m_ObjectHideFlags: 0
@@ -15753,7 +13390,6 @@ GameObject:
   - component: {fileID: 5453070369653202993}
   - component: {fileID: 5453070369653202992}
   - component: {fileID: 5453070369653202991}
-  - component: {fileID: 6759331965709113306}
   m_Layer: 0
   m_Name: birchTree (29)
   m_TagString: Untagged
@@ -15833,25 +13469,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &6759331965709113306
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070369653202990}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070369659019826
 GameObject:
   m_ObjectHideFlags: 0
@@ -15939,7 +13559,6 @@ GameObject:
   - component: {fileID: 5453070369696915114}
   - component: {fileID: 5453070369696915113}
   - component: {fileID: 5453070369696915112}
-  - component: {fileID: 2319325647496413907}
   m_Layer: 0
   m_Name: oakTree (53)
   m_TagString: Untagged
@@ -16019,25 +13638,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &2319325647496413907
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070369696915111}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070369702362919
 GameObject:
   m_ObjectHideFlags: 0
@@ -16050,7 +13653,6 @@ GameObject:
   - component: {fileID: 5453070369702362922}
   - component: {fileID: 5453070369702362921}
   - component: {fileID: 5453070369702362920}
-  - component: {fileID: 9215649474904475054}
   m_Layer: 0
   m_Name: oakTree (54)
   m_TagString: Untagged
@@ -16130,25 +13732,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &9215649474904475054
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070369702362919}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070369714287656
 GameObject:
   m_ObjectHideFlags: 0
@@ -16161,7 +13747,6 @@ GameObject:
   - component: {fileID: 5453070369714287659}
   - component: {fileID: 5453070369714287658}
   - component: {fileID: 5453070369714287657}
-  - component: {fileID: 2589773210051347713}
   m_Layer: 0
   m_Name: oakTree (52)
   m_TagString: Untagged
@@ -16241,25 +13826,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &2589773210051347713
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070369714287656}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070369722880529
 GameObject:
   m_ObjectHideFlags: 0
@@ -16272,7 +13841,6 @@ GameObject:
   - component: {fileID: 5453070369722880532}
   - component: {fileID: 5453070369722880531}
   - component: {fileID: 5453070369722880530}
-  - component: {fileID: 3374102332574089798}
   m_Layer: 0
   m_Name: oakTree (36)
   m_TagString: Untagged
@@ -16352,25 +13920,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &3374102332574089798
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070369722880529}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070369766395186
 GameObject:
   m_ObjectHideFlags: 0
@@ -16383,7 +13935,6 @@ GameObject:
   - component: {fileID: 5453070369766395189}
   - component: {fileID: 5453070369766395188}
   - component: {fileID: 5453070369766395187}
-  - component: {fileID: 6721984054356491134}
   m_Layer: 0
   m_Name: birchTree (28)
   m_TagString: Untagged
@@ -16463,25 +14014,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &6721984054356491134
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070369766395186}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070369851787183
 GameObject:
   m_ObjectHideFlags: 0
@@ -16494,7 +14029,6 @@ GameObject:
   - component: {fileID: 5453070369851787186}
   - component: {fileID: 5453070369851787185}
   - component: {fileID: 5453070369851787184}
-  - component: {fileID: 7145343158074371392}
   m_Layer: 0
   m_Name: oakTree (56)
   m_TagString: Untagged
@@ -16574,25 +14108,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &7145343158074371392
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070369851787183}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070369915725670
 GameObject:
   m_ObjectHideFlags: 0
@@ -16605,7 +14123,6 @@ GameObject:
   - component: {fileID: 5453070369915725673}
   - component: {fileID: 5453070369915725672}
   - component: {fileID: 5453070369915725671}
-  - component: {fileID: 6852440341896118339}
   m_Layer: 0
   m_Name: oakTree (46)
   m_TagString: Untagged
@@ -16685,25 +14202,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &6852440341896118339
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070369915725670}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070369983191488
 GameObject:
   m_ObjectHideFlags: 0
@@ -16760,7 +14261,6 @@ GameObject:
   - component: {fileID: 5453070370065756277}
   - component: {fileID: 5453070370065756276}
   - component: {fileID: 5453070370065756275}
-  - component: {fileID: 2214209890277953520}
   m_Layer: 0
   m_Name: oakTree (45)
   m_TagString: Untagged
@@ -16840,25 +14340,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &2214209890277953520
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370065756274}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370123449383
 GameObject:
   m_ObjectHideFlags: 0
@@ -16871,7 +14355,6 @@ GameObject:
   - component: {fileID: 5453070370123449386}
   - component: {fileID: 5453070370123449385}
   - component: {fileID: 5453070370123449384}
-  - component: {fileID: 6037000253084274715}
   m_Layer: 0
   m_Name: birchTree (33)
   m_TagString: Untagged
@@ -16951,25 +14434,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &6037000253084274715
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370123449383}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370123695985
 GameObject:
   m_ObjectHideFlags: 0
@@ -17057,7 +14524,6 @@ GameObject:
   - component: {fileID: 5453070370127256026}
   - component: {fileID: 5453070370127256025}
   - component: {fileID: 5453070370127256024}
-  - component: {fileID: 1177423401233109887}
   m_Layer: 0
   m_Name: oakTree (58)
   m_TagString: Untagged
@@ -17137,25 +14603,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &1177423401233109887
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370127256023}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370236708388
 GameObject:
   m_ObjectHideFlags: 0
@@ -17168,7 +14618,6 @@ GameObject:
   - component: {fileID: 5453070370236708391}
   - component: {fileID: 5453070370236708390}
   - component: {fileID: 5453070370236708389}
-  - component: {fileID: 1373029240748408196}
   m_Layer: 0
   m_Name: oakTree (42)
   m_TagString: Untagged
@@ -17248,25 +14697,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &1373029240748408196
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370236708388}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370259557204
 GameObject:
   m_ObjectHideFlags: 0
@@ -17789,7 +15222,6 @@ GameObject:
   - component: {fileID: 5453070370393511068}
   - component: {fileID: 5453070370393511067}
   - component: {fileID: 5453070370393511066}
-  - component: {fileID: 5124173041755579793}
   m_Layer: 0
   m_Name: oakTree (50)
   m_TagString: Untagged
@@ -17869,25 +15301,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &5124173041755579793
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370393511065}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370426100564
 GameObject:
   m_ObjectHideFlags: 0
@@ -17900,7 +15316,6 @@ GameObject:
   - component: {fileID: 5453070370426100567}
   - component: {fileID: 5453070370426100566}
   - component: {fileID: 5453070370426100565}
-  - component: {fileID: 2802099012932177221}
   m_Layer: 0
   m_Name: oakTree (61)
   m_TagString: Untagged
@@ -17980,25 +15395,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &2802099012932177221
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370426100564}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370443903382
 GameObject:
   m_ObjectHideFlags: 0
@@ -18161,7 +15560,6 @@ GameObject:
   - component: {fileID: 5453070370537068817}
   - component: {fileID: 5453070370537068816}
   - component: {fileID: 5453070370537068815}
-  - component: {fileID: 4068673046102695125}
   m_Layer: 0
   m_Name: oakTree (41)
   m_TagString: Untagged
@@ -18241,25 +15639,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &4068673046102695125
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370537068814}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370567942427
 GameObject:
   m_ObjectHideFlags: 0
@@ -18272,7 +15654,6 @@ GameObject:
   - component: {fileID: 5453070370567942430}
   - component: {fileID: 5453070370567942429}
   - component: {fileID: 5453070370567942428}
-  - component: {fileID: 44424063853831701}
   m_Layer: 0
   m_Name: birchTree (31)
   m_TagString: Untagged
@@ -18352,25 +15733,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &44424063853831701
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370567942427}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370590564175
 GameObject:
   m_ObjectHideFlags: 0
@@ -18383,7 +15748,6 @@ GameObject:
   - component: {fileID: 5453070370590564178}
   - component: {fileID: 5453070370590564177}
   - component: {fileID: 5453070370590564176}
-  - component: {fileID: 2866424945080442543}
   m_Layer: 0
   m_Name: oakTree (48)
   m_TagString: Untagged
@@ -18463,25 +15827,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &2866424945080442543
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370590564175}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370674479779
 GameObject:
   m_ObjectHideFlags: 0
@@ -18494,7 +15842,6 @@ GameObject:
   - component: {fileID: 5453070370674479782}
   - component: {fileID: 5453070370674479781}
   - component: {fileID: 5453070370674479780}
-  - component: {fileID: 205878812853205156}
   m_Layer: 0
   m_Name: birchTree (36)
   m_TagString: Untagged
@@ -18574,25 +15921,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &205878812853205156
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370674479779}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370695725656
 GameObject:
   m_ObjectHideFlags: 0
@@ -18605,7 +15936,6 @@ GameObject:
   - component: {fileID: 5453070370695725659}
   - component: {fileID: 5453070370695725658}
   - component: {fileID: 5453070370695725657}
-  - component: {fileID: 8022255935587938446}
   m_Layer: 0
   m_Name: oakTree (43)
   m_TagString: Untagged
@@ -18685,25 +16015,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &8022255935587938446
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370695725656}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370725371616
 GameObject:
   m_ObjectHideFlags: 0
@@ -18791,7 +16105,6 @@ GameObject:
   - component: {fileID: 5453070370730144719}
   - component: {fileID: 5453070370730144718}
   - component: {fileID: 5453070370730144717}
-  - component: {fileID: 3562834342605773458}
   m_Layer: 0
   m_Name: oakTree (55)
   m_TagString: Untagged
@@ -18871,25 +16184,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &3562834342605773458
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370730144716}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370765548333
 GameObject:
   m_ObjectHideFlags: 0
@@ -18902,7 +16199,6 @@ GameObject:
   - component: {fileID: 5453070370765548336}
   - component: {fileID: 5453070370765548335}
   - component: {fileID: 5453070370765548334}
-  - component: {fileID: 829587216793562890}
   m_Layer: 0
   m_Name: birchTree (18)
   m_TagString: Untagged
@@ -18982,25 +16278,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &829587216793562890
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370765548333}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370831352470
 GameObject:
   m_ObjectHideFlags: 0
@@ -19013,7 +16293,6 @@ GameObject:
   - component: {fileID: 5453070370831352473}
   - component: {fileID: 5453070370831352472}
   - component: {fileID: 5453070370831352471}
-  - component: {fileID: 5526100601761367161}
   m_Layer: 0
   m_Name: oakTree (51)
   m_TagString: Untagged
@@ -19093,25 +16372,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &5526100601761367161
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370831352470}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370894493178
 GameObject:
   m_ObjectHideFlags: 0
@@ -19199,7 +16462,6 @@ GameObject:
   - component: {fileID: 5453070370902065097}
   - component: {fileID: 5453070370902065096}
   - component: {fileID: 5453070370902065095}
-  - component: {fileID: 6117506636783467132}
   m_Layer: 0
   m_Name: birchTree (26)
   m_TagString: Untagged
@@ -19279,25 +16541,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &6117506636783467132
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370902065094}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370954586314
 GameObject:
   m_ObjectHideFlags: 0
@@ -19310,7 +16556,6 @@ GameObject:
   - component: {fileID: 5453070370954586317}
   - component: {fileID: 5453070370954586316}
   - component: {fileID: 5453070370954586315}
-  - component: {fileID: 4234238694978323748}
   m_Layer: 0
   m_Name: oakTree (60)
   m_TagString: Untagged
@@ -19390,25 +16635,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &4234238694978323748
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370954586314}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370978886720
 GameObject:
   m_ObjectHideFlags: 0
@@ -19421,7 +16650,6 @@ GameObject:
   - component: {fileID: 5453070370978886723}
   - component: {fileID: 5453070370978886722}
   - component: {fileID: 5453070370978886721}
-  - component: {fileID: 3900435455562802448}
   m_Layer: 0
   m_Name: birchTree (32)
   m_TagString: Untagged
@@ -19501,25 +16729,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &3900435455562802448
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370978886720}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070370979933015
 GameObject:
   m_ObjectHideFlags: 0
@@ -19532,7 +16744,6 @@ GameObject:
   - component: {fileID: 5453070370979933018}
   - component: {fileID: 5453070370979933017}
   - component: {fileID: 5453070370979933016}
-  - component: {fileID: 3340627578313383437}
   m_Layer: 0
   m_Name: birchTree (35)
   m_TagString: Untagged
@@ -19612,25 +16823,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &3340627578313383437
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070370979933015}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070371038893066
 GameObject:
   m_ObjectHideFlags: 0
@@ -19643,7 +16838,6 @@ GameObject:
   - component: {fileID: 5453070371038893069}
   - component: {fileID: 5453070371038893068}
   - component: {fileID: 5453070371038893067}
-  - component: {fileID: 4927017579172074229}
   m_Layer: 0
   m_Name: birchTree (34)
   m_TagString: Untagged
@@ -19723,25 +16917,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &4927017579172074229
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070371038893066}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070371039380925
 GameObject:
   m_ObjectHideFlags: 0
@@ -19754,7 +16932,6 @@ GameObject:
   - component: {fileID: 5453070371039380864}
   - component: {fileID: 5453070371039380927}
   - component: {fileID: 5453070371039380926}
-  - component: {fileID: 8726955851629130343}
   m_Layer: 0
   m_Name: oakTree (59)
   m_TagString: Untagged
@@ -19834,25 +17011,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &8726955851629130343
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070371039380925}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070371153440062
 GameObject:
   m_ObjectHideFlags: 0
@@ -19940,7 +17101,6 @@ GameObject:
   - component: {fileID: 5453070371287845743}
   - component: {fileID: 5453070371287845742}
   - component: {fileID: 5453070371287845741}
-  - component: {fileID: 7054698383620679536}
   m_Layer: 0
   m_Name: oakTree (62)
   m_TagString: Untagged
@@ -20020,25 +17180,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &7054698383620679536
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070371287845740}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070371295655966
 GameObject:
   m_ObjectHideFlags: 0
@@ -20051,7 +17195,6 @@ GameObject:
   - component: {fileID: 5453070371295656929}
   - component: {fileID: 5453070371295656928}
   - component: {fileID: 5453070371295655967}
-  - component: {fileID: 6571550996687892511}
   m_Layer: 0
   m_Name: oakTree (49)
   m_TagString: Untagged
@@ -20131,25 +17274,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &6571550996687892511
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070371295655966}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070371306427808
 GameObject:
   m_ObjectHideFlags: 0
@@ -20162,7 +17289,6 @@ GameObject:
   - component: {fileID: 5453070371306427811}
   - component: {fileID: 5453070371306427810}
   - component: {fileID: 5453070371306427809}
-  - component: {fileID: 3067069811073163795}
   m_Layer: 0
   m_Name: oakTree (47)
   m_TagString: Untagged
@@ -20242,25 +17368,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &3067069811073163795
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070371306427808}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070371379235775
 GameObject:
   m_ObjectHideFlags: 0
@@ -20273,7 +17383,6 @@ GameObject:
   - component: {fileID: 5453070371379235714}
   - component: {fileID: 5453070371379235713}
   - component: {fileID: 5453070371379235712}
-  - component: {fileID: 8456449563259957088}
   m_Layer: 0
   m_Name: oakTree (44)
   m_TagString: Untagged
@@ -20353,25 +17462,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &8456449563259957088
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070371379235775}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070371386157379
 GameObject:
   m_ObjectHideFlags: 0
@@ -20384,7 +17477,6 @@ GameObject:
   - component: {fileID: 5453070371386157382}
   - component: {fileID: 5453070371386157381}
   - component: {fileID: 5453070371386157380}
-  - component: {fileID: 2580785023796532332}
   m_Layer: 0
   m_Name: oakTree (57)
   m_TagString: Untagged
@@ -20464,25 +17556,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &2580785023796532332
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070371386157379}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070371543464278
 GameObject:
   m_ObjectHideFlags: 0
@@ -20495,7 +17571,6 @@ GameObject:
   - component: {fileID: 5453070371543464281}
   - component: {fileID: 5453070371543464280}
   - component: {fileID: 5453070371543464279}
-  - component: {fileID: 8692061484571194348}
   m_Layer: 0
   m_Name: birchTree (30)
   m_TagString: Untagged
@@ -20575,25 +17650,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
---- !u!208 &8692061484571194348
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070371543464278}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 2.746, y: 4.664, z: 2.5860002}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.038000003, y: 4.664, z: 0.033}
-  m_TimeToStationary: 0.5
 --- !u!1 &5453070371548803203
 GameObject:
   m_ObjectHideFlags: 0
@@ -20606,7 +17665,6 @@ GameObject:
   - component: {fileID: 5453070371548803206}
   - component: {fileID: 5453070371548803205}
   - component: {fileID: 5453070371548803204}
-  - component: {fileID: 5735217361672804575}
   m_Layer: 0
   m_Name: oakTree (63)
   m_TagString: Untagged
@@ -20686,25 +17744,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: ccafc2ea8bec52841ac2b9fd34238310, type: 3}
---- !u!208 &5735217361672804575
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5453070371548803203}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 6.4160004, y: 6.5940003, z: 7.484}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.105000004, y: 6.5930004, z: -0.79}
-  m_TimeToStationary: 0.5
 --- !u!1001 &2972921886326329402
 PrefabInstance:
   m_ObjectHideFlags: 0

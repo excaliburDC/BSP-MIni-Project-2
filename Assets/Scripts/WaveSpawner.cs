@@ -13,9 +13,10 @@ public class WaveSpawner : SingletonManager<WaveSpawner>
 {
     public List<Wave> waves; 
     public List<Transform> spawnPoints;
-    public float timeBetweenEnemies = 6f;
+   
+    public float timeBetweenEnemies = 2f;
 
-    [HideInInspector]public int spawnPointIndex;
+    
 
     private int totalEnemiesInCurrentWave;
     private int enemiesInWaveLeft;
@@ -27,8 +28,14 @@ public class WaveSpawner : SingletonManager<WaveSpawner>
     {
         currentWave = -1; 
         totalWaves = waves.Count - 1; 
+        
+    }
+
+    private void Update()
+    {
         StartNextWave();
     }
+
     void StartNextWave()
     {
         currentWave++;
@@ -50,11 +57,12 @@ public class WaveSpawner : SingletonManager<WaveSpawner>
         {
             spawnedEnemies++;
             enemiesInWaveLeft++;
-            spawnPointIndex = Random.Range(0, spawnPoints.Count);
+            int spawnPointIndex = Random.Range(0, spawnPoints.Count);
 
-           
-            Instantiate(enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
-           
+
+            GameObject gObj = Instantiate(enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+            gObj.GetComponent<EnemyMovement>().randomSpawnPos = spawnPointIndex;
+            
             yield return new WaitForSeconds(timeBetweenEnemies);
         }
         yield return null;

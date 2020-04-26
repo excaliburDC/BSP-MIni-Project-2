@@ -1,23 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
+
 
 public class EnemyMovement : MonoBehaviour
 {
     public Enemy enemy;
 
-    private NavMeshAgent agent;
+   
     private Animator enemyAnim;
 
-    [HideInInspector] public int nextLeftWayPoint;
-    [HideInInspector] public int nextRightWayPoint;
-    [HideInInspector] public int nextFrontWayPoint;
+    public int nextLeftWayPoint;
+    public int nextRightWayPoint;
+    public int nextFrontWayPoint;
+    [HideInInspector] public int randomSpawnPos;
 
 
     private void Awake()
     {
-        agent = GetComponent<NavMeshAgent>();
         enemyAnim = GetComponent<Animator>();
 
     }
@@ -25,8 +25,7 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        agent.enabled = true;
+       
     }
 
     // Update is called once per frame
@@ -38,57 +37,91 @@ public class EnemyMovement : MonoBehaviour
         else
             return;
 
+ 
+
     }
 
-    void EnemyAttackDirection()
+    public void EnemyAttackDirection()
     {
-        if (WaveSpawner.Instance.spawnPointIndex == 0)
+
+        if (randomSpawnPos == 0)
             EnemyComesFromLeft();
-        else if (WaveSpawner.Instance.spawnPointIndex == 1)
+        if (randomSpawnPos == 1)
             EnemyComesFromFront();
-        else if (WaveSpawner.Instance.spawnPointIndex == 2)
+        if (randomSpawnPos == 2)
             EnemyComesFromRight();
-        else
-            return;
+       
     }
 
     void EnemyComesFromLeft()
     {
-        agent.destination = EnemyController.Instance.leftWayPointsList[nextLeftWayPoint].position;
-        agent.speed = enemy.moveSpeed;
-        enemyAnim.SetBool("IsMoving", true);
-        agent.isStopped = false;
+        Transform leftDest = EnemyController.Instance.leftWayPointsList[nextLeftWayPoint];
 
-        if (agent.remainingDistance <= agent.stoppingDistance && !agent.pathPending)
+        Vector3 dir = leftDest.position - transform.position;
+        transform.Translate(dir.normalized * enemy.moveSpeed * Time.deltaTime, Space.World);
+        enemyAnim.SetBool("IsMoving", true);
+
+        if (Vector3.Distance(transform.position, leftDest.position) <= 1f)
         {
-            nextLeftWayPoint = (nextLeftWayPoint + 1);
+            if (nextLeftWayPoint >= EnemyController.Instance.leftWayPointsList.Count - 1)
+            {
+                StartEnemyAttack();
+                return;
+            }
+
+            nextLeftWayPoint++;
+            
         }
+
+
+        
     }
 
     void EnemyComesFromRight()
     {
-        agent.destination = EnemyController.Instance.rightWayPointsList[nextRightWayPoint].position;
-        agent.speed = enemy.moveSpeed;
-        enemyAnim.SetBool("IsMoving", true);
-        agent.isStopped = false;
 
-        if (agent.remainingDistance <= agent.stoppingDistance && !agent.pathPending)
+       Transform rightDest = EnemyController.Instance.rightWayPointsList[nextRightWayPoint];
+
+        Vector3 dir = rightDest.position - transform.position;
+        transform.Translate(dir.normalized * enemy.moveSpeed * Time.deltaTime, Space.World);
+        enemyAnim.SetBool("IsMoving", true);
+
+        if (Vector3.Distance(transform.position, rightDest.position) <= 1f)
         {
-            nextRightWayPoint = (nextRightWayPoint + 1);
+            if (nextRightWayPoint >= EnemyController.Instance.rightWayPointsList.Count - 1)
+            {
+                StartEnemyAttack();
+                return;
+            }
+
+            nextRightWayPoint++;
         }
     }
 
     void EnemyComesFromFront()
     {
-        agent.destination = EnemyController.Instance.frontWayPointsList[nextFrontWayPoint].position;
-        agent.speed = enemy.moveSpeed;
-        enemyAnim.SetBool("IsMoving", true);
-        agent.isStopped = false;
+        Transform frontDest = EnemyController.Instance.frontWayPointsList[nextFrontWayPoint];
 
-        if (agent.remainingDistance <= agent.stoppingDistance && !agent.pathPending)
+        Vector3 dir = frontDest.position - transform.position;
+        transform.Translate(dir.normalized * enemy.moveSpeed * Time.deltaTime, Space.World);
+        enemyAnim.SetBool("IsMoving", true);
+
+        if (Vector3.Distance(transform.position, frontDest.position) <= 1f)
         {
-            nextFrontWayPoint = (nextFrontWayPoint + 1);
+            if (nextFrontWayPoint >= EnemyController.Instance.frontWayPointsList.Count - 1)
+            {
+                StartEnemyAttack();
+                return;
+            }
+
+            nextFrontWayPoint++;
         }
+    }
+
+    void StartEnemyAttack()
+    {
+        enemyAnim.SetBool("IsMoving", false);
+        enemyAnim.SetTrigger("Attack");
     }
 
 

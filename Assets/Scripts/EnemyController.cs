@@ -12,7 +12,9 @@ public class EnemyController : SingletonManager<EnemyController>
     public List<Transform> frontWayPointsList;
     public List<Transform> spawnPoints;
 
-    [HideInInspector] public int randomSpawnPos;
+    
+   
+
     public float spawnRate = 2f;
 
     private bool enemyActive;
