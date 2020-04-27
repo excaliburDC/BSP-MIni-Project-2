@@ -122,6 +122,8 @@ public class EnemyMovement : MonoBehaviour
     {
         enemyAnim.SetBool("IsMoving", false);
         enemyAnim.SetTrigger("Attack");
+        Destroy(this.gameObject);
+        WaveSpawner.enemiesInWaveLeft--;
     }
 
 

@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: StoneMonster
   m_EditorClassIdentifier: 
   enemyName: StoneMonster
-  moveSpeed: 100
+  moveSpeed: 60
   health: 20
   attackPower: 5
   attackRate: 1
   attackRange: 0
   selfDamagePower: 10
-  enemyType: 0

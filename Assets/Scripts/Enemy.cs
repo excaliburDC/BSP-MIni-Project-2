@@ -5,12 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName ="AI/Create Enemy")]
 public class Enemy : ScriptableObject
 {
-    public enum EnemyType
-    {
-        SMALL,
-        MEDIUM,
-        BIG
-    }
+    
     public string enemyName;
     public float moveSpeed;
     public float health;
@@ -18,5 +13,5 @@ public class Enemy : ScriptableObject
     public float attackRate;
     public float attackRange;
     public float selfDamagePower;
-    public EnemyType enemyType = EnemyType.SMALL;
+    
 }

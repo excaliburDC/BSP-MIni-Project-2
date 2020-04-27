@@ -1233,3 +1233,4 @@ MonoBehaviour:
   nextLeftWayPoint: 0
   nextRightWayPoint: 0
   nextFrontWayPoint: 0
+  randomSpawnPos: 0

@@ -3,80 +3,102 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[System.Serializable]
-public class Wave
+
+public class WaveSpawner : MonoBehaviour
 {
-    public int EnemiesPerWave;
-    public GameObject enemyPrefab;
-}
-public class WaveSpawner : SingletonManager<WaveSpawner>
-{
+   
+
     public List<Wave> waves; 
     public List<Transform> spawnPoints;
+    public float timeBetweenWaves = 5f;
+    public static int enemiesInWaveLeft;
+    public int spawnedEnemies;
+    public bool isWaveFinished;
+
    
-    public float timeBetweenEnemies = 2f;
-
+    public float waveCountdown;
+    public int totalEnemiesInCurrentWave;
     
-
-    private int totalEnemiesInCurrentWave;
-    private int enemiesInWaveLeft;
-    private int spawnedEnemies;
     private int currentWave;
     private int totalWaves;
+    
 
     void Start()
     {
-        currentWave = -1; 
-        totalWaves = waves.Count - 1; 
+        waveCountdown = timeBetweenWaves;
+        currentWave = 0; 
+        totalWaves = waves.Count - 1;
+        
         
     }
 
     private void Update()
     {
-        StartNextWave();
+        if(WaveDefeated())
+            StartNextWave();
+
+       
+        
     }
 
     void StartNextWave()
     {
-        currentWave++;
-        
+       
         if (currentWave > totalWaves)
         {
+            currentWave = 0;
+            //Debug.Log("Level Complete");
             return;
         }
-        totalEnemiesInCurrentWave = waves[currentWave].EnemiesPerWave;
-        enemiesInWaveLeft = 0;
-        spawnedEnemies = 0;
-        StartCoroutine(SpawnEnemies());
+
+        waveCountdown -= Time.deltaTime;
+        Debug.Log("Time Left for Next Wave: " + waveCountdown);
+
+        if(waveCountdown<=0)
+        {
+            totalEnemiesInCurrentWave = waves[currentWave].enemiesPerWave;
+            enemiesInWaveLeft = 0;
+            spawnedEnemies = 0;
+
+            StartCoroutine(SpawnEnemies(waves[currentWave]));
+            waveCountdown = timeBetweenWaves;
+        }
+        
     }
     
-    IEnumerator SpawnEnemies()
+    IEnumerator SpawnEnemies(Wave enemyWave)
     {
-        GameObject enemy = waves[currentWave].enemyPrefab;
+        
         while (spawnedEnemies < totalEnemiesInCurrentWave)
         {
+            int randomEnemyIndex = Random.Range(0, enemyWave.enemyPrefab.Count);
             spawnedEnemies++;
             enemiesInWaveLeft++;
             int spawnPointIndex = Random.Range(0, spawnPoints.Count);
 
 
-            GameObject gObj = Instantiate(enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+            GameObject gObj = Instantiate(enemyWave.enemyPrefab[randomEnemyIndex], spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
             gObj.GetComponent<EnemyMovement>().randomSpawnPos = spawnPointIndex;
             
-            yield return new WaitForSeconds(timeBetweenEnemies);
+            yield return new WaitForSeconds(enemyWave.timeBetweenEnemies);
         }
         yield return null;
     }
 
     // called by an enemy when they're defeated
-    public void EnemyDefeated()
+    private bool WaveDefeated()
     {
-        enemiesInWaveLeft--;
-
         // We start the next wave once we have spawned and defeated them all
         if (enemiesInWaveLeft == 0 && spawnedEnemies == totalEnemiesInCurrentWave)
         {
-            StartNextWave();
+            
+            currentWave++;
+           
+            return true;
+          
         }
+
+        return false;
+     
     }
 }
