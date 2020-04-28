@@ -7,6 +7,9 @@ TagManager:
   - MainTower
   - DefenseTower
   - Enemy
+  - Map1
+  - Map2
+  - Update5
   layers:
   - Default
   - TransparentFX

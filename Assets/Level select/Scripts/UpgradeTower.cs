@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UpgradeTower : MonoBehaviour
 {
-
+    public GameObject heart;
     public GameObject forestTower;
     public GameObject bowTower;
     public GameObject magicalTower;
@@ -13,6 +13,7 @@ public class UpgradeTower : MonoBehaviour
     public GameObject bowTowerPanel;
     public GameObject magicalTowerPanel;
     public GameObject cannonTowerPanel;
+    public GameObject heartPanel;
     private Vector3 characterPos;
     private Vector3 outsidePos;
     private Vector3 characterPosPanel;
@@ -35,19 +36,23 @@ public class UpgradeTower : MonoBehaviour
         switch (characterSelect)
         {
             case 1:
-                ObjectOnOff(forestTower,forestTowerPanel,bowTower,bowTowerPanel);
+                ObjectOnOff(forestTower, forestTowerPanel, bowTower, bowTowerPanel);
                 characterSelect++;
                 break;
             case 2:
-                ObjectOnOff(bowTower,bowTowerPanel,magicalTower,magicalTowerPanel);
+                ObjectOnOff(bowTower, bowTowerPanel, magicalTower, magicalTowerPanel);
                 characterSelect++;
                 break;
             case 3:
-                ObjectOnOff(magicalTower,magicalTowerPanel,cannonTower,cannonTowerPanel);
+                ObjectOnOff(magicalTower, magicalTowerPanel, cannonTower, cannonTowerPanel);
                 characterSelect++;
                 break;
             case 4:
-                ObjectOnOff(cannonTower,cannonTowerPanel,forestTower,forestTowerPanel);
+                ObjectOnOff(cannonTower, cannonTowerPanel, heart, heartPanel);
+                characterSelect++;
+                break;
+            case 5:
+                ObjectOnOff(heart, heartPanel, forestTower, forestTowerPanel);
                 characterSelect++;
                 ResetBtn();
                 break;
@@ -61,20 +66,24 @@ public class UpgradeTower : MonoBehaviour
         switch (characterSelect)
         {
             case 1:
-                ObjectOnOff(forestTower,forestTowerPanel,cannonTower,cannonTowerPanel);
+                ObjectOnOff(forestTower, forestTowerPanel, heart, heartPanel);
                 characterSelect--;
                 ResetBtn();
                 break;
             case 2:
-                ObjectOnOff(bowTower,bowTowerPanel,forestTower,forestTowerPanel);
+                ObjectOnOff(bowTower, bowTowerPanel, forestTower, forestTowerPanel);
                 characterSelect--;
                 break;
             case 3:
-                ObjectOnOff(magicalTower,magicalTowerPanel,bowTower,bowTowerPanel);
+                ObjectOnOff(magicalTower, magicalTowerPanel, bowTower, bowTowerPanel);
                 characterSelect--;
                 break;
             case 4:
-                ObjectOnOff(cannonTower, cannonTowerPanel, magicalTower,magicalTowerPanel);
+                ObjectOnOff(cannonTower, cannonTowerPanel, magicalTower, magicalTowerPanel);
+                characterSelect--;
+                break;
+            case 5:
+                ObjectOnOff(heart, heartPanel, cannonTower, cannonTowerPanel);
                 characterSelect--;
                 break;
             default:
@@ -84,22 +93,24 @@ public class UpgradeTower : MonoBehaviour
     }
     private void ResetBtn()
     {
-        if(characterSelect >=4)
+        if (characterSelect >= 5)
         {
             characterSelect = 1;
-        }else
-        {
-            characterSelect = 4;
         }
-        
+        else
+        {
+            characterSelect = 5;
+        }
+
     }
-    public void ObjectOnOff(GameObject objectname1, GameObject objectname2,GameObject objectname3,GameObject objectname4)
+    public void ObjectOnOff(GameObject objectname1, GameObject objectname2, GameObject objectname3, GameObject objectname4)
     {
         objectname1.SetActive(false);
         objectname2.SetActive(false);
         objectname1.transform.position = outsidePos;
         objectname2.transform.position = outsidePosPanel;
-        objectname3.transform.position = characterPos;       
+
+        objectname3.transform.position = characterPos;
         objectname4.transform.position = characterPosPanel;
         objectname3.SetActive(true);
         objectname4.SetActive(true);
