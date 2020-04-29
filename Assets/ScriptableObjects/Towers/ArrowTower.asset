@@ -9,15 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85745b9046dabb34f8162f5f6173448d, type: 3}
-  m_Name: Kumata
+  m_Script: {fileID: 11500000, guid: 7d856400d1193f84ca14389d1d9cee49, type: 3}
+  m_Name: ArrowTower
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 0}
-  moveSpeed: 1
-  health: 100
-  attackPower: 25
-  attackRate: 3
-  attackRange: 2
-  selfDamagePower: 20
-  enemyAnim: {fileID: 0}
-  enemyType: 2
+  towerName: Arrow
+  towerRange: 400
+  rotateSpeed: 10
+  attackPower: 10
+  attackRate: 1

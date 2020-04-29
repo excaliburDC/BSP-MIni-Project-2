@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85745b9046dabb34f8162f5f6173448d, type: 3}
-  m_Name: Dragon
+  m_Name: Goblin
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 0}
-  moveSpeed: 1
-  health: 100
-  attackPower: 25
-  attackRate: 3
-  attackRange: 2
-  selfDamagePower: 25
-  enemyAnim: {fileID: 0}
-  enemyType: 2
+  enemyName: 
+  moveSpeed: 3
+  health: 50
+  attackPower: 10
+  attackRate: 2
+  attackRange: 3
+  selfDamagePower: 15

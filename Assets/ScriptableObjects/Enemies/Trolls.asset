@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85745b9046dabb34f8162f5f6173448d, type: 3}
-  m_Name: Goblin
+  m_Name: Trolls
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 0}
-  moveSpeed: 3
-  health: 45
+  enemyName: 
+  moveSpeed: 2
+  health: 50
   attackPower: 10
-  attackRate: 2
-  attackRange: 3
+  attackRate: 0
+  attackRange: 0
   selfDamagePower: 15
-  enemyAnim: {fileID: 0}
-  enemyType: 1
