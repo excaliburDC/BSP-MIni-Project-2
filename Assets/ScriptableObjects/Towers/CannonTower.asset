@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d856400d1193f84ca14389d1d9cee49, type: 3}
   m_Name: CannonTower
   m_EditorClassIdentifier: 
-  towerName: Cannon
+  weaponName: CannonBall
   towerRange: 300
   rotateSpeed: 10
   attackPower: 45
-  attackRate: 0
+  attackRate: 2

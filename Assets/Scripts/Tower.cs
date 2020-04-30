@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName ="Player/ Create Tower")]
 public class Tower : ScriptableObject
 {
-    public string towerName;
+    public string weaponName;
     public float towerRange;
     public float rotateSpeed;
     public float attackPower;
