@@ -59,7 +59,7 @@ public class TowerShooter : MonoBehaviour
         if (shootCountdown <= 0f)
         {
             Shoot();
-            shootCountdown = 1f / tower.attackRate;
+            shootCountdown = tower.attackRate;
         }
 
         shootCountdown -= Time.deltaTime;
@@ -76,7 +76,13 @@ public class TowerShooter : MonoBehaviour
 
     void Shoot()
     {
-        PoolManager.Instance.SpawnInWorld(tower.weaponName, weaponSpawnPoint.position, weaponSpawnPoint.rotation);
+        GameObject gObj=PoolManager.Instance.SpawnInWorld(tower.weaponName, weaponSpawnPoint.position, weaponSpawnPoint.rotation);
+
+        Shoot s = gObj.GetComponent<Shoot>();
+
+        if (s != null)
+            s.FindTarget(target);
+
     }
 
     private void OnDrawGizmosSelected()

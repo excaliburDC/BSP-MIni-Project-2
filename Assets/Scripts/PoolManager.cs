@@ -14,11 +14,7 @@ public class PoolManager : SingletonManager<PoolManager>
 {
     public List<PoolObj> pools;
     public Dictionary<string, Queue<GameObject>> poolDictionary;
-    public IPooledObject pooledObject;
-
-
-
-
+  
     private void Start()
     {
         poolDictionary = new Dictionary<string, Queue<GameObject>>();
@@ -54,14 +50,6 @@ public class PoolManager : SingletonManager<PoolManager>
         objectToSpawn.SetActive(true);
         objectToSpawn.transform.position = position;
         objectToSpawn.transform.rotation = rotation;
-
-
-        
-
-        if (pooledObject != null)
-        {
-            pooledObject.OnObjectSpawner();
-        }
 
 
         poolDictionary[tag].Enqueue(objectToSpawn);
