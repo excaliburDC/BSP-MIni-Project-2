@@ -8,6 +8,7 @@ public class TowerShooter : MonoBehaviour
     public Transform target;
     public Transform towerHead;
     public Transform weaponSpawnPoint;
+    public ParticleSystem shootEffect;
     public string enemyTag = "Enemy";
 
     private float shootCountdown = 0f;
@@ -76,7 +77,9 @@ public class TowerShooter : MonoBehaviour
 
     void Shoot()
     {
-        GameObject gObj=PoolManager.Instance.SpawnInWorld(tower.weaponName, weaponSpawnPoint.position, weaponSpawnPoint.rotation);
+        ShootEffect();
+
+        GameObject gObj =PoolManager.Instance.SpawnInWorld(tower.weaponName, weaponSpawnPoint.position, weaponSpawnPoint.rotation);
 
         Shoot s = gObj.GetComponent<Shoot>();
 
@@ -89,5 +92,15 @@ public class TowerShooter : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, tower.towerRange);
+    }
+
+    void ShootEffect()
+    {
+        if (shootEffect == null)
+        {
+            Debug.Log("This weapon does not require a shoot effect");
+            return;
+        }
+        shootEffect.Play();
     }
 }

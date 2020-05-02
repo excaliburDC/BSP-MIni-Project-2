@@ -5,6 +5,8 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     public float speed = 70f;
+   
+
     private Transform target;
 
     
@@ -33,8 +35,8 @@ public class Shoot : MonoBehaviour
         if (dir.magnitude <= distanceThisFrame)
         {
             Debug.Log("Target Hit");
+           // HitEffect();
             gameObject.SetActive(false);
-            //HitTarget();
             return;
         }
 
@@ -42,9 +44,18 @@ public class Shoot : MonoBehaviour
         transform.LookAt(target);
     }
 
-    void HitEffect()
-    {
+    //void HitEffect()
+    //{
+    //    if (hitEffect == null)
+    //    {
+    //        Debug.Log("This weapon does not require a hit effect");
+    //        return;
+    //    }
 
-    }
+    //    hitEffect.Play();
+
+      
+
+    //}
 
 }

@@ -20,7 +20,6 @@ public class EnemyController : SingletonManager<EnemyController>
 
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
     }
 
     private void Start()
@@ -29,36 +28,8 @@ public class EnemyController : SingletonManager<EnemyController>
         
     }
 
-    private void Update()
-    {
-        //timeSinceLastSpawned += Time.deltaTime;
-        //if(timeSinceLastSpawned>=spawnRate)
-        //{
-        //    EnemySpawn();
-        //    timeSinceLastSpawned = 0f;
-        //}
-        //if (!enemyActive)
-        // return;
-        //EnemyAttackDirection();
-    }
+   
 
- 
-
- 
-
-
-
-    //void EnemyAttackDirection()
-    //{
-    //    if (GameController.Instance.randomSpawnPos == 0)
-    //        EnemyComesFromLeft();
-
-    //    else if (GameController.Instance.randomSpawnPos == 1)
-    //        EnemyComesFromFront();
-
-    //    else
-    //        EnemyComesFromRight();
-    //}
 
 
 
