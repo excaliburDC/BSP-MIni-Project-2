@@ -5,19 +5,11 @@ using UnityEngine;
 public class GameController : SingletonManager<GameController>
 {
 
-    
 
-    
 
-    private void Start()
-    {
-        
-    }
 
-    private void Update()
-    {
-        
-    }
+
+
 
 
 
