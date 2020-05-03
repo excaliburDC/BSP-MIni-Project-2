@@ -5,11 +5,14 @@ using UnityEngine;
 public class BuildManager : MonoBehaviour
 {
     public List<GameObject> placeableTowers;
+    public LayerMask mask;
+    public float towerRotateSpeed = 10f;
 
     private GameObject currentPlaceableTower;
-    private float mouseWheelRotation;
+   // private float mouseWheelRotation;
     private float rotateSpeed;
     public bool hasPlaced;
+    private float LastPosX, LastPosY, LastPosZ;
 
 
 
@@ -21,7 +24,7 @@ public class BuildManager : MonoBehaviour
         if (currentPlaceableTower != null && !hasPlaced)
         {
             MoveTowerPosition();
-            //RotateTowerFromMouseWheel();
+            RotateTowerFromMouseWheel();
             ReleaseIfClicked();
         }
 
@@ -53,13 +56,25 @@ public class BuildManager : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
         RaycastHit hitInfo;
-        if (Physics.Raycast(ray, out hitInfo,Mathf.Infinity))
+        if (Physics.Raycast(ray, out hitInfo, Mathf.Infinity, mask))
         {
-            
-            currentPlaceableTower.transform.position = hitInfo.point; ;
-            //currentPlaceableTower.transform.rotation = Quaternion.FromToRotation(Vector3.up, hitInfo.normal);
-        }
 
+            float PosX = hitInfo.point.x;
+            float PosY = hitInfo.point.y;
+            float PosZ = hitInfo.point.z;
+
+            if (PosX != LastPosX || PosY != LastPosY || PosZ != LastPosZ)
+            {
+                LastPosX = PosX;
+                LastPosY = PosY;
+                LastPosZ = PosZ;
+                currentPlaceableTower.transform.position = new Vector3(LastPosX, LastPosY + .5f, LastPosZ);
+
+
+            }
+
+          
+        }
         //Vector3 m = Input.mousePosition;
         //m = new Vector3(m.x, 0,m.z);
         //Vector3 p = Camera.main.ScreenToWorldPoint(m);
@@ -73,8 +88,20 @@ public class BuildManager : MonoBehaviour
     void RotateTowerFromMouseWheel()
     {
         Debug.Log(Input.mouseScrollDelta);
-        mouseWheelRotation += Input.mouseScrollDelta.y;
-        currentPlaceableTower.transform.Rotate(Vector3.up, mouseWheelRotation * 10f);
+        if(Input.GetKey(KeyCode.Q))
+        {
+            // Rotate Anti-Clockwise
+           
+            currentPlaceableTower.transform.Rotate(-Vector3.up, towerRotateSpeed * Time.deltaTime);
+        }
+        else if(Input.GetKey(KeyCode.E))
+        {
+            // Rotate Clockwise
+          
+            currentPlaceableTower.transform.Rotate(Vector3.up, towerRotateSpeed * Time.deltaTime);
+        }
+
+        
     }
 
     private void ReleaseIfClicked()

@@ -10,6 +10,7 @@ TagManager:
   - Map1
   - Map2
   - Update5
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - 
   - 
   - LP_Fire
-  - 
+  - Ground
   - 
   - 
   - 

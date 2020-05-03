@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 196578142}
   - component: {fileID: 196578141}
   - component: {fileID: 196578140}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,6 +329,10 @@ MonoBehaviour:
   placeableTowers:
   - {fileID: 1740536072676532157, guid: e54013de867ff534e94aa27fe1d784b8, type: 3}
   - {fileID: 165880, guid: f4f6b630159e6b34386dec2579f250b2, type: 3}
+  mask:
+    serializedVersion: 2
+    m_Bits: 512
+  towerRotateSpeed: 50
   hasPlaced: 0
 --- !u!114 &894020263
 MonoBehaviour:
