@@ -11,6 +11,8 @@ TagManager:
   - Map2
   - Update5
   - FxTemporaire
+  - Trees
+  - Brazier
   layers:
   - Default
   - TransparentFX

@@ -7,11 +7,10 @@ public class BuildManager : MonoBehaviour
     public List<GameObject> placeableTowers;
     public LayerMask mask;
     public float towerRotateSpeed = 10f;
+    public bool hasPlaced;
 
     private GameObject currentPlaceableTower;
-   // private float mouseWheelRotation;
-    private float rotateSpeed;
-    public bool hasPlaced;
+    private PlaceableTower placeableTower;
     private float LastPosX, LastPosY, LastPosZ;
 
 
@@ -48,7 +47,23 @@ public class BuildManager : MonoBehaviour
         Debug.Log(gObj.name);
         hasPlaced = false;
         currentPlaceableTower = Instantiate(gObj);
+        placeableTower = currentPlaceableTower.GetComponent<PlaceableTower>();
         
+    }
+
+    private bool isValidPosition()
+    {
+        if(placeableTower.colliders.Count>0)
+        {
+            return false;
+        }
+
+        for (int i = 0; i < placeableTower.matRenderer.Length; i++)
+        {
+            placeableTower.matRenderer[i].material.color = Color.green;
+        }
+
+        return true;
     }
 
     void MoveTowerPosition()
@@ -69,11 +84,13 @@ public class BuildManager : MonoBehaviour
                 LastPosY = PosY;
                 LastPosZ = PosZ;
                 currentPlaceableTower.transform.position = new Vector3(LastPosX, LastPosY + .5f, LastPosZ);
-
+               
 
             }
 
-          
+           
+
+
         }
         //Vector3 m = Input.mousePosition;
         //m = new Vector3(m.x, 0,m.z);
@@ -106,10 +123,32 @@ public class BuildManager : MonoBehaviour
 
     private void ReleaseIfClicked()
     {
+        if(!isValidPosition())
+        {
+            for (int i = 0; i < placeableTower.matRenderer.Length; i++)
+            {
+                placeableTower.matRenderer[i].material.color = Color.red;
+            }
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
-            hasPlaced = true;
-            currentPlaceableTower = null;
+            if(isValidPosition())
+            {
+                hasPlaced = true;
+                currentPlaceableTower = null;
+
+                for (int i = 0; i < placeableTower.matRenderer.Length; i++)
+                {
+                    placeableTower.matRenderer[i].material.color = Color.white;
+                }
+            }
+
+           
+
+
         }
     }
+
+    
 }

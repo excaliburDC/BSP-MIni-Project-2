@@ -517,12 +517,6 @@ MonoBehaviour:
   - {fileID: 570011583}
   - {fileID: 863431294}
   rightWayPointsList:
-  - {fileID: 49217894}
-  - {fileID: 2049400252}
-  - {fileID: 1681042894}
-  - {fileID: 480419787}
-  - {fileID: 945068689}
-  frontWayPointsList:
   - {fileID: 43322550}
   - {fileID: 2076545429}
   - {fileID: 1417078434}
@@ -531,6 +525,12 @@ MonoBehaviour:
   - {fileID: 2017023247}
   - {fileID: 221726007}
   - {fileID: 368796}
+  frontWayPointsList:
+  - {fileID: 49217894}
+  - {fileID: 2049400252}
+  - {fileID: 1681042894}
+  - {fileID: 480419787}
+  - {fileID: 945068689}
 --- !u!4 &758320947
 Transform:
   m_ObjectHideFlags: 0
@@ -591,10 +591,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e600659cc18a15f4fa717aef84ec2838, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wayPoints: []
-  leftWaypoints: []
-  frontWaypoints: []
-  rightWaypoints: []
 --- !u!1 &768106257
 GameObject:
   m_ObjectHideFlags: 0
