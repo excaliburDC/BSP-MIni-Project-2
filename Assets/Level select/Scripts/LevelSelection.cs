@@ -62,7 +62,8 @@ public class LevelSelection : MonoBehaviour
     {
         if(unlocked)
         {
-            SceneManager.LoadScene(_LevelName);
+            SceneManager.LoadSceneAsync(_LevelName);
+            //SceneManager.LoadScene(_LevelName);
         }
     }
     

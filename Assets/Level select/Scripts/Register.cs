@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class Register : MonoBehaviour
 {
+    public PlayerPrefsInitalize playerInit;
     public GameObject LoginPanel;
     public GameObject RegisterPanel;
     
@@ -35,6 +36,7 @@ public class Register : MonoBehaviour
 
     void Start()
     {
+        playerInit = GetComponent<PlayerPrefsInitalize>();
         RegisterPanel.SetActive(true);
         LoginPanel.SetActive(true);
     }
@@ -150,7 +152,7 @@ public class Register : MonoBehaviour
                 password.GetComponent<InputField>().text = "";
                 confirmPassword.GetComponent<InputField>().text = "";
                 Debug.Log("Registeration completed");
-
+                playerInit.InitializeValue(UserName, Password);
                 RegisterPanel.SetActive(false);
                 LoginPanel.SetActive(true);
             }
@@ -185,6 +187,9 @@ public class Register : MonoBehaviour
             EmailValid = false;
         }
     }
+
+    
+
     // Update is called once per frame
     void Update()
     {
@@ -218,4 +223,5 @@ public class Register : MonoBehaviour
         ConfirmPassword = confirmPassword.GetComponent<InputField>().text;
 
     }
+
 }

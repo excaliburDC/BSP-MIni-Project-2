@@ -17,7 +17,8 @@ public class SingleLevel : MonoBehaviour
     //Back to the level selection scene
     public void BackButton()
     {
-        SceneManager.LoadScene("Level Selection");
+        SceneManager.LoadSceneAsync("Level Selection");
+        //SceneManager.LoadScene("Level Selection");
     }
 
     //to get the number of star in the paricular level

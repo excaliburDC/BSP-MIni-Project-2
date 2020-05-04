@@ -83,7 +83,8 @@ public class UIManager : MonoBehaviour
     }
     public void TowerUpgrade()
     {
-        SceneManager.LoadScene("Inventory");
+        SceneManager.LoadSceneAsync("Inventory");
+        //SceneManager.LoadScene("Inventory");
     }
    
 }

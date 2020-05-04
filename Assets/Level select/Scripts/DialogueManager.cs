@@ -57,7 +57,8 @@ public class DialogueManager : MonoBehaviour
     {
         Anim.SetBool("IsOpen", false);
         Debug.Log("End of dialogue");
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadSceneAsync("MainMenu");
+        //SceneManager.LoadScene("MainMenu");
         
     }
     public void skipStory()
