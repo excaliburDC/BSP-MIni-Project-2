@@ -5,7 +5,7 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     public float speed = 70f;
-   
+    public Tower weaponTower;
 
     private Transform target;
 
@@ -44,6 +44,7 @@ public class Shoot : MonoBehaviour
         transform.LookAt(target);
     }
 
+    
     //void HitEffect()
     //{
     //    if (hitEffect == null)
@@ -54,7 +55,7 @@ public class Shoot : MonoBehaviour
 
     //    hitEffect.Play();
 
-      
+
 
     //}
 

@@ -1001,7 +1001,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7978624207812061649}
   - component: {fileID: 7978624207798892725}
-  - component: {fileID: 1030194374898821995}
   m_Layer: 0
   m_Name: Spider_Fuga_Blue_Green
   m_TagString: Untagged
@@ -1105,19 +1104,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0023155212, y: -0.50467485, z: 0.9505632}
     m_Extent: {x: 2.62731, y: 1.6139781, z: 1.7910836}
   m_DirtyAABB: 0
---- !u!65 &1030194374898821995
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7978624207812556273}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.3637981, y: 0.7772174, z: 2.7989178}
-  m_Center: {x: -0.19667386, y: 1.1645377, z: -0.012000784}
 --- !u!1 &7978624207812556277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,6 +1147,7 @@ GameObject:
   - component: {fileID: 7978624207803025015}
   - component: {fileID: 52657568567217627}
   - component: {fileID: 5350236594888341781}
+  - component: {fileID: 7442905776366341525}
   m_Layer: 0
   m_Name: Spider_Fuga_Blue_Green
   m_TagString: Enemy
@@ -1231,10 +1218,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 11400000, guid: 110d642b228e5494a8642db4893e5f70, type: 2}
+  enemyHealthBar: {fileID: 3090216860356387592}
   nextLeftWayPoint: 0
   nextRightWayPoint: 0
   nextFrontWayPoint: 0
   randomSpawnPos: 0
+--- !u!65 &7442905776366341525
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7978624207812556279}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.2188063, y: 1.2686527, z: 1.8922231}
+  m_Center: {x: 0.13473473, y: 1.1401577, z: 0.44611087}
 --- !u!1 &8220466069604173648
 GameObject:
   m_ObjectHideFlags: 0
@@ -1318,8 +1319,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8220466069702866208}
   - component: {fileID: 8220466069702866209}
+  - component: {fileID: 3090216860356387592}
   m_Layer: 5
-  m_Name: HealthImage
+  m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1396,6 +1398,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3090216860356387592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8220466069702866211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e131af06e495c6488ca24f16db0dfea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 8220466069702866209}
 --- !u!1 &8220466070478941846
 GameObject:
   m_ObjectHideFlags: 0

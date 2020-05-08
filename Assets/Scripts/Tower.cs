@@ -8,6 +8,6 @@ public class Tower : ScriptableObject
     public string weaponName;
     public float towerRange;
     public float rotateSpeed;
-    public float attackPower;
+    public int attackPower;
     public float attackRate;
 }

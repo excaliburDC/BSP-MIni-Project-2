@@ -15,5 +15,5 @@ MonoBehaviour:
   weaponName: CannonBall
   towerRange: 300
   rotateSpeed: 10
-  attackPower: 45
+  attackPower: 25
   attackRate: 2

@@ -41,7 +41,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4244191954350522}
   - component: {fileID: 137944918822585846}
-  - component: {fileID: 3606132108585500676}
   m_Layer: 0
   m_Name: StoneMonster
   m_TagString: Untagged
@@ -120,19 +119,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.054999024, y: -0.15129942, z: 0.000000029802322}
     m_Extent: {x: 0.651101, y: 0.6444122, z: 0.4401703}
   m_DirtyAABB: 0
---- !u!135 &3606132108585500676
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1215002072254110}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5089372
-  m_Center: {x: 0, y: -0.020942144, z: 0.51710176}
 --- !u!1 &1350766882590570
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,6 +224,7 @@ GameObject:
   - component: {fileID: 5600249815534453998}
   - component: {fileID: -4630050473644601683}
   - component: {fileID: -5064206680714102190}
+  - component: {fileID: 3196358404227495102}
   m_Layer: 0
   m_Name: StoneMonster
   m_TagString: Enemy
@@ -308,10 +295,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 11400000, guid: 6f68735131d1f574dae470b197f63f15, type: 2}
+  enemyHealthBar: {fileID: 6925476348643409982}
   nextLeftWayPoint: 0
   nextRightWayPoint: 0
   nextFrontWayPoint: 0
   randomSpawnPos: 0
+--- !u!135 &3196358404227495102
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713781036754730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.46721038
+  m_Center: {x: -0.021869421, y: 0.5807461, z: -0}
 --- !u!1 &1753159918419610
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,8 +488,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1644352754528788507}
   - component: {fileID: 1644352754528788506}
+  - component: {fileID: 6925476348643409982}
   m_Layer: 5
-  m_Name: HealthImage
+  m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -565,6 +567,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6925476348643409982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644352754528788504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e131af06e495c6488ca24f16db0dfea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1644352754528788506}
 --- !u!1 &1644352754661056662
 GameObject:
   m_ObjectHideFlags: 0

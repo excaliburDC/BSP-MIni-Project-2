@@ -1,19 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class EnemyMovement : MonoBehaviour
 {
     public Enemy enemy;
-
-   
-    private Animator enemyAnim;
+    public HealthBar enemyHealthBar;
 
     public int nextLeftWayPoint;
     public int nextRightWayPoint;
     public int nextFrontWayPoint;
     [HideInInspector] public int randomSpawnPos;
+
+    private int currentEnemyHealth;
+    private Animator enemyAnim;
 
 
     private void Awake()
@@ -25,7 +27,8 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+        currentEnemyHealth = enemy.health;
+        enemyHealthBar.SetMaxHealth(enemy.health);
     }
 
     // Update is called once per frame
@@ -118,6 +121,18 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
+    public void TakeDamage(int damage)
+    {
+        currentEnemyHealth -= damage;
+        enemyHealthBar.SetHealth(currentEnemyHealth);
+        if (currentEnemyHealth <= 0)
+        {
+            WaveSpawner.enemiesInWaveLeft--;
+            Destroy(this.gameObject);
+        }
+            
+    }
+
     void StartEnemyAttack()
     {
         enemyAnim.SetBool("IsMoving", false);
@@ -125,6 +140,17 @@ public class EnemyMovement : MonoBehaviour
         Destroy(this.gameObject);
         WaveSpawner.enemiesInWaveLeft--;
     }
+
+    private void OnTriggerEnter(Collider col)
+    {
+        if(col.gameObject.tag=="Weapon")
+        {
+            Debug.Log("Hit");
+            Shoot s = col.gameObject.GetComponent<Shoot>();
+            TakeDamage(s.weaponTower.attackPower);
+        }
+    }
+
 
 
 }

@@ -1314,11 +1314,10 @@ GameObject:
   m_Component:
   - component: {fileID: 491852}
   - component: {fileID: 9551244}
-  - component: {fileID: 14310864}
-  - component: {fileID: 11426044}
+  - component: {fileID: 2477289537760190980}
   m_Layer: 0
   m_Name: Troll_cannibal
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1360,8 +1359,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!143 &14310864
-CharacterController:
+--- !u!65 &2477289537760190980
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1371,29 +1370,8 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 1.82
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.001
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.9, z: 0}
---- !u!114 &11426044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 156312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd7948789fa10b7419bac32d063a1f6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  runSpeed: 5
-  turnSpeed: 60
-  gravity: 20
+  m_Size: {x: 1, y: 1.5142263, z: 0.63022465}
+  m_Center: {x: 0, y: 0.9643909, z: 0.09495708}
 --- !u!1 &158312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,8 +2082,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6942015506415915290}
   - component: {fileID: 6942015506415915291}
+  - component: {fileID: 7125488895615697534}
   m_Layer: 5
-  m_Name: HealthImage
+  m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2182,6 +2161,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7125488895615697534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6942015506415915289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e131af06e495c6488ca24f16db0dfea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 6942015506415915291}
 --- !u!1 &6942015506581709674
 GameObject:
   m_ObjectHideFlags: 0

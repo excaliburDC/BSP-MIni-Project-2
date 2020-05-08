@@ -88,6 +88,7 @@ public class WaveSpawner : MonoBehaviour
     // called by an enemy when they're defeated
     private bool WaveDefeated()
     {
+        Debug.Log("Enemies left:" + enemiesInWaveLeft);
         // We start the next wave once we have spawned and defeated them all
         if (enemiesInWaveLeft == 0 && spawnedEnemies == totalEnemiesInCurrentWave)
         {
