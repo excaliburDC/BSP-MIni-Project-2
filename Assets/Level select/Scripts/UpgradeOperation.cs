@@ -14,6 +14,9 @@ public class UpgradeOperation : MonoBehaviour
     public Slider slider;
     public GameObject Lock;
     public ParticleSystem particleUpdate;
+    public AudioSource upgradeSound;
+    public AudioSource fullUpgradeSound;
+    public AudioSource clickSound;
 
     private float fillspeed = 0.5f;
     private float targetProgress =0.0f;
@@ -86,6 +89,7 @@ public class UpgradeOperation : MonoBehaviour
                     PlayerPrefs.SetInt("Coins", havingCoins);
                     PlayerPrefs.SetInt("Price" + TowerNo, price);
                     PlayerPrefs.SetInt("UpgradeLevel" + TowerNo, noOfBtnClick);
+
                     if (gameObject.tag == "Update5")
                     {
                         targetProgress += 0.2f;
@@ -99,6 +103,7 @@ public class UpgradeOperation : MonoBehaviour
                         SliderFill(0.33f);
                     }
                     Debug.Log("progress " + targetProgress);
+                    upgradeSound.Play();
                 }
             }
             else
@@ -107,13 +112,14 @@ public class UpgradeOperation : MonoBehaviour
                 msg.text = "coins not sufcient";
                 Debug.Log("coins not sufcient ");
             }
+
             if (PlayerPrefs.GetInt("UpgradeLevel" + TowerNo) >= UpgradationTimes + 1)
             {
                 Price.text = " ";
                 UpgradeBtn.interactable = false;
                 msg.color = Color.green;
                 msg.text = "Upgrade complete";
-
+                fullUpgradeSound.Play();
                 Debug.Log("Upgrade complete");
                 return;
             }
@@ -134,6 +140,7 @@ public class UpgradeOperation : MonoBehaviour
     }
     public void LevelScene()
     {
+        clickSound.Play();
         SceneManager.LoadSceneAsync("Level Selection");
         // SceneManager.LoadScene("Level Selection");
     }

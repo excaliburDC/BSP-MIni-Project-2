@@ -12,7 +12,7 @@ public class LevelSelection : MonoBehaviour
     public GameObject[] stars;
 
     public Sprite starSprite;
-    
+    public AudioSource Clip;
     private void Update()
     {
  
@@ -62,8 +62,10 @@ public class LevelSelection : MonoBehaviour
     {
         if(unlocked)
         {
+            Clip.Play();
             SceneManager.LoadSceneAsync(_LevelName);
             //SceneManager.LoadScene(_LevelName);
+          
         }
     }
     

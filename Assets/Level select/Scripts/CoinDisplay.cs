@@ -16,6 +16,6 @@ public class CoinDisplay : MonoBehaviour
     void Update()
     {
         //string temp = coinText.text.Split(':');
-        coinText.text = PlayerPrefs.GetInt("Coins").ToString();
+        //coinText.text = PlayerPrefs.GetInt("Coins").ToString();
     }
 }

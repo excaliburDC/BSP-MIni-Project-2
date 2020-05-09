@@ -11,7 +11,7 @@ public class BuyingTowers : MonoBehaviour
     public bool TowerAppearence;
     public GameObject BowTower;
     public GameObject CannonTower;
-
+   
     private int Tower1Count =0;
     private int Tower2Count = 0;
     private int price1;
@@ -28,7 +28,6 @@ public class BuyingTowers : MonoBehaviour
         CoinDisplay.text = Havingcoins.ToString();
         PriceOfTower1.text = price1.ToString();
         PriceOfTower2.text = price2.ToString();
-
     }
     public void Update()
     {
@@ -42,9 +41,11 @@ public class BuyingTowers : MonoBehaviour
 
     public void Tower1()
     {
-        Tower1Count++;
+     
+       
         if (Havingcoins >= price1)
         {
+            Tower1Count++;
             Havingcoins -= price1;
             if (Tower1Count > 5)
             {
@@ -63,9 +64,10 @@ public class BuyingTowers : MonoBehaviour
     }
     public void Tower2()
     {
-        Tower2Count++;
+       
         if (Havingcoins >= price2)
         {
+            Tower2Count++;
             Havingcoins -= price2;
             if (Tower2Count > 5)
             {        
