@@ -640,6 +640,44 @@ PrefabInstance:
       propertyPath: DialogueButtons
       value: 
       objectReference: {fileID: 659262510}
+    - target: {fileID: 2025664860, guid: 0107aaa9535c9cc4db6a80735dc091f9, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025664860, guid: 0107aaa9535c9cc4db6a80735dc091f9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Ever since the mountain is covered with the deadly monsters...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025664860, guid: 0107aaa9535c9cc4db6a80735dc091f9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: A tower of fire is protecting the mountain and living creature from monster
+        with the sacred fire...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025664860, guid: 0107aaa9535c9cc4db6a80735dc091f9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: If the tower get destroyed the monster will conquer the mountain and
+        destroy it...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025664860, guid: 0107aaa9535c9cc4db6a80735dc091f9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: In this game the protagonist has to defend the tower by using some of
+        the powered towers that the player has as initial powers...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025664860, guid: 0107aaa9535c9cc4db6a80735dc091f9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: The player can upgrade the towers to increase the defence power of the
+        tower...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581271283777033331, guid: 0107aaa9535c9cc4db6a80735dc091f9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -43
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581271283777033331, guid: 0107aaa9535c9cc4db6a80735dc091f9,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 244.6
+      objectReference: {fileID: 0}
     - target: {fileID: 6581271284351110061, guid: 0107aaa9535c9cc4db6a80735dc091f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -754,6 +792,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581271284623763633, guid: 0107aaa9535c9cc4db6a80735dc091f9,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Story Narrator:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581271284623763633, guid: 0107aaa9535c9cc4db6a80735dc091f9,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581271284623763634, guid: 0107aaa9535c9cc4db6a80735dc091f9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -644.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581271284623763634, guid: 0107aaa9535c9cc4db6a80735dc091f9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 104.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581271284623763634, guid: 0107aaa9535c9cc4db6a80735dc091f9,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 334.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581271284623763634, guid: 0107aaa9535c9cc4db6a80735dc091f9,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 91.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0107aaa9535c9cc4db6a80735dc091f9, type: 3}
