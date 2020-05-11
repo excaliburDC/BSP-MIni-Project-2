@@ -58,13 +58,5 @@ public class AudioManager : MonoBehaviour
             soundeffectsAudio[i].volume = soundEffectsSlider.value;
         }
     }
-    //public  AudioMixer Mixer;
-
-
-    //public void SetVolume(float Volume)
-    //{
-    //    Mixer.SetFloat("MainVoume", Mathf.Log10(Volume)*20);
-    //}
-
 
 }

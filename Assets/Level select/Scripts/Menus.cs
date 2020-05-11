@@ -12,12 +12,12 @@ public class Menus : MonoBehaviour
     public void LevelSelect()
     {
         SceneManager.LoadSceneAsync("Level Selection");
-        //SceneManager.LoadScene("Level Selection");
+       
     }
     public void MainMenuBtn()
     {
         SceneManager.LoadSceneAsync("MainMenu");
-        //SceneManager.LoadScene("MainMenu");
+      
     }
     public void Quit()
     {
@@ -29,7 +29,7 @@ public class Menus : MonoBehaviour
     public void Inventory()
     {
         SceneManager.LoadSceneAsync("Inventory");
-        //SceneManager.LoadScene("Inventory");
+      
     }
 
     public void SettingMenu()

@@ -28,16 +28,15 @@ public class PauseMenu : MonoBehaviour
             Time.timeScale = 1f;
         }
     }
-   
+
     public void Retry()
     {
         Toggle();
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
-       // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void Menu()
     {
         SceneManager.LoadSceneAsync("MainMenu");
-        //SceneManager.LoadScene("MainMenu");
+      
     }
 }

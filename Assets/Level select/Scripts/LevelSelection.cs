@@ -43,7 +43,7 @@ public class LevelSelection : MonoBehaviour
                 stars[i].gameObject.SetActive(false);
             }
         }
-        else//if unlock is true means This level can play !
+        else//if unlock is true means This level can play 
         {
             unlockImage.gameObject.SetActive(false);
             for (int i = 0; i < stars.Length; i++)
@@ -64,7 +64,7 @@ public class LevelSelection : MonoBehaviour
         {
             Clip.Play();
             SceneManager.LoadSceneAsync(_LevelName);
-            //SceneManager.LoadScene(_LevelName);
+           
           
         }
     }

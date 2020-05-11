@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class CoinManager : MonoBehaviour
 { 
+    // use this funtion where the enemies will be defeted and coins should be updated
     public  void UpdateCoins(int coins)
     {
         PlayerPrefs.SetInt("Coins", coins);
         coins = PlayerPrefs.GetInt("Coins");
         PlayerPrefs.Save();
     }
+
+
 
 
     //this is only for testing

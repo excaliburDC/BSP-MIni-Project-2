@@ -129,6 +129,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &534367087
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +424,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2025664860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428,10 +450,14 @@ MonoBehaviour:
   dialogue:
     name: Story Narrator
     sentences:
-    - Long time ago their was Tower in forest
-    - the Tower will protect the creatures inside the tower
-    - 'but there are other creature which destroy the tower '
-    - And to kill the creatures inside tower
+    - Ever since the mountain is covered with the deadly monsters...
+    - A tower of fire is protecting the mountain and living creature from monster
+      with the sacred fire...
+    - If the tower get destroyed the monster will conquer the mountain and destroy
+      it...
+    - In this game the protagonist has to defend the tower by using some of the powered
+      towers that the player has as initial powers...
+    - The player can upgrade the towers to increase the defence power of the tower...
 --- !u!1 &6581271283777033332
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,8 +492,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.8750515, y: -53}
-  m_SizeDelta: {x: 1649.2, y: 224.5}
+  m_AnchoredPosition: {x: 12.8750515, y: -43}
+  m_SizeDelta: {x: 1649.2, y: 244.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6581271283777033329
 CanvasRenderer:
@@ -531,7 +557,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6581271284351110061
 RectTransform:
   m_ObjectHideFlags: 0
@@ -636,7 +662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31db6eff73130134f8046f3a59b6d164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DialogueButtons: {fileID: 0}
+  DialogueButtons: {fileID: 8422128130754345453}
   speakerText: {fileID: 6581271284623763633}
   dialogueText: {fileID: 6581271283777033330}
   Anim: {fileID: 6581271285183751088}
@@ -824,8 +850,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -588.02496, y: 94.70001}
-  m_SizeDelta: {x: 447.5, y: 111.8}
+  m_AnchoredPosition: {x: -644.5, y: 104.93}
+  m_SizeDelta: {x: 334.5, y: 91.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6581271284623763632
 CanvasRenderer:
@@ -855,7 +881,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 83b2fa31225dea147813a41568821134, type: 3}
-    m_FontSize: 90
+    m_FontSize: 80
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -866,7 +892,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Speaker:'
+  m_Text: 'Story Narrator:'
 --- !u!1 &6581271284865093999
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,6 +1022,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6581271285183751092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,7 +1061,7 @@ RectTransform:
   m_GameObject: {fileID: 6581271285183751092}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8700825, y: 0.9186793, z: 0.88165444}
+  m_LocalScale: {x: 0.70484513, y: 0.7442129, z: 0.71421945}
   m_Children:
   - {fileID: 6581271284437529148}
   - {fileID: 6581271284623763634}
@@ -1035,7 +1072,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.021728516, y: 950.833}
+  m_AnchoredPosition: {x: 0.021728516, y: 774}
   m_SizeDelta: {x: -0.050049, y: -961.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6581271285183751089

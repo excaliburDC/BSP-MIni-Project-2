@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class Register : MonoBehaviour
 {
-    public PlayerPrefsInitalize playerInit;
+  
     public GameObject LoginPanel;
     public GameObject RegisterPanel;
     
@@ -20,8 +20,6 @@ public class Register : MonoBehaviour
     private string Email;
     private string Password;
     private string ConfirmPassword;
-    //private string Coins ="0";
-    //private string[] Levels = { "0", "0", "0", "0", "0", "0", "0", "0" };
     private string form;
 
     private bool EmailValid = false;
@@ -36,7 +34,7 @@ public class Register : MonoBehaviour
 
     void Start()
     {
-        playerInit = GetComponent<PlayerPrefsInitalize>();
+       
         RegisterPanel.SetActive(true);
         LoginPanel.SetActive(true);
     }
@@ -48,8 +46,7 @@ public class Register : MonoBehaviour
         bool CPW = false;
 
         if (Password != "" && Email != "" && Password != "" && ConfirmPassword != "")
-        {
-            //Debug.Log("Registeration success");
+        {          
             if (UserName != "")
             {
                 if (!System.IO.File.Exists(@"E:\TestFiles/" + UserName + ".txt"))
@@ -145,20 +142,41 @@ public class Register : MonoBehaviour
                     Password += Encrypted.ToString();
                 }
 
-                form = (UserName + Environment.NewLine + Email + Environment.NewLine + Password);/* Environment.NewLine + Coins + Environment.NewLine + "0"+ Environment.NewLine + "0" + Environment.NewLine + "0" + Environment.NewLine + "0" + Environment.NewLine + "0" + Environment.NewLine + "0" + Environment.NewLine + "0" + Environment.NewLine + "0"*/
+                form = (UserName + Environment.NewLine + Email + Environment.NewLine + Password);
                 System.IO.File.WriteAllText(@"E:\TestFiles/" + UserName + ".txt", form);
                 userName.GetComponent<InputField>().text = "";
                 email.GetComponent<InputField>().text = "";
                 password.GetComponent<InputField>().text = "";
                 confirmPassword.GetComponent<InputField>().text = "";
                 Debug.Log("Registeration completed");
-                playerInit.InitializeValue(UserName, Password);
+
+
+               
+                PlayerPrefs.SetInt("Coins", 0);
+
+                for (i = 1; i <= 5; i++)
+                {
+                    PlayerPrefs.SetFloat("Progression" + i, 0f);
+                    PlayerPrefs.SetInt("UpgradeLevel" + i, 1);
+                    PlayerPrefs.SetInt("Price" + i, 10);
+                }
+                for (i = 1; i < 9; i++)
+                {
+                    PlayerPrefs.SetInt("Lv" + i, 0);
+                }
+
+
+
                 RegisterPanel.SetActive(false);
                 LoginPanel.SetActive(true);
             }
         }
     }
-
+    public void InitalizePlayerPrefs()
+    {
+       
+       
+    }
     void EmailValidation()
     {
         bool SW = false;
@@ -209,14 +227,7 @@ public class Register : MonoBehaviour
                 confirmPassword.GetComponent<InputField>().Select();
             }
         }
-        //if(Input.GetKeyDown(KeyCode.Return))
-        //{
-        //    if (Password != "" && Email != "" && Password != "" && ConfirmPassword != "")
-        //    {
-        //        RegisterButton();
-        //    }
-        //}
-       
+            
         UserName = userName.GetComponent<InputField>().text;
         Email = email.GetComponent<InputField>().text;
         Password = password.GetComponent<InputField>().text;

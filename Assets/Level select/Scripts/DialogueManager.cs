@@ -20,7 +20,6 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogue dialogue)
     {
         DialogueButtons.SetActive(false);
-        // Debug.Log("Start converstion with " + dialogue.name);
         Anim.SetBool("IsOpen", true);
         speakerText.text = dialogue.name;
         sentences.Clear();
@@ -58,7 +57,6 @@ public class DialogueManager : MonoBehaviour
         Anim.SetBool("IsOpen", false);
         Debug.Log("End of dialogue");
         SceneManager.LoadSceneAsync("MainMenu");
-        //SceneManager.LoadScene("MainMenu");
         
     }
     public void skipStory()

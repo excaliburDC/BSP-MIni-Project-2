@@ -9,16 +9,12 @@ public class UIManager : MonoBehaviour
     public Text starsText;
     public GameObject Map1;
     public GameObject Map2;
-    //private LevelSelection levelselect;
+   
     public GameObject NextMapButton;
   
     private bool isActivatedPre = false;
     private bool isActivatedNext= false;
-    void start()
-    {
-       // levelselect = GameObject.Find("4").GetComponent<LevelSelection>();
-
-    }
+   
     private void Update()
     {
         UpdateStarsUI();
@@ -73,7 +69,7 @@ public class UIManager : MonoBehaviour
     {
         Map1.SetActive(false);
         Map2.SetActive(true);
-        //NextMapButton.SetActive(false);
+      
     }
     public void PrevMapButtonFn()
     {
@@ -84,7 +80,6 @@ public class UIManager : MonoBehaviour
     public void TowerUpgrade()
     {
         SceneManager.LoadSceneAsync("Inventory");
-        //SceneManager.LoadScene("Inventory");
+
     }
-   
 }

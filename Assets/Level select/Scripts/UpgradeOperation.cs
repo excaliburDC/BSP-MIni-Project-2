@@ -28,7 +28,7 @@ public class UpgradeOperation : MonoBehaviour
 
     public void Awake()
     {
-        ResetAll();
+        //ResetAll();
         particleUpdate = GameObject.Find("ParticlesForUpdate").GetComponent<ParticleSystem>();
         targetProgress = PlayerPrefs.GetFloat("Progression" + TowerNo);
         price = PlayerPrefs.GetInt("Price" + TowerNo);
@@ -142,14 +142,14 @@ public class UpgradeOperation : MonoBehaviour
     {
         clickSound.Play();
         SceneManager.LoadSceneAsync("Level Selection");
-        // SceneManager.LoadScene("Level Selection");
+
     }
-    public void ResetAll()
-    {
-        PlayerPrefs.SetInt("Coins", 1000);
-        PlayerPrefs.SetFloat("Progression" + TowerNo, 0f);
-        PlayerPrefs.SetInt("UpgradeLevel" + TowerNo, 1);
-        PlayerPrefs.SetInt("Price" + TowerNo, 10);
-    }
+    //public void ResetAll()
+    //{
+    //    PlayerPrefs.SetInt("Coins", 1000);
+    //    PlayerPrefs.SetFloat("Progression" + TowerNo, 0f);
+    //    PlayerPrefs.SetInt("UpgradeLevel" + TowerNo, 1);
+    //    PlayerPrefs.SetInt("Price" + TowerNo, 10);
+    //}
 
 }

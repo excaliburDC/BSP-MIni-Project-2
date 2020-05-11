@@ -17,9 +17,7 @@ public class Login : MonoBehaviour
     private string Password;
     private String[] Lines;
     private string DecryptedPassword;
-    //private string Coins;
-    //private string[] LevelVal;
-    //private string formInLogin;
+  
 
     void Start()
     {
@@ -91,29 +89,14 @@ public class Login : MonoBehaviour
             {
                 userName.GetComponent<InputField>().text = "";
                 password.GetComponent<InputField>().text = "";
-                //Coins = Lines[3].ToString();
-                //PlayerPrefs.SetInt("Coins", int.Parse(Coins));
-                //for(int m =1; m<=8 ;m++)
-                //{
-                //    LevelVal[m] = Lines[m + 3].ToString();
-                //    PlayerPrefs.SetInt("Lv" + m, int.Parse(LevelVal[m]));
-                //}
                 Debug.Log("Login success" + PlayerPrefs.GetInt("Coins"));
                 LoginPanel.SetActive(false);
                 DialoguePanel.SetActive(true);
             }
         }
     }
-    //void WriteUpdateInFile()
-    //{
-    //    for (int m = 1; m <= 8; m++)
-    //    {
-    //        Lines[m + 3] = PlayerPrefs.GetInt("lv" + m).ToString();
-    //    }
-    //    formInLogin = (UserName + Environment.NewLine + " " + Environment.NewLine + Password + Environment.NewLine + Coins + Environment.NewLine + Lines[4] + Environment.NewLine + Lines[5] + Environment.NewLine + Lines[6] + Environment.NewLine + Lines[7] + Environment.NewLine + Lines[8] + Environment.NewLine + Lines[9] + Environment.NewLine + Lines[10] + Environment.NewLine + Lines[11]);
-    //    System.IO.File.WriteAllText(@"E:\TestFiles/" + UserName + ".txt", formInLogin);
-       
-    //}
+
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
@@ -123,15 +106,6 @@ public class Login : MonoBehaviour
                 password.GetComponent<InputField>().Select();
             }
         }
-
-        //if (Input.GetKeyDown(KeyCode.Return))
-        //{
-        //    if (Password != "" && Password != "" )
-        //    {
-        //        LoginButton();
-        //    }
-        //}
-
         UserName = userName.GetComponent<InputField>().text;
         Password = password.GetComponent<InputField>().text;
     }
