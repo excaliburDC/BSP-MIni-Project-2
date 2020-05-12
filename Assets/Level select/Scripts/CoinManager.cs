@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class CoinManager : MonoBehaviour
 { 
-    // use this funtion where the enemies will be defeted and coins should be updated
-    public  void UpdateCoins(int coins)
+    // use this function where the enemies will be defeated and coins should be updated
+    public static void UpdateCoins(int coins)
     {
         PlayerPrefs.SetInt("Coins", coins);
-        coins = PlayerPrefs.GetInt("Coins");
+        BuyingTowers.Havingcoins += PlayerPrefs.GetInt("Coins");
+        Debug.Log(BuyingTowers.Havingcoins);
         PlayerPrefs.Save();
     }
+
 
 
 

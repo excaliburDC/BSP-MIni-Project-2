@@ -14,7 +14,13 @@ public class PoolManager : SingletonManager<PoolManager>
 {
     public List<PoolObj> pools;
     public Dictionary<string, Queue<GameObject>> poolDictionary;
-  
+
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+
+    }
     private void Start()
     {
         poolDictionary = new Dictionary<string, Queue<GameObject>>();

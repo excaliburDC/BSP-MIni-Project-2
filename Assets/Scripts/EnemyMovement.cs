@@ -13,6 +13,7 @@ public class EnemyMovement : MonoBehaviour
     public int nextRightWayPoint;
     public int nextFrontWayPoint;
     [HideInInspector] public int randomSpawnPos;
+    public static bool enemyDead = false;
 
     private int currentEnemyHealth;
     private Animator enemyAnim;
@@ -127,8 +128,7 @@ public class EnemyMovement : MonoBehaviour
         enemyHealthBar.SetHealth(currentEnemyHealth);
         if (currentEnemyHealth <= 0)
         {
-            WaveSpawner.enemiesInWaveLeft--;
-            Destroy(this.gameObject);
+            EnemyDead();
         }
             
     }
@@ -139,6 +139,14 @@ public class EnemyMovement : MonoBehaviour
         enemyAnim.SetTrigger("Attack");
         Destroy(this.gameObject);
         WaveSpawner.enemiesInWaveLeft--;
+    }
+
+    void EnemyDead()
+    {
+        enemyDead = true;
+        WaveSpawner.enemiesInWaveLeft--;
+        Destroy(this.gameObject);
+        CoinManager.UpdateCoins(100);
     }
 
     private void OnTriggerEnter(Collider col)

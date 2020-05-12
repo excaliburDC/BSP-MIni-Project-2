@@ -16,20 +16,20 @@ public class BuyingTowers : MonoBehaviour
     public Button ArrowPlaced;
     public GameObject LockImg;
    
-    private int Tower1Count =0;
+    private int Tower1Count = 0;
     private int Tower2Count = 0;
     private int price1;
     private int price2;
-    private int Havingcoins;
+    public static int Havingcoins;
     private int canBePlaced1 = 0;
     private int canBePlaced2 = 0;
     private bool canPlaced1 = false;
     private bool canPlaced2 = false;
     private void Start()
     {
-        //ResetAll();
+        ResetAll();
         price1 = 10;
-        price2 = 10;
+        price2 = 20;
         Havingcoins = PlayerPrefs.GetInt("Coins");
         CoinDisplay.text = Havingcoins.ToString();
         PriceOfTower1.text = price1.ToString();
@@ -45,23 +45,32 @@ public class BuyingTowers : MonoBehaviour
             BuyCannonTower.interactable = false;
             LockImg.SetActive(true);
         }
-        
 
         if (canPlaced1 == true)
         {
+            //Debug.Log(canPlaced1 + " : " + canPlaced2);
             ArrowPlaced.interactable = true;
 
-        }else if(canPlaced2 == true)
-        {
-            CannonPlaced.interactable = true;
         }
+
         else
         {
             ArrowPlaced.interactable = false;
+        }
+
+        if(canPlaced2 == true)
+        {
+            //Debug.Log(canPlaced1 + " : " + canPlaced2);
+            CannonPlaced.interactable = true;
+        }
+        else 
+        {
             CannonPlaced.interactable = false;
         }
 
-        PlayerPrefs.SetInt("Coins", Havingcoins);
+
+        //PlayerPrefs.SetInt("Coins", Havingcoins);
+        CoinDisplay.text = Havingcoins.ToString();
         noOfTower1.text = canBePlaced1.ToString();
         noOfTower2.text = canBePlaced2.ToString();
     }
@@ -83,7 +92,7 @@ public class BuyingTowers : MonoBehaviour
         }
         else
         {       
-            CoinInsufficient.text = "Thunder Insufficient";
+            CoinInsufficient.text = "Insufficient Thunder";
         }
         CoinDisplay.text = Havingcoins.ToString();
         PriceOfTower1.text = price1.ToString();      
@@ -98,14 +107,14 @@ public class BuyingTowers : MonoBehaviour
             Havingcoins -= price2;
             if (Tower2Count > 5)
             {
-                price2 += 10;
+                price2 += 20;
             }
             canPlaced2 = true;
             canBePlaced2++;
         }
         else
         {
-            CoinInsufficient.text = "Thunder Insufficient";
+            CoinInsufficient.text = "Insufficient Thunder";
         }
         PriceOfTower2.text = price2.ToString();
         CoinDisplay.text = Havingcoins.ToString();
@@ -139,8 +148,8 @@ public class BuyingTowers : MonoBehaviour
             canPlaced2 = false;
         }
     }
-    //public void ResetAll()
-    //{
-    //    PlayerPrefs.SetInt("Coins", 500);
-    //}
+    public void ResetAll()
+    {
+        PlayerPrefs.SetInt("Coins", 20);
+    }
 }

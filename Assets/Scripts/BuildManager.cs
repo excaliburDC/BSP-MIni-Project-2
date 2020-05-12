@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BuildManager : MonoBehaviour
 {
-    public List<GameObject> placeableTowers;
     public LayerMask mask;
     public float towerRotateSpeed = 10f;
     public bool hasPlaced;
@@ -18,7 +17,7 @@ public class BuildManager : MonoBehaviour
 
     private void Update()
     {
-        PlaceTower();
+        //PlaceTower();
 
         if (currentPlaceableTower != null && !hasPlaced)
         {
@@ -29,27 +28,23 @@ public class BuildManager : MonoBehaviour
 
     }
 
-    public void PlaceTower()
-    {
-        for (int i = 0; i < placeableTowers.Count; i++)
-        {
-            if (Input.GetKeyDown(KeyCode.Alpha0 + 1 + i))
-            {
-                SetTower(placeableTowers[i]);
-               
-            }
-        }
-
-    }
-
-    void SetTower(GameObject gObj)
+    public void PlaceTower(GameObject gObj)
     {
         Debug.Log(gObj.name);
         hasPlaced = false;
         currentPlaceableTower = Instantiate(gObj);
         placeableTower = currentPlaceableTower.GetComponent<PlaceableTower>();
-        
+
     }
+
+    //void SetTower(GameObject gObj)
+    //{
+    //    Debug.Log(gObj.name);
+    //    hasPlaced = false;
+    //    currentPlaceableTower = Instantiate(gObj);
+    //    placeableTower = currentPlaceableTower.GetComponent<PlaceableTower>();
+        
+    //}
 
     private bool isValidPosition()
     {
