@@ -477,7 +477,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 411524}
-  - component: {fileID: 9566220}
+  - component: {fileID: 3956673324732563513}
+  - component: {fileID: 2680054808348406292}
+  - component: {fileID: 6948955598473645163}
   m_Layer: 0
   m_Name: Tower Mage
   m_TagString: Untagged
@@ -506,25 +508,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &9566220
-Animator:
-  serializedVersion: 3
+--- !u!65 &3956673324732563513
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187918}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8030496, y: 1.5108043, z: 0.8996944}
+  m_Center: {x: 0.024646347, y: 0.80612695, z: -0.015634188}
+--- !u!54 &2680054808348406292
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187918}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &6948955598473645163
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 187918}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d052d933598dac241a51c227cfe7a313, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7b6238d051da408c8d1ddce45da97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerHealthBar: {fileID: 7496076127472266643}
+  towerHP: 1000
+  towerDestroyed: 0
 --- !u!1 &5429388665348453661
 GameObject:
   m_ObjectHideFlags: 0

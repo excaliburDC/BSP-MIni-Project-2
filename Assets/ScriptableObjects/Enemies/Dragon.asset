@@ -15,7 +15,6 @@ MonoBehaviour:
   enemyName: 
   moveSpeed: 1
   health: 100
-  attackPower: 25
+  attackPower: 50
   attackRate: 3
   attackRange: 2
-  selfDamagePower: 25

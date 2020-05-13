@@ -3657,6 +3657,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: War_Tower
       objectReference: {fileID: 0}
+    - target: {fileID: 7025314132617428932, guid: d1f1e5b8b170b8e46a0da3793bf6f692,
+        type: 3}
+      propertyPath: m_TagString
+      value: MainTower
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1f1e5b8b170b8e46a0da3793bf6f692, type: 3}
 --- !u!1001 &5453070371493535200

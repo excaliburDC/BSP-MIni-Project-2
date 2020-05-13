@@ -13,10 +13,13 @@ public class EnemyMovement : MonoBehaviour
     public int nextRightWayPoint;
     public int nextFrontWayPoint;
     [HideInInspector] public int randomSpawnPos;
-    public static bool enemyDead = false;
+    public bool enemyDead = false;
 
+    private TowerHealth towerHp;
     private int currentEnemyHealth;
     private Animator enemyAnim;
+    private bool isAttacking = false;
+    private float attackCountdown = 0f;
 
 
     private void Awake()
@@ -28,6 +31,7 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        isAttacking = false;
         currentEnemyHealth = enemy.health;
         enemyHealthBar.SetMaxHealth(enemy.health);
     }
@@ -36,10 +40,26 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         if (gameObject.activeInHierarchy)
+        {
             EnemyAttackDirection();
 
+            if(isAttacking) //&& !towerHp.towerDestroyed)
+            {
+                if (attackCountdown <= 0f)
+                {
+                    StartEnemyAttack();
+                    attackCountdown = enemy.attackRate;
+                   
+
+                }
+                //enemyAnim.SetBool("Attack", false);
+                attackCountdown -= Time.deltaTime;
+            }
+            
+        }
+
         else
-            return;
+           return;
 
  
 
@@ -59,6 +79,9 @@ public class EnemyMovement : MonoBehaviour
 
     void EnemyComesFromLeft()
     {
+        if (enemyDead)
+            return;
+
         Transform leftDest = EnemyController.Instance.leftWayPointsList[nextLeftWayPoint];
 
         Vector3 dir = leftDest.position - transform.position;
@@ -69,7 +92,9 @@ public class EnemyMovement : MonoBehaviour
         {
             if (nextLeftWayPoint >= EnemyController.Instance.leftWayPointsList.Count - 1)
             {
-                StartEnemyAttack();
+                isAttacking = true;
+                //StartEnemyAttack();
+
                 return;
             }
 
@@ -83,8 +108,10 @@ public class EnemyMovement : MonoBehaviour
 
     void EnemyComesFromRight()
     {
+        if (enemyDead)
+            return;
 
-       Transform rightDest = EnemyController.Instance.rightWayPointsList[nextRightWayPoint];
+        Transform rightDest = EnemyController.Instance.rightWayPointsList[nextRightWayPoint];
 
         Vector3 dir = rightDest.position - transform.position;
         transform.Translate(dir.normalized * enemy.moveSpeed * Time.deltaTime, Space.World);
@@ -94,7 +121,8 @@ public class EnemyMovement : MonoBehaviour
         {
             if (nextRightWayPoint >= EnemyController.Instance.rightWayPointsList.Count - 1)
             {
-                StartEnemyAttack();
+                isAttacking = true;
+                //StartEnemyAttack();
                 return;
             }
 
@@ -104,6 +132,9 @@ public class EnemyMovement : MonoBehaviour
 
     void EnemyComesFromFront()
     {
+        if (enemyDead)
+            return;
+
         Transform frontDest = EnemyController.Instance.frontWayPointsList[nextFrontWayPoint];
 
         Vector3 dir = frontDest.position - transform.position;
@@ -114,7 +145,8 @@ public class EnemyMovement : MonoBehaviour
         {
             if (nextFrontWayPoint >= EnemyController.Instance.frontWayPointsList.Count - 1)
             {
-                StartEnemyAttack();
+                isAttacking = true;
+                //StartEnemyAttack();
                 return;
             }
 
@@ -128,6 +160,7 @@ public class EnemyMovement : MonoBehaviour
         enemyHealthBar.SetHealth(currentEnemyHealth);
         if (currentEnemyHealth <= 0)
         {
+            currentEnemyHealth = 0;
             EnemyDead();
         }
             
@@ -135,18 +168,43 @@ public class EnemyMovement : MonoBehaviour
 
     void StartEnemyAttack()
     {
-        enemyAnim.SetBool("IsMoving", false);
-        enemyAnim.SetTrigger("Attack");
-        Destroy(this.gameObject);
-        WaveSpawner.enemiesInWaveLeft--;
+        if (towerHp.towerDestroyed)
+        {
+            isAttacking = false;
+            enemyAnim.SetBool("Attack", false);
+            return;
+
+        }
+
+        enemyAnim.SetBool("Attack", true);
+        // isAttacking = true;
+        towerHp.TakeDamage(enemy.attackPower);
+
+
+        //Destroy(this.gameObject);
+       // WaveSpawner.enemiesInWaveLeft--;
     }
 
     void EnemyDead()
     {
+
         enemyDead = true;
+        isAttacking = false;
+        
+        StartCoroutine(WaitUntilDestroyed());
+        
+        
+    }
+
+    private IEnumerator WaitUntilDestroyed()
+    {
+        enemyAnim.SetBool("Attack", false);
+        enemyAnim.SetTrigger("IsDead");
         WaveSpawner.enemiesInWaveLeft--;
-        Destroy(this.gameObject);
         CoinManager.UpdateCoins(100);
+        yield return new WaitForSeconds(1f);
+        Destroy(this.gameObject);
+        
     }
 
     private void OnTriggerEnter(Collider col)
@@ -156,6 +214,13 @@ public class EnemyMovement : MonoBehaviour
             Debug.Log("Hit");
             Shoot s = col.gameObject.GetComponent<Shoot>();
             TakeDamage(s.weaponTower.attackPower);
+        }
+
+        if (col.gameObject.tag == "MainTower")
+        {
+            
+           towerHp  = col.gameObject.GetComponent<TowerHealth>();
+            
         }
     }
 

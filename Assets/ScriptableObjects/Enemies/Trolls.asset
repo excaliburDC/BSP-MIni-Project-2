@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85745b9046dabb34f8162f5f6173448d, type: 3}
   m_Name: Trolls
   m_EditorClassIdentifier: 
-  enemyName: 
+  enemyName: Trolls
   moveSpeed: 2
   health: 50
-  attackPower: 10
+  attackPower: 25
   attackRate: 0
   attackRange: 0
-  selfDamagePower: 15

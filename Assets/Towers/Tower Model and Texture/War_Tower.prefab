@@ -285,7 +285,9 @@ GameObject:
   - component: {fileID: 6279623320835427799}
   - component: {fileID: 3062081182551816161}
   - component: {fileID: 8737612163048491800}
-  - component: {fileID: 3645158932523774419}
+  - component: {fileID: 8685878571595744882}
+  - component: {fileID: 1631599644613137465}
+  - component: {fileID: 3771172549233399035}
   m_Layer: 0
   m_Name: War_Tower
   m_TagString: Untagged
@@ -354,8 +356,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3645158932523774419
-MeshCollider:
+--- !u!65 &8685878571595744882
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -364,10 +366,39 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -428168359291152830, guid: 874f4574126a4a9499ac88fbb3de770c, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.1955054, y: 3.0380967, z: 3.4412801}
+  m_Center: {x: -0.097306006, y: 0.019462042, z: -0.603178}
+--- !u!54 &1631599644613137465
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7025314132617428932}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &3771172549233399035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7025314132617428932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc7b6238d051da408c8d1ddce45da97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerHealthBar: {fileID: 7063449606692491467}
+  towerHP: 500
 --- !u!1 &8601421495095012985
 GameObject:
   m_ObjectHideFlags: 0

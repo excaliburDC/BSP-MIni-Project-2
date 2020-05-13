@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85745b9046dabb34f8162f5f6173448d, type: 3}
   m_Name: Kumata
   m_EditorClassIdentifier: 
-  enemyName: 
+  enemyName: Kumata
   moveSpeed: 1
   health: 100
-  attackPower: 25
+  attackPower: 50
   attackRate: 3
   attackRange: 2
-  selfDamagePower: 20
