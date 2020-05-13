@@ -300,6 +300,7 @@ MonoBehaviour:
   nextRightWayPoint: 0
   nextFrontWayPoint: 0
   randomSpawnPos: 0
+  enemyDead: 0
 --- !u!135 &3196358404227495102
 SphereCollider:
   m_ObjectHideFlags: 0

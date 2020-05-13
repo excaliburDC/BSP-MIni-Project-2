@@ -20,6 +20,7 @@ public class TowerShooter : MonoBehaviour
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
     }
 
+   
     void UpdateTarget()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
@@ -50,8 +51,14 @@ public class TowerShooter : MonoBehaviour
 
   
     // Update is called once per frame
-    void Update()
+    void Update() 
     {
+        if(gameObject.activeInHierarchy && !GameController.Instance.waveStarted)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+
         if (target == null)
             return;
 

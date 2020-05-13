@@ -11,7 +11,8 @@ public class Enemy : ScriptableObject
     public int health;
     public int attackPower;
     public float attackRate;
-    public float attackRange;
+    public float searchRange;
+    public int coinAmount;
    
     
 }

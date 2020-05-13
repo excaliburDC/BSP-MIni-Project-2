@@ -16,10 +16,12 @@ public class EnemyMovement : MonoBehaviour
     public bool enemyDead = false;
 
     private TowerHealth towerHp;
+    private Transform towerTransform;
     private int currentEnemyHealth;
     private Animator enemyAnim;
     private bool isAttacking = false;
     private float attackCountdown = 0f;
+
 
 
     private void Awake()
@@ -41,9 +43,10 @@ public class EnemyMovement : MonoBehaviour
     {
         if (gameObject.activeInHierarchy)
         {
+            
             EnemyAttackDirection();
 
-            if(isAttacking) //&& !towerHp.towerDestroyed)
+            if(isAttacking) 
             {
                 if (attackCountdown <= 0f)
                 {
@@ -82,11 +85,18 @@ public class EnemyMovement : MonoBehaviour
         if (enemyDead)
             return;
 
+        //if (CheckNearbyTowers())
+        //{
+        //    AttackTower();
+        //    return;
+        //}
+
+
         Transform leftDest = EnemyController.Instance.leftWayPointsList[nextLeftWayPoint];
 
         Vector3 dir = leftDest.position - transform.position;
         transform.Translate(dir.normalized * enemy.moveSpeed * Time.deltaTime, Space.World);
-        enemyAnim.SetBool("IsMoving", true);
+
 
         if (Vector3.Distance(transform.position, leftDest.position) <= 1f)
         {
@@ -99,11 +109,12 @@ public class EnemyMovement : MonoBehaviour
             }
 
             nextLeftWayPoint++;
-            
+
         }
 
 
-        
+
+
     }
 
     void EnemyComesFromRight()
@@ -111,11 +122,16 @@ public class EnemyMovement : MonoBehaviour
         if (enemyDead)
             return;
 
+        //if (CheckNearbyTowers())
+        //{
+        //    AttackTower();
+        //}
+
         Transform rightDest = EnemyController.Instance.rightWayPointsList[nextRightWayPoint];
 
         Vector3 dir = rightDest.position - transform.position;
         transform.Translate(dir.normalized * enemy.moveSpeed * Time.deltaTime, Space.World);
-        enemyAnim.SetBool("IsMoving", true);
+
 
         if (Vector3.Distance(transform.position, rightDest.position) <= 1f)
         {
@@ -128,6 +144,8 @@ public class EnemyMovement : MonoBehaviour
 
             nextRightWayPoint++;
         }
+
+
     }
 
     void EnemyComesFromFront()
@@ -135,11 +153,17 @@ public class EnemyMovement : MonoBehaviour
         if (enemyDead)
             return;
 
+        //if (CheckNearbyTowers())
+        //{
+        //   // AttackTower();
+
+        //}
+
         Transform frontDest = EnemyController.Instance.frontWayPointsList[nextFrontWayPoint];
 
         Vector3 dir = frontDest.position - transform.position;
         transform.Translate(dir.normalized * enemy.moveSpeed * Time.deltaTime, Space.World);
-        enemyAnim.SetBool("IsMoving", true);
+
 
         if (Vector3.Distance(transform.position, frontDest.position) <= 1f)
         {
@@ -152,18 +176,46 @@ public class EnemyMovement : MonoBehaviour
 
             nextFrontWayPoint++;
         }
+
+
+
     }
 
-    public void TakeDamage(int damage)
+    void AttackTower()
     {
-        currentEnemyHealth -= damage;
-        enemyHealthBar.SetHealth(currentEnemyHealth);
-        if (currentEnemyHealth <= 0)
+
+        Vector3 dir = towerTransform.position - transform.position;
+        transform.Translate(dir.normalized * enemy.moveSpeed * Time.deltaTime, Space.World);
+
+        if (Vector3.Distance(transform.position, towerTransform.position) <= 1f)
         {
-            currentEnemyHealth = 0;
-            EnemyDead();
-        }
+            isAttacking = true;
             
+        }
+    }
+
+    private bool CheckNearbyTowers()
+    {
+
+        RaycastHit hit;
+
+        Debug.DrawRay(transform.position, transform.forward.normalized * enemy.searchRange, Color.red);
+
+      
+        if (Physics.SphereCast(transform.position, enemy.searchRange, transform.forward, out hit, 
+                enemy.searchRange) && hit.collider.CompareTag("DefenseTower"))
+        {
+            Debug.Log(hit.transform.name);
+            towerTransform = hit.transform;
+            return true;
+
+            
+        }
+
+
+        else
+            return false;
+        
     }
 
     void StartEnemyAttack()
@@ -182,8 +234,22 @@ public class EnemyMovement : MonoBehaviour
 
 
         //Destroy(this.gameObject);
-       // WaveSpawner.enemiesInWaveLeft--;
+        // WaveSpawner.enemiesInWaveLeft--;
     }
+
+    public void TakeDamage(int damage)
+    {
+        currentEnemyHealth -= damage;
+        enemyHealthBar.SetHealth(currentEnemyHealth);
+        if (currentEnemyHealth <= 0)
+        {
+            currentEnemyHealth = 0;
+            EnemyDead();
+        }
+            
+    }
+
+   
 
     void EnemyDead()
     {
@@ -192,17 +258,18 @@ public class EnemyMovement : MonoBehaviour
         isAttacking = false;
         
         StartCoroutine(WaitUntilDestroyed());
-        
-        
+       
+
     }
 
     private IEnumerator WaitUntilDestroyed()
     {
         enemyAnim.SetBool("Attack", false);
         enemyAnim.SetTrigger("IsDead");
-        WaveSpawner.enemiesInWaveLeft--;
-        CoinManager.UpdateCoins(100);
+        
+        CoinManager.UpdateCoins(enemy.coinAmount);
         yield return new WaitForSeconds(1f);
+        WaveSpawner.enemiesInWaveLeft--;
         Destroy(this.gameObject);
         
     }

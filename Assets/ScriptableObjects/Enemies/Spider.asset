@@ -17,4 +17,5 @@ MonoBehaviour:
   health: 20
   attackPower: 5
   attackRate: 2
-  attackRange: 0
+  searchRange: 100
+  coinAmount: 10

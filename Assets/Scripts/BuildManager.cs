@@ -18,6 +18,7 @@ public class BuildManager : MonoBehaviour
     private void Update()
     {
         //PlaceTower();
+        
 
         if (currentPlaceableTower != null && !hasPlaced)
         {

@@ -68,6 +68,10 @@ public class BuyingTowers : MonoBehaviour
             CannonPlaced.interactable = false;
         }
 
+        if(Havingcoins>=price1 || Havingcoins>=price2)
+        {
+            CoinInsufficient.text = "Towers To Buy";
+        }
 
         //PlayerPrefs.SetInt("Coins", Havingcoins);
         CoinDisplay.text = Havingcoins.ToString();
@@ -80,6 +84,7 @@ public class BuyingTowers : MonoBehaviour
 
         if (Havingcoins >= price1)
         {
+            
             Tower1Count++;
            
             Havingcoins -= price1;
@@ -103,6 +108,7 @@ public class BuyingTowers : MonoBehaviour
     {
         if (Havingcoins >= price2)
         {
+            
             Tower2Count++;
             Havingcoins -= price2;
             if (Tower2Count > 5)
