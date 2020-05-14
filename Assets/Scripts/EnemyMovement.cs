@@ -270,6 +270,7 @@ public class EnemyMovement : MonoBehaviour
         CoinManager.UpdateCoins(enemy.coinAmount);
         yield return new WaitForSeconds(1f);
         WaveSpawner.enemiesInWaveLeft--;
+        GameController.Instance.numEnemiesKilled++; //updates no of enemies killed for every enemy killed
         Destroy(this.gameObject);
         
     }

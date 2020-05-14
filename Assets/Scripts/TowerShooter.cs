@@ -53,6 +53,11 @@ public class TowerShooter : MonoBehaviour
     // Update is called once per frame
     void Update() 
     {
+        if(gameObject.activeInHierarchy && !GameController.Instance.waveStarted)
+        {
+            Destroy(this.gameObject);
+        }
+
         if (target == null)
             return;
 

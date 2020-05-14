@@ -12,14 +12,17 @@ public class GameController : SingletonManager<GameController>
 
     public Text waveCountdownText;
 
+
     public bool waveStarted = false;
 
+    public int numEnemiesKilled = 0; //used for updating stars earned for the level 
 
 
 
 
     private void Awake()
     {
+        numEnemiesKilled = 0;
         hudUI.SetActive(true);
         gameOverUI.SetActive(false);
         levelCompleteUI.SetActive(false);

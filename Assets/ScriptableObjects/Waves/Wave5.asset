@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7a580c0c68c49544accb541d224d7f9, type: 3}
-  m_Name: Wave3
+  m_Name: Wave5
   m_EditorClassIdentifier: 
   enemyPrefab:
   - {fileID: 7978624207812556279, guid: 7a1e02b4e3e3cde4da6a58f6c596f9b7, type: 3}
   - {fileID: 1713781036754730, guid: 0f8a471e5537f864ebdb454fe82308eb, type: 3}
   - {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196, type: 3}
   - {fileID: 156312, guid: 3ffe8ac9f1ef9984a9428440d1c31b9f, type: 3}
-  enemiesPerWave: 20
+  - {fileID: 5889267320979916260, guid: 318830e16c9af9a449459f9b35ed0179, type: 3}
+  - {fileID: 7072206518338854045, guid: 65a0a86460b29ed47a3c92290d327e00, type: 3}
+  enemiesPerWave: 40
   timeBetweenEnemies: 2

@@ -27,30 +27,34 @@ public class WaveSpawner : MonoBehaviour
     {
         waveCountdown = timeBetweenWaves;
         currentWave = 0; 
-        totalWaves = waves.Count - 1;
+        totalWaves = waves.Count-1;
         
-        
+
     }
 
     private void Update()
     {
-        if (WaveDefeated())
+        if(WaveDefeated())
+        {
             StartNextWave();
-       
-     
-       
-        
+           
+        }
+
+    
     }
 
     void StartNextWave()
     {
-      
+
         if (currentWave > totalWaves)
         {
-            currentWave = 0;
-            //Debug.Log("Level Complete");
+            
+            Debug.Log("Level Complete");
+            GameController.Instance.LevelComplete();
             return;
         }
+
+
 
         waveCountdown -= Time.deltaTime;
         int secondsLeft = (int)waveCountdown % 60;
@@ -89,7 +93,9 @@ public class WaveSpawner : MonoBehaviour
             
             yield return new WaitForSeconds(enemyWave.timeBetweenEnemies);
         }
+        currentWave++;
         yield return null;
+        
     }
 
     // called by an enemy when they're defeated
@@ -100,7 +106,7 @@ public class WaveSpawner : MonoBehaviour
         if (enemiesInWaveLeft == 0 && spawnedEnemies == totalEnemiesInCurrentWave)
         {
             GameController.Instance.waveStarted = false;
-            currentWave++;
+            //currentWave++;
            
             return true;
           
