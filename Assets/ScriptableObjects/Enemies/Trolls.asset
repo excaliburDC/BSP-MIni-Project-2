@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Trolls
   m_EditorClassIdentifier: 
   enemyName: Trolls
-  moveSpeed: 2
+  moveSpeed: 50
   health: 50
   attackPower: 25
-  attackRate: 0
+  attackRate: 3
   searchRange: 10
   coinAmount: 30

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Goblin
   m_EditorClassIdentifier: 
   enemyName: Goblin
-  moveSpeed: 3
+  moveSpeed: 60
   health: 50
   attackPower: 25
-  attackRate: 2
+  attackRate: 3
   searchRange: 10
   coinAmount: 30

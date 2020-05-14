@@ -40,6 +40,7 @@ public class BuyingTowers : MonoBehaviour
     }
     public void Update()
     {
+       
         if(TowerAppearence == false)
         {
             BuyCannonTower.interactable = false;
@@ -81,49 +82,55 @@ public class BuyingTowers : MonoBehaviour
 
     public void Tower1()
     {
-
-        if (Havingcoins >= price1)
+        if (GameController.Instance.waveStarted)
         {
-            
-            Tower1Count++;
-           
-            Havingcoins -= price1;
-            if (Tower1Count > 5)
-            {         
-                price1 += 10;
-            }   
-            canPlaced1 = true;
-            canBePlaced1++;
+            if (Havingcoins >= price1)
+            {
+
+                Tower1Count++;
+
+                Havingcoins -= price1;
+                if (Tower1Count > 5)
+                {
+                    price1 += 10;
+                }
+                canPlaced1 = true;
+                canBePlaced1++;
+            }
+            else
+            {
+                CoinInsufficient.text = "Insufficient Thunder";
+            }
+            CoinDisplay.text = Havingcoins.ToString();
+            PriceOfTower1.text = price1.ToString();
         }
-        else
-        {       
-            CoinInsufficient.text = "Insufficient Thunder";
-        }
-        CoinDisplay.text = Havingcoins.ToString();
-        PriceOfTower1.text = price1.ToString();      
+        
     }
 
 
     public void Tower2()
     {
-        if (Havingcoins >= price2)
+        if (GameController.Instance.waveStarted)
         {
-            
-            Tower2Count++;
-            Havingcoins -= price2;
-            if (Tower2Count > 5)
+            if (Havingcoins >= price2)
             {
-                price2 += 20;
+
+                Tower2Count++;
+                Havingcoins -= price2;
+                if (Tower2Count > 5)
+                {
+                    price2 += 20;
+                }
+                canPlaced2 = true;
+                canBePlaced2++;
             }
-            canPlaced2 = true;
-            canBePlaced2++;
+            else
+            {
+                CoinInsufficient.text = "Insufficient Thunder";
+            }
+            PriceOfTower2.text = price2.ToString();
+            CoinDisplay.text = Havingcoins.ToString();
         }
-        else
-        {
-            CoinInsufficient.text = "Insufficient Thunder";
-        }
-        PriceOfTower2.text = price2.ToString();
-        CoinDisplay.text = Havingcoins.ToString();
     }
 
     public void PlaceTower1()

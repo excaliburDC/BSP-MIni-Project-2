@@ -34,16 +34,17 @@ public class WaveSpawner : MonoBehaviour
 
     private void Update()
     {
-        if(WaveDefeated())
+        if (WaveDefeated())
             StartNextWave();
-
+       
+     
        
         
     }
 
     void StartNextWave()
     {
-       
+      
         if (currentWave > totalWaves)
         {
             currentWave = 0;

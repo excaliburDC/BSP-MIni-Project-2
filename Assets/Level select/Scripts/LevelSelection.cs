@@ -35,7 +35,7 @@ public class LevelSelection : MonoBehaviour
 
     private void UpdateLevelImage()
     {
-        if(!unlocked)// if unclock is false means This level is clocked!
+        if(!unlocked)// if unclock is false means This level is locked!
         {
             unlockImage.gameObject.SetActive(true);
             for(int i = 0; i < stars.Length; i++)
@@ -64,6 +64,7 @@ public class LevelSelection : MonoBehaviour
         {
             Clip.Play();
             SceneManager.LoadSceneAsync(_LevelName);
+           
            
           
         }

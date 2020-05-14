@@ -15,5 +15,6 @@ MonoBehaviour:
   enemyPrefab:
   - {fileID: 7978624207812556279, guid: 7a1e02b4e3e3cde4da6a58f6c596f9b7, type: 3}
   - {fileID: 1713781036754730, guid: 0f8a471e5537f864ebdb454fe82308eb, type: 3}
-  enemiesPerWave: 10
+  - {fileID: 8980390744223769135, guid: 52f3acd46736940c1aa16d1aee121196, type: 3}
+  enemiesPerWave: 20
   timeBetweenEnemies: 2

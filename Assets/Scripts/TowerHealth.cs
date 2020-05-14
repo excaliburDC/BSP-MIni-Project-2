@@ -35,5 +35,6 @@ public class TowerHealth : MonoBehaviour
     {
         towerDestroyed = true;
         Destroy(this.gameObject);
+        GameController.Instance.GameOver();
     }
 }
