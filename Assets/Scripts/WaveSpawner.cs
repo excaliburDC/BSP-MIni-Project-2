@@ -36,6 +36,7 @@ public class WaveSpawner : MonoBehaviour
     {
         if(WaveDefeated())
         {
+            
             StartNextWave();
            
         }
@@ -55,18 +56,22 @@ public class WaveSpawner : MonoBehaviour
         }
 
 
-
         waveCountdown -= Time.deltaTime;
         int secondsLeft = (int)waveCountdown % 60;
         Debug.Log("Time Left for Next Wave: " + secondsLeft);
         GameController.Instance.waveCountdownCanvas.SetActive(true);
         GameController.Instance.waveCountdownText.text = secondsLeft.ToString();
         
+        
+       
+        
+        
 
         if (waveCountdown<=0)
         {
             GameController.Instance.waveStarted = true;
             GameController.Instance.waveCountdownCanvas.SetActive(false);
+            GameController.Instance.battleHornClip.Play();
             totalEnemiesInCurrentWave = waves[currentWave].enemiesPerWave;
             enemiesInWaveLeft = 0;
             spawnedEnemies = 0;

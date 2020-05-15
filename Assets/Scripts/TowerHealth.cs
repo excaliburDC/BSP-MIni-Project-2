@@ -23,8 +23,13 @@ public class TowerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-      
         currentTowerHealth -= damage;
+
+        if (GameController.Instance.levelComplete)
+        {
+            GameController.Instance.finalTowerHealth = currentTowerHealth;
+        }
+
         currentTowerHealth = CheckUpgradeValue(currentTowerHealth);
         Debug.Log("Health: " + currentTowerHealth);
         towerHealthBar.SetHealth(currentTowerHealth);

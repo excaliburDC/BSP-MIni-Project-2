@@ -58,12 +58,13 @@ public class LevelSelection : MonoBehaviour
         }
     }
 
-    public void PressSelection(string _LevelName)//When we press this level, we can move to the corresponding Scene to play
+    public void PressSelection(string _LevelName) //When we press this level, we can move to the corresponding Scene to play
     {
         if(unlocked)
         {
             Clip.Play();
             SceneManager.LoadSceneAsync(_LevelName);
+            
            
            
           

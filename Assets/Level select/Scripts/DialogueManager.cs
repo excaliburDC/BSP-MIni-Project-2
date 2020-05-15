@@ -58,9 +58,11 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("End of dialogue");
         SceneManager.LoadSceneAsync("MainMenu");
         
+        
     }
     public void skipStory()
     {
         SceneManager.LoadScene("MainMenu");
+   
     }
 }

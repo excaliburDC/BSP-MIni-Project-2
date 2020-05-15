@@ -264,7 +264,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 1878831856}
   m_HandleRect: {fileID: 877265125}
   m_Direction: 0
-  m_MinValue: 0.001
+  m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 1
@@ -272,8 +272,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: UpdateSound
-        m_Mode: 1
+        m_MethodName: set_volume
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -607,7 +607,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: BtnClick
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 0}
@@ -873,7 +873,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: BtnClick
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &3955575162284332353
@@ -1317,7 +1317,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: BtnClick
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &3955575162674087823
@@ -1588,7 +1588,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 3955575162485787873}
   m_HandleRect: {fileID: 3955575162949047525}
   m_Direction: 0
-  m_MinValue: 0.001
+  m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 1
@@ -1596,8 +1596,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: UpdateSound
-        m_Mode: 1
+        m_MethodName: set_volume
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1820,7 +1820,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: BtnClick
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &3955575163331524245
@@ -1930,7 +1930,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17, y: 368}
+  m_AnchoredPosition: {x: -21, y: 268}
   m_SizeDelta: {x: 469.9, y: 168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3955575163355469266
@@ -1969,13 +1969,10 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Game Name
-
-
-'
+  m_Text: " Towers of the \nMisty Mountain"
 --- !u!1 &3955575163518808026
 GameObject:
   m_ObjectHideFlags: 0
@@ -2373,7 +2370,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: BtnClick
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &3955575163742390021
@@ -2975,7 +2972,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: BtnClick
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &3955575164031035363

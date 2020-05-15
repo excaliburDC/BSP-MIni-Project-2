@@ -13,6 +13,11 @@ public class AudioManager : MonoBehaviour
     public AudioSource backgroundAudio;
     public AudioSource[] soundeffectsAudio;
 
+    private void Awake()
+    {
+       // DontDestroyOnLoad(this.gameObject);
+    }
+
     private void Start()
     {
         firstPlayInt = PlayerPrefs.GetInt(FirstPlay);

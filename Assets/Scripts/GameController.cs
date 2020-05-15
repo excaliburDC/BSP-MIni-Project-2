@@ -10,19 +10,31 @@ public class GameController : SingletonManager<GameController>
     public GameObject levelCompleteUI;
     public GameObject hudUI;
 
+    public AudioSource battleHornClip;
+    public AudioSource cannonFireClip;
+    public AudioSource levelCompleteClip;
+    public AudioSource gameOverClip;
+
     public Text waveCountdownText;
 
 
-    public bool waveStarted = false;
 
-    public int numEnemiesKilled = 0; //used for updating stars earned for the level 
+    
+    public bool waveStarted = false;
+    public bool levelComplete = false;
+
+    //used for updating stars earned for the level 
+    public int numEnemiesKilled = 0; 
+    public int finalTowerHealth = 0;
 
 
 
 
     private void Awake()
     {
+        levelComplete = false;
         numEnemiesKilled = 0;
+        finalTowerHealth = 0;
         hudUI.SetActive(true);
         gameOverUI.SetActive(false);
         levelCompleteUI.SetActive(false);
@@ -34,6 +46,7 @@ public class GameController : SingletonManager<GameController>
     {
         hudUI.SetActive(false);
         gameOverUI.SetActive(true);
+        gameOverClip.Play();
 
 
     }
@@ -41,8 +54,10 @@ public class GameController : SingletonManager<GameController>
     //called when level is completed
     public void LevelComplete()
     {
+        levelComplete = true;
         hudUI.SetActive(false);
         levelCompleteUI.SetActive(true);
+        levelCompleteClip.Play();
     }
    
 }

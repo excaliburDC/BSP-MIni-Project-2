@@ -89,7 +89,7 @@ public class TowerShooter : MonoBehaviour
     void Shoot()
     {
         ShootEffect();
-
+        GameController.Instance.cannonFireClip.Play();
         GameObject gObj =PoolManager.Instance.SpawnInWorld(tower.weaponName, weaponSpawnPoint.position, weaponSpawnPoint.rotation);
 
         Shoot s = gObj.GetComponent<Shoot>();
