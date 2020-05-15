@@ -47,6 +47,9 @@ public class Menus : MonoBehaviour
     {
             Anim.CrossFade(TriggerVal, 0.5f);
     }
-   
+   public void Restart()
+    {
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+    }
 
 }

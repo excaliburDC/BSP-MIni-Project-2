@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class UpgradeTower : MonoBehaviour
 {
-    public GameObject heart;
+ 
     public GameObject forestTower;
-    public GameObject bowTower;
     public GameObject magicalTower;
-    public GameObject cannonTower;
     public GameObject forestTowerPanel;
-    public GameObject bowTowerPanel;
-    public GameObject magicalTowerPanel;
-    public GameObject cannonTowerPanel;
-    public GameObject heartPanel;
+    public GameObject magicalTowerPanel;   
     private Vector3 characterPos;
     private Vector3 outsidePos;
     private Vector3 characterPosPanel;
@@ -36,24 +31,12 @@ public class UpgradeTower : MonoBehaviour
         switch (characterSelect)
         {
             case 1:
-                ObjectOnOff(forestTower, forestTowerPanel, bowTower, bowTowerPanel);
+                ObjectOnOff(forestTower, forestTowerPanel, magicalTower, magicalTowerPanel);
                 characterSelect++;
-                break;
+                break;            
             case 2:
-                ObjectOnOff(bowTower, bowTowerPanel, magicalTower, magicalTowerPanel);
-                characterSelect++;
-                break;
-            case 3:
-                ObjectOnOff(magicalTower, magicalTowerPanel, cannonTower, cannonTowerPanel);
-                characterSelect++;
-                break;
-            case 4:
-                ObjectOnOff(cannonTower, cannonTowerPanel, heart, heartPanel);
-                characterSelect++;
-                break;
-            case 5:
-                ObjectOnOff(heart, heartPanel, forestTower, forestTowerPanel);
-                characterSelect++;
+                ObjectOnOff(magicalTower, magicalTowerPanel, forestTower, forestTowerPanel);
+                characterSelect++;                        
                 ResetBtn();
                 break;
             default:
@@ -66,26 +49,14 @@ public class UpgradeTower : MonoBehaviour
         switch (characterSelect)
         {
             case 1:
-                ObjectOnOff(forestTower, forestTowerPanel, heart, heartPanel);
+                ObjectOnOff(forestTower, forestTowerPanel, magicalTower, magicalTowerPanel);
                 characterSelect--;
                 ResetBtn();
-                break;
+                break;        
             case 2:
-                ObjectOnOff(bowTower, bowTowerPanel, forestTower, forestTowerPanel);
+                ObjectOnOff(magicalTower, magicalTowerPanel, forestTower, forestTowerPanel);
                 characterSelect--;
-                break;
-            case 3:
-                ObjectOnOff(magicalTower, magicalTowerPanel, bowTower, bowTowerPanel);
-                characterSelect--;
-                break;
-            case 4:
-                ObjectOnOff(cannonTower, cannonTowerPanel, magicalTower, magicalTowerPanel);
-                characterSelect--;
-                break;
-            case 5:
-                ObjectOnOff(heart, heartPanel, cannonTower, cannonTowerPanel);
-                characterSelect--;
-                break;
+                break;       
             default:
                 ResetBtn();
                 break;
@@ -93,13 +64,13 @@ public class UpgradeTower : MonoBehaviour
     }
     private void ResetBtn()
     {
-        if (characterSelect >= 5)
+        if (characterSelect >= 2)
         {
             characterSelect = 1;
         }
         else
         {
-            characterSelect = 5;
+            characterSelect = 2;
         }
 
     }

@@ -27,7 +27,7 @@ public class BuyingTowers : MonoBehaviour
     private bool canPlaced2 = false;
     private void Start()
     {
-        ResetAll();
+        //ResetAll();
         price1 = 10;
         price2 = 20;
         Havingcoins = PlayerPrefs.GetInt("Coins");
@@ -163,6 +163,6 @@ public class BuyingTowers : MonoBehaviour
     }
     public void ResetAll()
     {
-        PlayerPrefs.SetInt("Coins", 20);
+        PlayerPrefs.SetInt("Coins", 500);
     }
 }

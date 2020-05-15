@@ -1496,6 +1496,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1361317874}
+        m_MethodName: UpdateVal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1361317874}
+        m_MethodName: SavePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &737901992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1855,7 +1877,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c6b819500b292248992df6dd909a19c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInit: {fileID: 1361317874}
   LoginPanel: {fileID: 1253083715}
   RegisterPanel: {fileID: 1034736783}
   userName: {fileID: 161377580}
@@ -2253,7 +2274,7 @@ MonoBehaviour:
   userName: 
   password: 
   coins: 0
-  price: 0000000000000000
+  price: 
   upgradeLevel: 
   progression: []
   levelStars: 
@@ -3440,6 +3461,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1874575778}
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1361317874}
+        m_MethodName: LoadPlayer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -985,6 +985,7 @@ MonoBehaviour:
   hudUI: {fileID: 925494019}
   waveCountdownText: {fileID: 571593446}
   waveStarted: 0
+  numEnemiesKilled: 0
 --- !u!4 &668889078
 Transform:
   m_ObjectHideFlags: 0
@@ -1973,6 +1974,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948955598473645163, guid: 77a599bd67f72e24999e1d5d60f433d0,
+        type: 3}
+      propertyPath: TowerNo
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}

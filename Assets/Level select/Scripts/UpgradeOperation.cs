@@ -29,8 +29,7 @@ public class UpgradeOperation : MonoBehaviour
     public void Awake()
     {
         //ResetAll();
-        particleUpdate = GameObject.Find("ParticlesForUpdate").GetComponent<ParticleSystem>();
-        targetProgress = PlayerPrefs.GetFloat("Progression" + TowerNo);
+      
         price = PlayerPrefs.GetInt("Price" + TowerNo);
         noOfBtnClick = PlayerPrefs.GetInt("UpgradeLevel" + TowerNo);
         Price.text = "Price: " + price.ToString();
@@ -38,8 +37,7 @@ public class UpgradeOperation : MonoBehaviour
 
     }
     public void Update()
-    {
-        targetProgress = PlayerPrefs.GetFloat("Progression" + TowerNo);
+    {     
         havingCoins = PlayerPrefs.GetInt("Coins");
         coins.text = "Coins: " + havingCoins.ToString();
         msg.color = Color.blue;
@@ -48,14 +46,30 @@ public class UpgradeOperation : MonoBehaviour
         {
             slider.value += fillspeed * Time.deltaTime;
             if (!particleUpdate.isPlaying)
-                particleUpdate.Play();
+            {
+                particleUpdate.Play();               
+            }         
         }
         else
         {
-            particleUpdate.Stop();
+            if(PlayerPrefs.GetInt("UpgradeLevel"+TowerNo) >= UpgradationTimes+2)
+            {
+                particleUpdate.gameObject.SetActive(false);
+                if (particleUpdate.isPlaying)
+                {
+                    particleUpdate.Stop();
+
+                }
+            }
+            else
+            {
+                particleUpdate.Stop();
+            }
+
         }
         CheckActivation();
     }
+  
    public void CheckActivation()
     {
         if (PlayerPrefs.GetInt("Lv6") > 0)
@@ -63,7 +77,7 @@ public class UpgradeOperation : MonoBehaviour
             ToActivate = true;
             Lock.SetActive(false);
         }
-        else if (PlayerPrefs.GetInt("Lv2") > 0 && TowerNo <= 2)
+        else if (PlayerPrefs.GetInt("Lv2") > 0 && TowerNo == 1)
         {
             ToActivate = true;
             Lock.SetActive(false);
@@ -78,31 +92,19 @@ public class UpgradeOperation : MonoBehaviour
             if ((havingCoins - price) > 0 && price > 0)
             {
                 ToActivate = false;
-                if (PlayerPrefs.GetInt("UpgradeLevel" + TowerNo) >= 1)
+                if (PlayerPrefs.GetInt("UpgradeLevel" + TowerNo) >=0)
                 {
                     msg.text = "Upgradation " + PlayerPrefs.GetInt("UpgradeLevel" + TowerNo).ToString();
                     havingCoins = havingCoins - price;
                     price *= 2;
-
                     Price.text = "Price: " + price.ToString();
                     ++noOfBtnClick;
                     PlayerPrefs.SetInt("Coins", havingCoins);
                     PlayerPrefs.SetInt("Price" + TowerNo, price);
                     PlayerPrefs.SetInt("UpgradeLevel" + TowerNo, noOfBtnClick);
-
-                    if (gameObject.tag == "Update5")
-                    {
-                        targetProgress += 0.2f;
-                        PlayerPrefs.SetFloat("Progression" + TowerNo, targetProgress);
-                        SliderFill(0.2f);
-                    }
-                    else
-                    {
-                        targetProgress += 0.33f;
-                        PlayerPrefs.SetFloat("Progression" + TowerNo, targetProgress);
-                        SliderFill(0.33f);
-                    }
-                    Debug.Log("progress " + targetProgress);
+                  
+                    targetProgress += 0.2f;                  
+                    SliderFill(0.2f);                  
                     upgradeSound.Play();
                 }
             }
@@ -116,24 +118,22 @@ public class UpgradeOperation : MonoBehaviour
             if (PlayerPrefs.GetInt("UpgradeLevel" + TowerNo) >= UpgradationTimes + 1)
             {
                 Price.text = " ";
+                if (particleUpdate.isPlaying)
+                {
+                    particleUpdate.Stop();
+
+                }                     
                 UpgradeBtn.interactable = false;
                 msg.color = Color.green;
+                particleUpdate.gameObject.SetActive(false);
                 msg.text = "Upgrade complete";
                 fullUpgradeSound.Play();
-                Debug.Log("Upgrade complete");
+                //Debug.Log("Upgrade complete");
                 return;
             }
         }
     }
-    public void BuyHeart()
-    {
-        if (PlayerPrefs.GetInt("UpgradeLevel" + TowerNo) >= 1)
-        {
-            price += 5;
-            Price.text = "Price: " + price.ToString();
-            noOfBtnClick++;
-        }
-    }
+  
     public void SliderFill(float newProgress)
     {
         targetProgress = slider.value + newProgress;
@@ -144,12 +144,11 @@ public class UpgradeOperation : MonoBehaviour
         SceneManager.LoadSceneAsync("Level Selection");
 
     }
-    //public void ResetAll()
-    //{
-    //    PlayerPrefs.SetInt("Coins", 1000);
-    //    PlayerPrefs.SetFloat("Progression" + TowerNo, 0f);
-    //    PlayerPrefs.SetInt("UpgradeLevel" + TowerNo, 1);
-    //    PlayerPrefs.SetInt("Price" + TowerNo, 10);
-    //}
+    public void ResetAll()
+    {
+        PlayerPrefs.SetInt("Coins", 1000);
+        PlayerPrefs.SetInt("UpgradeLevel" + TowerNo, 0);
+        PlayerPrefs.SetInt("Price" + TowerNo, 10);
+    }
 
 }

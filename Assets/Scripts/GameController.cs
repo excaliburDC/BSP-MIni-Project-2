@@ -44,14 +44,5 @@ public class GameController : SingletonManager<GameController>
         hudUI.SetActive(false);
         levelCompleteUI.SetActive(true);
     }
-
-
-
-
-
-
-
-
-
-
+   
 }

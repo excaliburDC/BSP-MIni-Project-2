@@ -151,12 +151,12 @@ public class Register : MonoBehaviour
                 Debug.Log("Registeration completed");
 
 
-               
-                PlayerPrefs.SetInt("Coins", 0);
+                PlayerPrefs.SetString("UserName", UserName);
+                PlayerPrefs.SetString("Password", Password);
+                PlayerPrefs.SetInt("Coins", 1080);
 
                 for (i = 1; i <= 5; i++)
                 {
-                    PlayerPrefs.SetFloat("Progression" + i, 0f);
                     PlayerPrefs.SetInt("UpgradeLevel" + i, 1);
                     PlayerPrefs.SetInt("Price" + i, 10);
                 }
@@ -172,11 +172,7 @@ public class Register : MonoBehaviour
             }
         }
     }
-    public void InitalizePlayerPrefs()
-    {
-       
-       
-    }
+    
     void EmailValidation()
     {
         bool SW = false;

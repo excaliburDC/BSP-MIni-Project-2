@@ -1495,6 +1495,7 @@ MonoBehaviour:
   hudUI: {fileID: 2070333595}
   waveCountdownText: {fileID: 8748536183328593022}
   waveStarted: 0
+  numEnemiesKilled: 0
 --- !u!114 &781970338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3444,6 +3445,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3771172549233399035, guid: d1f1e5b8b170b8e46a0da3793bf6f692,
+        type: 3}
+      propertyPath: TowerNo
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6279623320835427799, guid: d1f1e5b8b170b8e46a0da3793bf6f692,
         type: 3}
