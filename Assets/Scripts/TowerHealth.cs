@@ -15,9 +15,10 @@ public class TowerHealth : MonoBehaviour
     private void Start()
     {
         currentTowerHealth = towerHP;
-        towerHealthBar.SetMaxHealth(towerHP);
         PlayerPrefs.SetFloat("TowerHP", towerHP);
-        PlayerPrefs.SetFloat("TowerHealth", currentTowerHealth);
+        PlayerPrefs.SetFloat("TowerHealth", currentTowerHealth);      
+        towerHealthBar.SetMaxHealth(towerHP);
+       
     }
 
 
