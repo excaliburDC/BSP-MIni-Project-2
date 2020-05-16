@@ -29,7 +29,7 @@ public class UpgradeOperation : MonoBehaviour
     public void Awake()
     {
         //ResetAll();
-      
+        havingCoins = PlayerPrefs.GetInt("Coins");
         price = PlayerPrefs.GetInt("Price" + TowerNo);
         noOfBtnClick = PlayerPrefs.GetInt("UpgradeLevel" + TowerNo);
         Price.text = "Price: " + price.ToString();

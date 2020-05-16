@@ -13,6 +13,8 @@ public class LevelSelection : MonoBehaviour
 
     public Sprite starSprite;
     public AudioSource Clip;
+    [HideInInspector]
+    public int LevelIndex;
     private void Update()
     {
  
@@ -32,7 +34,10 @@ public class LevelSelection : MonoBehaviour
        
        
     }
-
+    public void SetLevelIndex(int levelIndex)
+    {
+        PlayerPrefs.SetInt("LevelIndex", levelIndex);
+    }
     private void UpdateLevelImage()
     {
         if(!unlocked)// if unclock is false means This level is locked!

@@ -13,6 +13,10 @@ public class SingleLevel : MonoBehaviour
     public GameObject[] stars;
     public Sprite starSprite;
 
+    public void Awake()
+    {
+        levelIndex = PlayerPrefs.GetInt("LevelIndex");
+    }
 
     //Back to the level selection scene
     public void BackButton()

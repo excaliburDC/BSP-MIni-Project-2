@@ -163,6 +163,6 @@ public class BuyingTowers : MonoBehaviour
     }
     public void ResetAll()
     {
-        PlayerPrefs.SetInt("Coins", 500);
+        PlayerPrefs.SetInt("Coins", 1000);
     }
 }

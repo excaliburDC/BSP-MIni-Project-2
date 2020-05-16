@@ -912,6 +912,24 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 414912196}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &414912198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 496995083, guid: 633e35d9ddaa08c44b06317751967e75,
+    type: 3}
+  m_PrefabInstance: {fileID: 414912196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &414912199 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 674664649, guid: 633e35d9ddaa08c44b06317751967e75,
+    type: 3}
+  m_PrefabInstance: {fileID: 414912196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &414912200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 68281239, guid: 633e35d9ddaa08c44b06317751967e75,
+    type: 3}
+  m_PrefabInstance: {fileID: 414912196}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &450444152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,6 +1540,14 @@ MonoBehaviour:
   waveCountdownText: {fileID: 571593446}
   waveStarted: 0
   levelComplete: 0
+  levelIndex: 5
+  stars:
+  - {fileID: 414912199}
+  - {fileID: 414912200}
+  - {fileID: 414912198}
+  starSprite: {fileID: -7678458166956771760, guid: 29bf3722230cc4e898178081663b373d,
+    type: 3}
+  TotalEnemies: 70
   numEnemiesKilled: 0
   finalTowerHealth: 0
 --- !u!4 &668889078
