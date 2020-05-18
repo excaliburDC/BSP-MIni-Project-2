@@ -18,7 +18,7 @@ public class PoolManager : SingletonManager<PoolManager>
 
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+       // DontDestroyOnLoad(this.gameObject);
 
     }
     private void Start()
