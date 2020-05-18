@@ -12,14 +12,13 @@ public class Menus : MonoBehaviour
     public void LevelSelect()
     {
         SceneManager.LoadSceneAsync("Level Selection");
-        //AudioController.Instance.Play("MenuSound");
+      
        
     }
     public void MainMenuBtn()
     {
         SceneManager.LoadSceneAsync("MainMenu");
-        //AudioController.Instance.Play("MenuSound");
-      
+     
     }
     public void Quit()
     {

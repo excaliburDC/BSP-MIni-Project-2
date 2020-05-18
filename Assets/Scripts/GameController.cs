@@ -44,6 +44,7 @@ public class GameController : SingletonManager<GameController>
         hudUI.SetActive(true);
         gameOverUI.SetActive(false);
         levelCompleteUI.SetActive(false);
+        waveCountdownCanvas.SetActive(true);
         waveCountdownText.text = "";
         levelIndex = PlayerPrefs.GetInt("LevelIndex");
     }
