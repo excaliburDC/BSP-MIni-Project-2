@@ -398,7 +398,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   towerHealthBar: {fileID: 7063449606692491467}
+  destroyedEffect: {fileID: 19800002, guid: 3364c97de68d3a147af572d1c71c6455, type: 3}
   towerHP: 500
+  TowerNo: 0
+  towerDestroyed: 0
+  currentTowerHealth: 0
 --- !u!1 &8601421495095012985
 GameObject:
   m_ObjectHideFlags: 0

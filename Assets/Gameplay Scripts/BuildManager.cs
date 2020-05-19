@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuildManager : SingletonManager<BuildManager>
+public class BuildManager : MonoBehaviour
 {
     public LayerMask mask;
     public float towerRotateSpeed = 10f;
@@ -10,6 +10,7 @@ public class BuildManager : SingletonManager<BuildManager>
 
     private GameObject currentPlaceableTower;
     private PlaceableTower placeableTower;
+    private TowerShooter towerShooter;
     private float LastPosX, LastPosY, LastPosZ;
 
 
@@ -35,7 +36,7 @@ public class BuildManager : SingletonManager<BuildManager>
         hasPlaced = false;
         currentPlaceableTower = Instantiate(gObj);
         placeableTower = currentPlaceableTower.GetComponent<PlaceableTower>();
-
+        towerShooter = currentPlaceableTower.GetComponent<TowerShooter>();
     }
 
     //void SetTower(GameObject gObj)
@@ -138,6 +139,7 @@ public class BuildManager : SingletonManager<BuildManager>
                 {
                     placeableTower.matRenderer[i].material.color = Color.white;
                 }
+                towerShooter.isPlaced = hasPlaced;
             }
 
            

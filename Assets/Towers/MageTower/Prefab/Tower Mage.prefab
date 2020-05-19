@@ -550,6 +550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   towerHealthBar: {fileID: 2211474238092022658}
+  destroyedEffect: {fileID: 19800002, guid: 3364c97de68d3a147af572d1c71c6455, type: 3}
   towerHP: 1000
   TowerNo: 0
   towerDestroyed: 0

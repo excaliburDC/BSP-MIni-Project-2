@@ -11,15 +11,7 @@ public class EnemyController : SingletonManager<EnemyController>
     public List<Transform> rightWayPointsList;
     public List<Transform> frontWayPointsList;
     
-    private void Awake()
-    {
-    }
-
-    private void Start()
-    {
-       
-        
-    }
+    
 
    
 

@@ -10,8 +10,10 @@ public class TowerShooter : MonoBehaviour
     public Transform weaponSpawnPoint;
     public ParticleSystem shootEffect;
     public string enemyTag = "Enemy";
+    public bool isPlaced = false;
 
     private float shootCountdown = 0f;
+   
 
 
     // Start is called before the first frame update
@@ -61,7 +63,9 @@ public class TowerShooter : MonoBehaviour
         if (target == null)
             return;
 
-        if(BuildManager.Instance.hasPlaced)
+        
+
+        if(isPlaced)
         {
             LockOnTarget();
 

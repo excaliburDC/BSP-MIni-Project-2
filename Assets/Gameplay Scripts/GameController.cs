@@ -73,7 +73,7 @@ public class GameController : SingletonManager<GameController>
     }
     public void StarsConditions()
     {
-        if (finalTowerHealth > 490 && numEnemiesKilled > TotalEnemies)
+        if (finalTowerHealth > 450 && numEnemiesKilled > TotalEnemies)
         {
             PressStarsButton(3);
             Debug.LogError("star 3");

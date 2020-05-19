@@ -658,6 +658,7 @@ MonoBehaviour:
   weaponSpawnPoint: {fileID: 3016890665629312526}
   shootEffect: {fileID: 0}
   enemyTag: Enemy
+  isPlaced: 0
 --- !u!114 &5349605550484659278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -685,6 +686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   towerHealthBar: {fileID: 5728797375755370873}
+  destroyedEffect: {fileID: 19800002, guid: 3364c97de68d3a147af572d1c71c6455, type: 3}
   towerHP: 100
   TowerNo: 0
   towerDestroyed: 0

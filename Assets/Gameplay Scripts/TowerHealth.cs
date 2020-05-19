@@ -5,6 +5,7 @@ using UnityEngine;
 public class TowerHealth : MonoBehaviour
 {
     public HealthBar towerHealthBar;
+    public ParticleSystem destroyedEffect;
     public int towerHP;
     public int TowerNo;
     public bool towerDestroyed = false;
@@ -18,6 +19,8 @@ public class TowerHealth : MonoBehaviour
         PlayerPrefs.SetInt("TowerHP", towerHP);
         PlayerPrefs.SetInt("TowerHealth", currentTowerHealth);
         towerHealthBar.SetMaxHealth(towerHP);
+
+       
     }
 
     public void Update()
@@ -74,7 +77,11 @@ public class TowerHealth : MonoBehaviour
     }
     void TowerDestroyed()
     {
+        if (destroyedEffect == null)
+            Debug.Log("No need for a destroyed effect on this");
+
         towerDestroyed = true;
+        Instantiate(destroyedEffect);
         Destroy(this.gameObject);
         GameController.Instance.GameOver();
     }
