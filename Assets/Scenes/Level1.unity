@@ -1784,7 +1784,6 @@ MonoBehaviour:
   waveCountdownText: {fileID: 8748536183328593022}
   waveStarted: 0
   levelComplete: 0
-  levelIndex: 0
   stars:
   - {fileID: 933495332}
   - {fileID: 933495333}
@@ -1792,8 +1791,9 @@ MonoBehaviour:
   starSprite: {fileID: -7678458166956771760, guid: 29bf3722230cc4e898178081663b373d,
     type: 3}
   TotalEnemies: 45
-  numEnemiesKilled: 0
+  levelIndex: 0
   finalTowerHealth: 0
+  numEnemiesKilled: 0
 --- !u!114 &781970338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2195,6 +2195,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level Complete
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452106426218513477, guid: 633e35d9ddaa08c44b06317751967e75,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5452106426218513486, guid: 633e35d9ddaa08c44b06317751967e75,
         type: 3}

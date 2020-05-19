@@ -28,9 +28,9 @@ public class GameController : SingletonManager<GameController>
     
     [HideInInspector]
     public int levelIndex;
-    [HideInInspector]
-    public int finalTowerHealth = 0;
-    [HideInInspector]
+    //[HideInInspector]
+    public int finalTowerHealth;
+    //[HideInInspector]
     public int numEnemiesKilled = 0;
 
     private int currentStarsNum = 0;
@@ -47,9 +47,14 @@ public class GameController : SingletonManager<GameController>
         waveCountdownCanvas.SetActive(true);
         waveCountdownText.text = "";
         levelIndex = PlayerPrefs.GetInt("LevelIndex");
+        finalTowerHealth = PlayerPrefs.GetInt("TowerHealth");
+    }
+    public void Update()
+    {
+        finalTowerHealth = PlayerPrefs.GetInt("TowerHealth");
+       
     }
 
-    //called when game is ovver
     public void GameOver()
     {
         hudUI.SetActive(false);
@@ -68,21 +73,23 @@ public class GameController : SingletonManager<GameController>
     }
     public void StarsConditions()
     {
-        if (finalTowerHealth > (PlayerPrefs.GetFloat("TowerHP") / 2) && numEnemiesKilled > TotalEnemies)
+        if (finalTowerHealth > 490 && numEnemiesKilled > TotalEnemies)
         {
             PressStarsButton(3);
+            Debug.LogError("star 3");
         }
-        else if (finalTowerHealth > (PlayerPrefs.GetFloat("TowerHP") / 3) && numEnemiesKilled > (TotalEnemies-10))
+        else if (finalTowerHealth > 350/*(PlayerPrefs.GetFloat("TowerHP") / 3) */&& numEnemiesKilled > (TotalEnemies - 10))
         {
             PressStarsButton(2);
+            Debug.LogError("star 2");
+            PlayerPrefs.GetInt("Lv" + levelIndex);
         }
         else if (finalTowerHealth > 0)
         {
             PressStarsButton(1);
+            Debug.LogError("star 1");
         }
 
-        Debug.LogError("3 :" + (PlayerPrefs.GetFloat("TowerHP")));
-        Debug.LogError("2 :" + (PlayerPrefs.GetFloat("TowerHP")));
     }
 
     public void PressStarsButton(int _starsNum)
@@ -94,17 +101,15 @@ public class GameController : SingletonManager<GameController>
             PlayerPrefs.SetInt("Lv" + levelIndex, _starsNum);
         }
 
-
         if (PlayerPrefs.GetInt("Lv" + levelIndex) > 0)
         {
-            //display the level complete canvas
-
-            for (int i = 0; i < PlayerPrefs.GetInt("Lv" + levelIndex); i++)
+           
+            for (int i = 0; i < currentStarsNum; i++)
             {
                 stars[i].gameObject.GetComponent<Image>().sprite = starSprite;
             }
         }
-
+       
 
     }
 }

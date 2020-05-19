@@ -14,21 +14,24 @@ public class TowerHealth : MonoBehaviour
 
     private void Start()
     {
-        currentTowerHealth = towerHP;
+        currentTowerHealth = towerHP;    
+        PlayerPrefs.SetInt("TowerHP", towerHP);
+        PlayerPrefs.SetInt("TowerHealth", currentTowerHealth);
         towerHealthBar.SetMaxHealth(towerHP);
-        PlayerPrefs.SetFloat("TowerHP", towerHP);
-        PlayerPrefs.SetFloat("TowerHealth", currentTowerHealth);
     }
 
-
+    public void Update()
+    {
+        PlayerPrefs.SetInt("TowerHealth", currentTowerHealth);
+    }
     public void TakeDamage(int damage)
     {
         currentTowerHealth -= damage;
 
-        if (GameController.Instance.levelComplete)
-        {
-            GameController.Instance.finalTowerHealth = currentTowerHealth;
-        }
+        //if (GameController.Instance.levelComplete)
+        //{
+        //    GameController.Instance.finalTowerHealth = currentTowerHealth;
+        //}
 
         currentTowerHealth = CheckUpgradeValue(currentTowerHealth);
         Debug.Log("Health: " + currentTowerHealth);
@@ -39,7 +42,7 @@ public class TowerHealth : MonoBehaviour
             TowerDestroyed();
         }
         //can use this to show the stars
-        PlayerPrefs.SetFloat("TowerHealth", currentTowerHealth);
+        PlayerPrefs.SetInt("TowerHealth", currentTowerHealth);
 
     }
     public int CheckUpgradeValue(int currenthealth)

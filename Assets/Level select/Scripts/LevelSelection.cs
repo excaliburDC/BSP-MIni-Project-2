@@ -15,9 +15,10 @@ public class LevelSelection : MonoBehaviour
     public AudioSource Clip;
     [HideInInspector]
     public int LevelIndex;
+
     private void Update()
     {
- 
+        //ResetAll();       
         UpdateLevelImage();
         UpdateLevelStatus();
        
@@ -68,12 +69,12 @@ public class LevelSelection : MonoBehaviour
         if(unlocked)
         {
             Clip.Play();
-            SceneManager.LoadSceneAsync(_LevelName);
-            
-           
-           
-          
+            SceneManager.LoadSceneAsync(_LevelName);                  
         }
+    }
+    public void ResetAll()
+    {
+        PlayerPrefs.SetInt("LevelIndex", 0);
     }
     
 }
